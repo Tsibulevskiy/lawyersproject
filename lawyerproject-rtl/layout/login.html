@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/fontawesome.css">
+
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="loginContainer flex">
+        <form action="">
+            <img src="../img/logo.png" alt="">
+            <div class="formContainer flex">
+                <div class="inputContainer flex">
+                    <h4>Sign in</h4>
+                </div>
+                <div class="inputContainer flex">
+                    <label for="login">
+                                <span><i class="fas fa-user"></i> Login</span>
+                                <input type="text" placeholder="email or phone number" id="login">
+                            </label>
+                </div>
+                <div class="inputContainer flex">
+                    <label for="password">
+                        <span><i class="fas fa-lock"></i> Password</span>
+                        <input type="password" id="password" placeholder="password">
+                    </label>
+                </div>
+                <div class="inputContainer inputContainerCheckbox flex">
+                    <label for="remember">
+                        <input type="checkbox" name="" id="remember">
+                            <span>Remember me on this computer</span>
+                        </label>
+                </div>
+                <div class="inputContainer flex">
+                    <button type="submit">Sign in</button>
+                </div>
+
+                <div class="textContainer flex">
+                    <p><a href="javascript:void(0)">Forgot your password?</a></p>
+                </div>
+
+            </div>
+            <p>
+                <a href="login_registration.html">If you are a first-time visitor on the site, please fill in the registration form</a>.</p>
+        </form>
+    </div>
+    <script src="../libs/jquery3.2.1.js"></script>
+    <script async src="../js/all.min.js"></script>
+
+</body>
+
+</html>

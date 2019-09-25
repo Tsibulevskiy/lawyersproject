@@ -1,0 +1,151 @@
+
+        .mattersDetailsTopNavigation {
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .mattersDetailsTopNavigation .mattersDetailsTopsButton > button {
+            background: linear-gradient(180deg, #FF2747 0%, #D91835 100%);
+            box-shadow: 0px 4px 8px rgba(198, 215, 225, 0.15), 0px 4px 8px rgba(173, 202, 218, 0.25);
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+            color: rgb(255, 255, 255);
+        }
+        .billsClientsFormInner>label {
+            border-bottom: 1px solid #C7D0D9;
+            padding: 16px 0px;
+            margin-bottom: 0px;
+        }
+        .billsMoreInputsContainer {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .billsRadioButtonsContainers {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 14px;
+            color: #5B6782;
+            border-top: 1px solid #C7D0D9;
+            border-bottom: 1px solid #C7D0D9;
+        }
+        .billsMoreInputsContainerInner {
+            position: relative;
+            padding-right: 9px;
+            padding-left: 8px;
+        }
+        .billsCalendarIcons {
+            position: absolute;
+            right: 18px;
+            bottom: 9px;
+        }
+        .billsStatementsContainer .billsClientsFormInner input {
+            margin-top: 0px;
+        }
+        .billsClientsFormInner input {
+            padding: 7px 12px;
+            background-color: #fff;
+            border: 1px solid white;
+            box-shadow: inset 0px 0px 8px rgba(173, 202, 218, 0.25);
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+            color: #C7D0D9;
+        }
+        .mattersDetailsControlButtonsTop {        
+            background: #FFFFFF;
+            box-shadow: 0px 4px 15px rgba(39, 119, 164, 0.25)!important;
+            padding: 9px 14px!important;
+            border: 1px solid white!important;
+        }
+        .billsRadioButtonsContainers {
+            border: none!important;
+        } 
+        label #recentSearch {
+            width: 150px;
+            margin: 0px 19px;
+            text-align: left;
+        }
+        .mattersDetailsBottomRowColumns > div {
+            min-height: 30px;
+        }
+        .mattersDetailsTopRowColumns > div {
+            padding: 5px 9px;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .MainFlexBetwen > input.textareaContacts {
+            border: 1px solid white!important;
+            background: #FFFFFF;
+            box-shadow: inset 0px 0px 8px rgba(173, 202, 218, 0.25);
+        }
+        .text-right {
+            justify-content: flex-end!important;
+        }    
+        .marginRight75 {
+            margin-right: 75px;
+        }
+        .mattersDetailsTasksTitle {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+            color: #323A4D;
+            padding: 9px 1px;
+        }
+        .person {
+            margin-left: 0px;
+        }
+        .person-button > div {
+            display: flex;
+            justify-content: space-between;
+            flex-flow: row wrap;
+        }
+        .person-checkbox {
+            justify-content: space-between;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 14px;
+            color: #323A4D;
+        }
+        .person-details > h4 {
+            margin: 10px auto;
+        }
+        .mattersDetailsPersonAuthor {
+            font-style: normal;
+            font-weight: normal;
+            line-height: 17px;
+            color: #148CFC;
+            text-decoration: underline;
+        }
+        .person-button > div > a {
+            margin: 1px 9px;
+        }
+        .person-button {
+            margin-top: 30px;
+        }
+        .personadres {
+            white-space: normal;
+        }
+        .mattersDetailsTasksNavigationFixed {
+            position: fixed;
+            bottom: 45px;
+            right: 45px; 
+            overflow: hidden;
+        }
+        .mattersDetailsTasksNavigationFixed p {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+            color: #323A4D;
+        }
+    

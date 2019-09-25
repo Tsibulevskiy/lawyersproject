@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/select2.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/fontawesome.css">
+    <link rel="stylesheet" href="../css/pickmeup.css">
+    <title>Documents: main</title>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+    </script>
+</head>
+
+<body>
+    <main class="flex">
+        <aside class="flex" id="sidebar">
+            <div class="mainAsideContainer flex">
+                <div class="topPartMainContainer">
+                    <div class="subAsideContainer flex">
+                        <div class="asideLogoContainer">
+                            <img src="../img/logo.png" alt="" class="toplogo">
+                        </div>
+                    </div>
+                    <div class="subAsideContainer flex">
+                        <a href="javascript:void(0)" class="sidebarItem sidebarItemActive">
+                            <i class="fas fa-home"></i>
+                            <span class="menuItemName">dashboard</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="far fa-calendar-alt"></i>
+                            <span class="menuItemName">calendar</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-list"></i>
+                            <span class="menuItemName">tasks</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-briefcase"></i>
+                            <span class="menuItemName">matters</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-users"></i>
+                            <span class="menuItemName">contacts</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i clas s="far fa-clock"></i>
+                            <span class="menuItemName">Activities</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-wallet"></i>
+                            <span class="menuItemName">Bills</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-landmark"></i>
+                            <span class="menuItemName">accounts</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-folder"></i>
+                            <span class="menuItemName">Documents</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-phone"></i>
+                            <span class="menuItemName">Communications</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-chart-bar"></i>
+                            <span class="menuItemName">Reports</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-cog"></i>
+                            <span class="menuItemName">Settings</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="subAsideContainer flex">
+                    <div class="userInfoBlock flex">
+                        <div class="userInfo flex">
+                            <span class="userinitials">SG</span>
+                            <span class="username menuItemName">saul Goodman</span>
+                            <div class="userInfoDetails flex">
+                                <div class="userInfoDetailsSub flex">
+                                    <h5>saul Goodman</h5>
+                                    <p>Support code: 561-407-711-9992</p>
+                                    <a href="javascript:void(0)">View profile</a>
+                                </div>
+                                <div class="userInfoDetailsSub flex">
+                                    <a href="javascript:void(0)">Referral Rewards</a>
+                                    <a href="javascript:void(0)">Sign out</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collapseButtonContainer">
+                        <div class="collapseButtonContainerSub flex" id="collapseSidebar">
+                            <span class="arrowOfCollapse">
+                                    <i class="fas fa-sign-out-alt"></i>
+                                </span>
+                            <span class="menuItemName">Collapse</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <section class="mainDashboardContainer">
+            <div class="topbar flex">
+                <div class="topbarSub flex">
+                    <form action="" class="searchForm">
+                        <select name="search" type="text" class="searchInput" id="mainSearchInput" min="3" autocomplete="off" placeholder="Serach..." value=" ">
+                                    <option value="" disabled selected>Search...</option>
+                                    <optgroup label="Matters">
+                                    <option value="">Who killed John Kennedy</option>
+                                    <option value="">Who killed Sergey Zavorotko</option>
+                                    <option value="">Who killed John Dou</option>
+                                    <option value="">Who killed Jon Snow</option>
+                                    <option value="">Who killed Rob Stark</option>
+                                    <option value="">Who killed The Tanos</option>
+                                    <option value="">Who killed The Superman</option>
+                                    <option value="">Who killed Matt Murdock</option>
+                                    <option value="">Who killed Laura Palmer</option>
+                                    <option value="">Who killed John Lennon</option>
+                                    <option value="">Who killed Frank Castle</option>
+                                    <option value="">Who killed Poor Poo</option>
+                                    <option value="">Who killed Little bear </option>
+                                    <option value="">Who killed Gustawo Fring </option>
+                                </optgroup>
+                                <optgroup label="Contacts">
+                                    <option value="">Laura Palmer</option>
+                                    <option value="">John Kennedy</option>
+                                    <option value="">Sergey Zavorotko</option>
+                                    <option value="">John Dou</option>
+                                    <option value="">Jon Snow</option>
+                                    <option value="">Rob Stark</option>
+                                    <option value="">The Tanos</option>
+                                    <option value="">The Superman</option>
+                                    <option value="">Matt Murdock</option>
+                                    <option value="">John Lennon</option>
+                                    <option value="">Frank Castle</option>
+                                    <option value="">Poor Poo</option>
+                                    <option value="">Little bear</option>
+                                    <option value="">Papa Jo</option>
+                                    <option value="">Walter White</option>
+                                </optgroup>
+                                </select>
+                        <label for="search">
+                                    <i class="fas fa-search"></i>
+                                </label>
+                    </form>
+                    <div class="dropdown">
+                        <button id="recentSearch" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="recentSearch flex">
+                                  <span>Recent</span>
+                                  <i class="fas fa-caret-down"></i>
+                                </button>
+                        <ul class="dropdown-menu newDropdown" aria-labelledby="recentSearch">
+                            <li class="noRecent">You don't have any recent items</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="topbarSub flex">
+                    <div class="dropdown dropDownTimeKeeper flex">
+                        <button class="timeKeeperButton flex" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#timeEntryModal">
+                                    <i class="fas fa-play"></i>
+                                    <p>
+                                        <span>00</span>
+                                        <span>:</span>
+                                        <span>00</span>
+                                        <span>:</span>
+                                        <span>00</span>
+                                    </p>
+                                </button>
+                        <button class="timeKeeperButton flex" id="timeKeeper" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="far fa-clock"></i>
+                                </button>
+                        <ul class="dropdown-menu newDropdowntimeKeeper" aria-labelledby="timeKeeper">
+                            <div class="timeKeeperDropDownContainer flex">
+                                <div class="timeKeeperHeading flex">
+                                    <h4>Timekeeper</h4><span><i class="fas fa-times"></i></span>
+                                </div>
+                                <div class="timeKeeperSetting flex">
+                                    <span class="timeKeeperSettingSubContainer flex">                                    
+                                                <div class="timeKeeperDateButtonContainer flex">
+                                                    <div class="timeKeeperDateButton flex">
+                                                        <i class="fas fa-caret-left"></i>
+                                                    </div>
+                                                    <div class="timeKeeperDateButton flex">
+                                                        <i class="fas fa-caret-right"></i>
+                                                    </div>
+                                                </div>
+                                                <span class="timeKeeperDate">Today, Dec 12, 2018</span></span>
+                                    <p class="timeKeeperCount">
+                                        <span>00</span>
+                                        <span>:</span>
+                                        <span>00</span>
+                                        <span>:</span>
+                                        <span>00</span>
+                                    </p>
+                                </div>
+                                <div class="recentCreatedEntries flex">
+                                    <span class="noTimeEntries">No time entries created today</span>
+                                    <button class="timeKeeperButton flex" data-toggle="modal" data-target="#timeEntryModal">
+                                                <i class="fas fa-play"></i>
+                                                <p>
+                                                    <span>00</span>
+                                                    <span>:</span>
+                                                    <span>00</span>
+                                                    <span>:</span>
+                                                    <span>00</span>
+                                                </p>
+                                            </button>
+                                </div>
+                                <div class="timeKeeperButtons flex">
+                                    <button>See all time entries</button>
+                                    <button>Add time</button>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button class="createNewButoon flex" id="createNew" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-plus-circle"></i>
+                                <span>Create new</span>
+                                <i class="fas fa-caret-down"></i>
+                            </button>
+                        <ul class="dropdown-menu createNewDropdown " aria-labelledby="createNew">
+                            <li><a href="javascript:void(0)" data-toggle="modal" data-target="#timeEntryModal">Time Entry</a></li>
+                            <li><a href="javascript:void(0)" data-toggle="modal" data-target="#expenseEntryModal">Expence Entry</a></li>
+                            <li><a href="javascript:void(0)">Task</a></li>
+                            <li><a href="javascript:void(0)">Person</a></li>
+                            <li><a href="javascript:void(0)">Company</a></li>
+                            <li><a href="javascript:void(0)">Matter</a></li>
+                            <li><a href="javascript:void(0)">Record payment</a></li>
+                            <li><a href="javascript:void(0)">Trust Request</a></li>
+                            <li><a href="javascript:void(0)">Email Log</a></li>
+                            <li><a href="javascript:void(0)">Phone Log</a></li>
+                            <li><a href="javascript:void(0)">Secure message</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="tabContainer flex">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#listDocuments" aria-controls="listDocuments" role="tab" data-toggle="tab">List Documents</a></li>
+                    <li role="presentation"><a href="#categories" aria-controls="categories" role="tab" data-toggle="tab">Categories</a></li>
+                    <li role="presentation"><a href="#templates" aria-controls="templates" role="tab" data-toggle="tab">Templates</a></li>
+                </ul>
+            </div>
+            <div class="tab-content tabContent flex">
+                <div role="tabpanel" class="tab-pane fade in active" id="listDocuments">
+                    <div class="listDocsTopBar flex">
+                        <h3>All Files</h3>
+                        <div class="listSocsBarButtonContainer flex">
+                            <div class="dropdown">
+                                <button class="createNewButoon newDoc flex" id="createNewDoc" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <span>New</span>
+                                            <i class="fas fa-caret-down"></i>
+                                        </button>
+                                <ul class="dropdown-menu createNewDropdown newDocDropDown" aria-labelledby="createNewDoc">
+                                    <li><a href="javascript:void(0)" class="newButtonBorderBottom">Folder</a></li>
+                                    <li><a href="javascript:void(0)">File upload</a></li>
+                                    <li><a href="javascript:void(0)">Folder upload</a></li>
+                                    <li><a href="javascript:void(0)" class="newButtonBorderBottom">Document from template</a></li>
+                                </ul>
+                            </div>
+                            <button class="redDocButton">Download</button>
+                            <div class="redDocButton veiwDetails">View Details >
+                                <div class="viewDetailsDropdown">
+                                    <div class="viewDetailsDropdownContainer flex">
+                                        <ul class="nav nav-tabs" role="tablist">
+                                            <li role="presentation" class="active">
+                                                <a href="#docDetails" aria-controls="home" role="tab" data-toggle="tab">Details</a></li>
+                                            <li role="presentation">
+                                                <a href="#docComment" aria-controls="profile" role="tab" data-toggle="tab">Comment</a></li>
+                                        </ul>
+                                        <div class="tab-content">
+                                            <div role="tabpanel" class="tab-pane active fade in" id="docDetails">
+                                                <h5>General Information</h5>
+                                                <p>No matter</p>
+                                                <p>No category</p>
+                                                <p>No contact</p>
+                                                <p>Created by: Diana Shurman 10/12/2018, 12:02 PM</p>
+                                            </div>
+                                            <div role="tabpanel" class="tab-pane fade in" id="docComment">
+                                                <div class="commentOfDoc">No comments yet</div>
+                                                <form action="" class="docCommentForm">
+                                                    <textarea name="docComment"></textarea>
+                                                    <input type="submit" value="comment">
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="listDocContainer flex">
+                        <div class="listDocFilters flex">
+                            <div class="selectAllContainer flex">
+                                <label for="selectall">
+                                <input type="checkbox" name="selectall">
+                                Select all</label>
+                            </div>
+                        </div>
+                        <div class="filterOptionsContainer flex">
+                            <!-- TODO -->
+                            <!-- <a href="javascript:void(0)" class="filterOptionsContainerItem flex">
+                                <i class="fas fa-list-ul"></i>
+                                <span>Switch to file view</span>
+                            </a> -->
+                            <a href="javascript:void(0)" class="filterOptionsContainerItem flex">
+                                <i class="fas fa-trash-alt"></i>
+                                <span>Show trashed files</span>
+                            </a>
+                            <a href="javascript:void(0)" class="filterOptionsContainerItem flex" data-toggle="collapse" data-target="#collapseFiltersDocs" aria-expanded="false" aria-controls="collapseFiltersDocs">
+                                <span>Filter</span>
+                                <i class="fas fa-caret-down"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="collapse" id="collapseFiltersDocs">
+                        <div class="collapseFiltersDocsContainer flex">
+                            <div class="collapseFiltersInputContainer flex">
+                                <label for="">Matter</label>
+                                <input type="text">
+                            </div>
+                            <div class="collapseFiltersInputContainer flex">
+                                <label for="">Category</label>
+                                <select class="filtersSelect2">
+                                    <option value="">1...2...3...</option>
+                                    <option value="">1...2...3...</option>
+                                    <option value="">1...2...3...</option>
+                                    <option value="">1...2...3...</option>
+                                </select>
+                            </div>
+                            <div class="collapseFiltersInputContainer flex">
+                                <label for="">Show all folders</label>
+                                <select class="filtersSelect2">
+                                    <option value="">1...2...3...</option>
+                                    <option value="">1...2...3...</option>
+                                    <option value="">1...2...3...</option>
+                                    <option value="">1...2...3...</option>
+                                </select>
+                            </div>
+                            <div class="collapseFiltersInputContainer flex">
+                                <label for="">Search</label>
+                                <span class="subFilterInputContainer flex">
+                                    <input type="text">
+                                    <button type="submit" class="filterSubmit" value="search">Search</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="listDocContainer">
+                        <div class="emptyDocs flex">
+                            <i class="fas fa-folder-open"></i>
+                            <h3>This folder is empty.</h3>
+                            <p>Add files by using the New button or dragging and dropping into this window.</p>
+                            <a href="javascript:void(0)">Learn more about documents.</a>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade in" id="categories">
+                    <div class="listDocsTopBar flex">
+                        <h4>Name</h4>
+                        <button data-toggle="modal" data-target="#addCategories" class="redDocButton">Add</button>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                    <div class="categoriesItem flex">
+                        <div class="categoriesItemSub flex">
+                            <h4>Agreements</h4>
+                        </div>
+                        <div class="categoriesItemSub flex">
+                            <a href="javascript:void(0)">Edit</a>
+                            <a href="javascript:void(0)">Delete</a>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade in" id="templates">
+                    <div class="listDocsTopBar flex">
+                        <h4>Name</h4>
+                        <button data-toggle="modal" data-target="#addTemplate" class="redDocButton">Add</button>
+                    </div>
+                    <div class="listDocContainer">
+                        <div class="emptyDocs flex">
+                            <i class="fas fa-folder-open"></i>
+                            <h3>You haven't created any document templates.</h3>
+                            <p>Click here or use the button in the top right to create a new document template.</p>
+                            <a href="javascript:void(0)">Learn more about document templates.</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="infoblock flex">
+                <button class="infiblockButton flex">
+                    <i class="far fa-file-alt"></i>
+                    <span>INFORMATION</span>
+                </button>
+            </div>
+
+        </section>
+    </main>
+    <div class="modal fade" id="timeEntryModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog newModalStyle" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Time entry</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="timeEntryModalContainer flex">
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow">
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <label for="duration">Duration</label>
+                                </div>
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <input type="text" name="duration" placeholder="1h 12m, 1:12...">
+                                    <button class="timeKeeperButton flex" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#timeEntryModal">
+                                        <i class="fas fa-play"></i>
+                                        <p>
+                                            <span>00</span>
+                                            <span>:</span>
+                                            <span>00</span>
+                                            <span>:</span>
+                                            <span>00</span>
+                                        </p>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="category">Activity category</label>
+                                <select type="text" name="category" placeholder="Find a category" class="modalSelect2">
+                                    <option value="">category 1</option>
+                                    <option value="">category 2</option>
+                                    <option value="">category 3</option>
+                                </select>
+                            </div>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="description">Description</label>
+                                <textarea name="description" placeholder="Descript the entry"></textarea>
+                            </div>
+                        </div>
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="Matter">Matter</label>
+                                <select type="text" name="Matter" placeholder="Find a matter" class="modalSelect2">
+                                    <option value="">Matter 1</option>
+                                    <option value="">Matter 2</option>
+                                    <option value="">Matter 3</option>
+                                </select>
+                            </div>
+                            <article class="timeEntryModalContainerSubRow flex">
+                                <label for="Date">Date</label>
+                                <input type="text" name="Date" list="Date" placeholder="Find a Date" class="inputCalendar">
+                            </article>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="firmUser">Firm user</label>
+                                <select type="text" name="firmUser" placeholder="Find a firm user" class="modalSelect2">
+                                    <option value="">Firm User 1</option>
+                                    <option value="">Firm User 2</option>
+                                    <option value="">Firm User 3</option>    
+                                </select>
+                            </div>
+                            <div class="timeEntryModalContainerSubRowSub flex">
+                                <input type="text" name="duration" placeholder="" value="0.00" pattern="/^(?!0.*$)([0-9]{1,3}(,[0-9]{3})?(,[0-9]{3})?(\.[0-9]{2})?)$/">
+                                <span>Defaulte rate</span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer newModalFooter flex">
+                    <button type="submit" class="btn btn-default" data-dismiss="modal">save entry</button>
+                    <button type="submit" class="btn btn-primary">Save and create new</button>
+                    <button type="submit" class="btn btn-primary">Save and duplicate</button>
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="expenseEntryModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog newModalStyle" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Expence entry</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="timeEntryModalContainer flex">
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow">
+                                <label for="duration">Amount</label>
+                                <div class="currency flex">
+                                    <span>$</span>
+                                    <input type="text" name="duration" placeholder="00.0">
+                                </div>
+                            </div>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="description">Description</label>
+                                <textarea name="description" placeholder="Descript the entry"></textarea>
+                            </div>
+                        </div>
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="Matter">Matter</label>
+                                <input type="text" name="Matter" placeholder="Find a matter" class="modalSelect2">
+                            </div>
+                            <article class="timeEntryModalContainerSubRow flex">
+                                <label for="Date">Date</label>
+                                <input type="text" name="Date" list="Date" placeholder="Find a Date" class="inputCalendar">
+                            </article>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="firmUser">Firm user</label>
+                                <input type="text" name="firmUser" placeholder="Find a firm user" class="modalSelect2">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer newModalFooter flex">
+                    <button type="submit" class="btn btn-default" data-dismiss="modal">save entry</button>
+                    <button type="submit" class="btn btn-primary">Save and create new</button>
+                    <button type="submit" class="btn btn-primary">Save and duplicate</button>
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="taskModal" tabindex="-1" role="dialog" aria-labelledby="taskModal">
+        <div class="modal-dialog newModalStyle" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Create task</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="timeEntryModalContainer flex">
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="taskname">Task name</label>
+                                <input type="text" name="taskname" placeholder="">
+                            </div>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="description">Description</label>
+                                <textarea name="description" placeholder="Descript the entry"></textarea>
+                            </div>
+                        </div>
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="assignee">Assignee</label>
+                                <input type="text" name="assignee" placeholder="">
+                            </div>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="Matter">Matter</label>
+                                <input type="text" name="Matter" placeholder="Find a matter">
+                            </div>
+                            <article class="timeEntryModalContainerSubRow flex">
+                                <label for="Date">Date</label>
+                                <input type="text" name="Date" list="Date" placeholder="Find a Date" class="inputCalendar">
+                            </article>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="time">Time</label>
+                                <input type="text" name="time" placeholder="Time">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer newModalFooter flex">
+                    <button type="submit" class="btn btn-default" data-dismiss="modal">save entry</button>
+                    <button type="submit" class="btn btn-primary">Save and create new</button>
+                    <button type="submit" class="btn btn-primary">Save and duplicate</button>
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="calendarEventModal" tabindex="-1" role="dialog" aria-labelledby="taskModal">
+        <div class="modal-dialog newModalStyle" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Create calendar event</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="timeEntryModalContainer flex">
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="taskname">Event name</label>
+                                <input type="text" name="taskname" placeholder="">
+                            </div>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="description">Description</label>
+                                <textarea name="description" placeholder="Descript the entry"></textarea>
+                            </div>
+                        </div>
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="assignee">Assignee</label>
+                                <input type="text" name="assignee" placeholder="">
+                            </div>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="Matter">Matter</label>
+                                <input type="text" name="Matter" placeholder="Find a matter" class="modalSelect2">
+                            </div>
+                            <article class="timeEntryModalContainerSubRow flex">
+                                <label for="Date">Date</label>
+                                <input type="text" name="Date" placeholder="Find a Date" class="inputCalendar">
+                            </article>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="time">Time</label>
+                                <input type="text" name="time" placeholder="Time">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer newModalFooter flex">
+                    <button type="submit" class="btn btn-default" data-dismiss="modal">save entry</button>
+                    <button type="submit" class="btn btn-primary">Save and create new</button>
+                    <button type="submit" class="btn btn-primary">Save and duplicate</button>
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="addTemplate" tabindex="-1" role="dialog" aria-labelledby="taskModal">
+        <div class="modal-dialog addModalStyle" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Add Document Template</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="addForm flex">
+
+                        <div class="addModalStyleRow flex">
+                            <div class="addModalStyleRowSub flex">
+                                <label for="taskname">File</label>
+                                <a href="javascript:void(0)">View Merge Files</a>
+                            </div>
+                            <div class="addModalStyleRowSub flex">
+                                <label for="loadfile" class="loadFileFake">
+                                    <input type="file" name="loadfile" placeholder="">
+                                </label>
+                            </div>
+                            <div class="addModalStyleRowSub flex">
+                                <p>Clio supports PowerPoint (.ppt / .pptx), Word (.doc / .docx) and Excel (.xml / .xlsx) files.</p>
+                            </div>
+                        </div>
+
+                        <div class="addModalStyleRow flex">
+                            <div class="addModalStyleRowSub flex">
+                                <label for="taskname">Document Category</label>
+                                <a href="javascript:void(0)">View Merge Files</a>
+                            </div>
+                            <div class="addModalStyleRowSub flex">
+                                <input type="text" id="addTemplate">
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="modal-footer newModalFooter flex">
+                    <button type="submit" class="btn btn-default" data-dismiss="modal">Save</button>
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="addCategories" tabindex="-1" role="dialog" aria-labelledby="taskModal">
+        <div class="modal-dialog addModalStyle" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Add Document Category</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="addForm flex">
+                        <div class="addModalStyleRow flex">
+                            <div class="addModalStyleRowSub flex">
+                                <label for="taskname">Name</label>
+                            </div>
+                            <div class="addModalStyleRowSub flex">
+                                <input type="text">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer newModalFooter flex">
+                    <button type="submit" class="btn btn-default" data-dismiss="modal">Save</button>
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../libs/jquery3.2.1.js"></script>
+    <script src="../libs/bootstrap.min.js"></script>
+    <script src="../js/pickmeup.min.js"></script>
+    <script src="../js/calendar.js"></script>
+    <script async src="../js/select2.full.min.js"></script>
+    <script async src="../js/dashboard.js"></script>
+    <script async src="../js/all.min.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/select2.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/fontawesome.css">
+    <link rel="stylesheet" href="../css/pickmeup.css">
+    <link rel="stylesheet" href="../css/lightbox.css">
+    <title>Chat</title>
+</head>
+
+<body>
+    <main class="flex">
+        <aside class="flex" id="sidebar">
+            <div class="mainAsideContainer flex">
+                <div class="topPartMainContainer">
+                    <div class="subAsideContainer flex">
+                        <div class="asideLogoContainer">
+                            <img src="../img/logo.png" alt="" class="toplogo">
+                        </div>
+                    </div>
+                    <div class="subAsideContainer flex">
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-home"></i>
+                            <span class="menuItemName">dashboard</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="far fa-calendar-alt"></i>
+                            <span class="menuItemName">calendar</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-list"></i>
+                            <span class="menuItemName">tasks</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-briefcase"></i>
+                            <span class="menuItemName">matters</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-users"></i>
+                            <span class="menuItemName">contacts</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="far fa-clock"></i>
+                            <span class="menuItemName">Activities</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-wallet"></i>
+                            <span class="menuItemName">Bills</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-landmark"></i>
+                            <span class="menuItemName">accounts</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-folder"></i>
+                            <span class="menuItemName">Documents</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-phone"></i>
+                            <span class="menuItemName">Communications</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem sidebarItemActive">
+                            <i class="fas fa-comments"></i>
+                            <span class="menuItemName ">Chat</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-chart-bar"></i>
+                            <span class="menuItemName">Reports</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-cog"></i>
+                            <span class="menuItemName">Settings</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <aside id="chatContacts">
+            <div class="chatContactsTop flex">
+                <div class="chatContactsTopRow flex">
+                    <h3>Contacts</h3>
+                </div>
+                <div class="chatContactsTopRow flex">
+                    <label for="chatSearch">
+                            <input name="" id="chatSearch" placeholder="Search...">
+                        </label>
+                </div>
+                <div class="chatContactsTopRow flex">
+                    <a href="javascript:void(0)">
+                        <i class="fas fa-user-plus"></i>
+                        <span>Add new contact</span>
+                    </a>
+                </div>
+            </div>
+            <div class="chatContactsList flex">
+                <a href="javascript:void(0)" class="chatContactsListItem flex">
+                    <div class="chatContactsListItemPhoto">
+                        <img src="../img/user1.png" alt="">
+                    </div>
+                    <div class="chatContactsListItemNameStatus flex">
+                        <div class="chatContactsListItemName flex">Walther White</div>
+                        <div class="chatContactsListItemStatusOnline flex">Online</div>
+                    </div>
+                </a>
+                <a href="javascript:void(0)" class="chatContactsListItem flex">
+                    <div class="chatContactsListItemPhoto">
+                        <img src="../img/user2.png" alt="">
+                    </div>
+                    <div class="chatContactsListItemNameStatus flex">
+                        <div class="chatContactsListItemName flex">Walther White</div>
+                        <div class="chatContactsListItemStatusOnline flex">Online</div>
+                    </div>
+                </a>
+                <a href="javascript:void(0)" class="chatContactsListItem flex">
+                    <div class="chatContactsListItemPhoto">
+                        <img src="../img/user3.png" alt="">
+                    </div>
+                    <div class="chatContactsListItemNameStatus flex">
+                        <div class="chatContactsListItemName flex">Walther White</div>
+                        <div class="chatContactsListItemStatusOnline flex">Online</div>
+                    </div>
+                </a>
+                <a href="javascript:void(0)" class="chatContactsListItem flex">
+                    <div class="chatContactsListItemPhoto">
+                        <img src="../img/user4.png" alt="">
+                    </div>
+                    <div class="chatContactsListItemNameStatus flex">
+                        <div class="chatContactsListItemName flex">Walther White</div>
+                        <div class="chatContactsListItemStatusOnline flex">Online</div>
+                    </div>
+                </a>
+                <a href="javascript:void(0)" class="chatContactsListItem flex">
+                    <div class="chatContactsListItemPhoto">
+                        <img src="../img/user5.png" alt="">
+                    </div>
+                    <div class="chatContactsListItemNameStatus flex">
+                        <div class="chatContactsListItemName flex">Walther White</div>
+                        <div class="chatContactsListItemStatusOnline flex">Online</div>
+                    </div>
+                </a>
+                <a href="javascript:void(0)" class="chatContactsListItem flex">
+                    <div class="chatContactsListItemPhoto">
+                        <img src="../img/user6.png" alt="">
+                    </div>
+                    <div class="chatContactsListItemNameStatus flex">
+                        <div class="chatContactsListItemName flex">Walther White</div>
+                        <div class="chatContactsListItemStatusOnline flex">Online</div>
+                    </div>
+                </a>
+                <a href="javascript:void(0)" class="chatContactsListItem flex">
+                    <div class="chatContactsListItemPhoto">
+                        <img src="../img/user7.png" alt="">
+                    </div>
+                    <div class="chatContactsListItemNameStatus flex">
+                        <div class="chatContactsListItemName flex">Walther White</div>
+                        <div class="chatContactsListItemStatusOnline flex">Online</div>
+                    </div>
+                </a>
+                <a href="javascript:void(0)" class="chatContactsListItem flex">
+                    <div class="chatContactsListItemPhoto">
+                        <img src="../img/user8.png" alt="">
+                    </div>
+                    <div class="chatContactsListItemNameStatus flex">
+                        <div class="chatContactsListItemName flex">Walther White</div>
+                        <div class="chatContactsListItemStatusOnline flex">Online</div>
+                    </div>
+                </a>
+                <a href="javascript:void(0)" class="chatContactsListItem flex">
+                    <div class="chatContactsListItemPhoto">
+                        <img src="../img/user9.png" alt="">
+                    </div>
+                    <div class="chatContactsListItemNameStatus flex">
+                        <div class="chatContactsListItemName flex">Walther White</div>
+                        <div class="chatContactsListItemStatusOnline flex">Online</div>
+                    </div>
+                </a>
+                <a href="javascript:void(0)" class="chatContactsListItem flex">
+                    <div class="chatContactsListItemPhoto">
+                        <img src="../img/user10.png" alt="">
+                    </div>
+                    <div class="chatContactsListItemNameStatus flex">
+                        <div class="chatContactsListItemName flex">Walther White</div>
+                        <div class="chatContactsListItemStatusOnline flex">Online</div>
+                    </div>
+                </a>
+                <a href="javascript:void(0)" class="chatContactsListItem flex">
+                    <div class="chatContactsListItemPhoto">
+                        <img src="../img/user11.png" alt="">
+                    </div>
+                    <div class="chatContactsListItemNameStatus flex">
+                        <div class="chatContactsListItemName flex">Walther White</div>
+                        <div class="chatContactsListItemStatus flex">Last seen just now</div>
+                    </div>
+                </a>
+                <a href="javascript:void(0)" class="chatContactsListItem flex">
+                    <div class="chatContactsListItemPhoto">
+                        <img src="../img/user8.png" alt="">
+                    </div>
+                    <div class="chatContactsListItemNameStatus flex">
+                        <div class="chatContactsListItemName flex">Walther White</div>
+                        <div class="chatContactsListItemStatus flex">Last seen just now</div>
+                    </div>
+                </a>
+                <a href="javascript:void(0)" class="chatContactsListItem flex">
+                    <div class="chatContactsListItemPhoto">
+                        <img src="../img/user6.png" alt="">
+                    </div>
+                    <div class="chatContactsListItemNameStatus flex">
+                        <div class="chatContactsListItemName flex">Walther White</div>
+                        <div class="chatContactsListItemStatus flex">Last seen just now</div>
+                    </div>
+                </a>
+                <a href="javascript:void(0)" class="chatContactsListItem flex">
+                    <div class="chatContactsListItemPhoto">
+                        <img src="../img/user5.png" alt="">
+                    </div>
+                    <div class="chatContactsListItemNameStatus flex">
+                        <div class="chatContactsListItemName flex">Walther White</div>
+                        <div class="chatContactsListItemStatus flex">Last seen just now</div>
+                    </div>
+                </a>
+                <a href="javascript:void(0)" class="chatContactsListItem flex">
+                    <div class="chatContactsListItemPhoto">
+                        <img src="../img/user4.png" alt="">
+                    </div>
+                    <div class="chatContactsListItemNameStatus flex">
+                        <div class="chatContactsListItemName flex">Walther White</div>
+                        <div class="chatContactsListItemStatus flex">Last seen just now</div>
+                    </div>
+                </a>
+                <a href="javascript:void(0)" class="chatContactsListItem flex">
+                    <div class="chatContactsListItemPhoto">
+                        <img src="../img/user1.png" alt="">
+                    </div>
+                    <div class="chatContactsListItemNameStatus flex">
+                        <div class="chatContactsListItemName flex">Walther White</div>
+                        <div class="chatContactsListItemStatus flex">Last seen just now</div>
+                    </div>
+                </a>
+                <a href="javascript:void(0)" class="chatContactsListItem flex">
+                    <div class="chatContactsListItemPhoto">
+                        <img src="../img/user9.png" alt="">
+                    </div>
+                    <div class="chatContactsListItemNameStatus flex">
+                        <div class="chatContactsListItemName flex">Walther White</div>
+                        <div class="chatContactsListItemStatus flex">Last seen just now</div>
+                    </div>
+                </a>
+            </div>
+        </aside>
+        <div class="chatMainContainer flex">
+            <div class="chatMainContainerTop flex">
+                <div class="chatMainContainerTopLeft flex">
+                    <div class="chatUserInfo flex">
+                        <div class="chatUserInfoPhoto">
+                            <img src="../img/user12.png" alt="">
+                        </div>
+                        <div class="chatUserInfoNameStauts">
+                            <div class="chatUserInfoName">Jesse Pinkman</div>
+                            <div class="chatUserInfoStatus">Last seen yesterday</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="chatMainContainerTopRight flex">
+                    <div class="chatUserSearchMenu flex">
+                        <input type="text" placeholder="Search">
+                        <a href="javascript:void(0)" class="menuButton" id="chatMenuButton">
+                            <i class="fas fa-ellipsis-v"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="chatMainContainerMiddle flex">
+                <ul id="chatMenuDropdownOne" class="dropdownChatMenu flex">
+                    <li data-toggle="modal" data-target="#showAllMedia"> <span><i class="far fa-images"></i></span> <span>Shared media</span></li>
+                    <li data-toggle="modal" data-target="#contactInfo"> <span><i class="fas fa-info"></i></span> <span>Information about Jesse</span></li>
+                    <li> <span><i class="fas fa-volume-mute"></i></span> <span>Mute</span></li>
+                    <li> <span><i class="fas fa-broom"></i></span> <span>Clear chat history</span></li>
+                    <li> <span><i class="fas fa-trash"></i></span> <span>Delete chat</span></li>
+                </ul>
+                <div class="messageItem flex"></div>
+                <div class="dateItem flex">Oct 10, 2018</div>
+                <div class="messageItem flex">
+                    <div class="messageItemPhoto">
+                        <img src="../img/user13.png" alt="">
+                    </div>
+                    <div class="messageItemMessege">
+                        <div class="messageItemMessegeTop flex">
+                            Walther White
+                        </div>
+                        <div class="messageItemMessegeBottom flex">
+                            Where is my fucking meth, Jesse?!
+                        </div>
+                    </div>
+                    <div class="messageTime">
+                        <span>10:41 PM</span>
+                    </div>
+                </div>
+                <div class="messageItem flex">
+                    <div class="messageItemPhoto">
+                        <img src="../img/user12.png" alt="">
+                    </div>
+                    <div class="messageItemMessege">
+                        <div class="messageItemMessegeTop flex">
+                            Jesse Pinkman
+                        </div>
+                        <div class="messageItemMessegeBottom flex">
+                            Fuck off, mr White!!! U're my bitch!
+                        </div>
+                    </div>
+                    <div class="messageTime">
+                        <span>10:41 PM</span>
+                    </div>
+                </div>
+                <div class="messageItem flex">
+                    <div class="messageItemPhoto">
+                        <img src="../img/user13.png" alt="">
+                    </div>
+                    <div class="messageItemMessege">
+                        <div class="messageItemMessegeTop flex">
+                            Walther White
+                        </div>
+                        <div class="messageItemMessegeBottom flex">
+                            I'll gonna kill you, goddamn addict scum!
+                        </div>
+                    </div>
+                    <div class="messageTime">
+                        <span>10:41 PM</span>
+                    </div>
+                </div>
+                <div class="dateItem flex">Today</div>
+                <div class="messageItem flex">
+                    <div class="messageItemPhoto">
+                        <img src="../img/user13.png" alt="">
+                    </div>
+                    <div class="messageItemMessege">
+                        <div class="messageItemMessegeTop flex">
+                            Walther White
+                        </div>
+                        <div class="messageItemMessegeBottom flex">
+                            Jesse, come back, please...
+                        </div>
+                    </div>
+                    <div class="messageTime">
+                        <span>10:41 PM</span>
+                    </div>
+                </div>
+                <div class="messageItem flex">
+                    <div class="messageItemPhoto">
+                        <img src="../img/user12.png" alt="">
+                    </div>
+                    <div class="messageItemMessege">
+                        <div class="messageItemMessegeTop flex">
+                            Jesse Pinkman
+                        </div>
+                        <div class="messageItemMessegeBottom flex">
+                            Lol
+                        </div>
+                        <div class="messageItemInclude flex">
+                            <a href="../img/lol.jpg" data-lightbox="include-1"><img src="../img/lol.jpg" alt=""></a>
+                        </div>
+                        <a href="javascript:void(0)" class="messageItemIncludeFile flex">
+                            <div><i class="fas fa-file"></i></div>
+                            <div>звук пердежа.mp3</div>
+                            <div>521 kb</div>
+                        </a>
+                    </div>
+                    <div class="messageTime">
+                        <span>10:41 PM</span>
+                    </div>
+                </div>
+                <div class="messageItem flex">
+                    <div class="messageItemPhoto">
+                        <img src="../img/user13.png" alt="">
+                    </div>
+                    <div class="messageItemMessege">
+                        <div class="messageItemMessegeTop flex">
+                            Walther White
+                        </div>
+                        <div class="messageItemMessegeBottom flex">
+                            I miss you, Jesse
+                        </div>
+                    </div>
+                    <div class="messageTime">
+                        <span>10:41 PM</span>
+                    </div>
+                </div>
+                <div class="messageItem flex">
+                    <div class="messageItemPhoto">
+                        <img src="../img/user12.png" alt="">
+                    </div>
+                    <div class="messageItemMessege">
+                        <div class="messageItemMessegeTop flex">
+                            Saul Goodman
+                        </div>
+                        <div class="messageItemMessegeBottom flex">
+                            Nope. mr White!!!
+                        </div>
+                    </div>
+                    <div class="messageTime">
+                        <span>10:41 PM</span>
+                    </div>
+                </div>
+                <div class="messageItem messageItemForwarded flex">
+                    <div class="messageItemMessege">
+                        <div class="messageItemMessegeTop flex">
+                            <span>Forwarded from:</span> Saul Goodman
+                        </div>
+                        <div class="messageItemMessegeBottom flex">
+                            Whalter is a cunt
+                        </div>
+                    </div>
+                    <div class="messageTime">
+                        <span>10:41 PM</span>
+                    </div>
+                </div>
+                <div class="messageItem flex">
+                    <div class="messageItemPhoto">
+                        <img src="../img/user13.png" alt="">
+                    </div>
+                    <div class="messageItemMessege">
+                        <div class="messageItemMessegeTop flex">
+                            Whalter White
+                        </div>
+                        <div class="messageItemMessegeBottom flex">
+                            Jesse... >:o
+                        </div>
+                    </div>
+                    <div class="messageTime">
+                        <span>10:41 PM</span>
+                    </div>
+                </div>
+                <div class="messageItem flex">
+                    <div class="messageItemPhoto">
+                        <img src="../img/user13.png" alt="">
+                    </div>
+                    <div class="messageItemMessege">
+                        <div class="messageItemMessegeTop flex">
+                            Whalter White
+                        </div>
+                        <div class="messageItemMessegeBottom flex">
+                            Fuck you!!11 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod harum iusto, nisi corrupti asperiores voluptatem eum architecto minima reprehenderit laudantium, sed hic. Minus ipsam suscipit dicta, quibusdam aperiam ullam praesentium?
+                        </div>
+                    </div>
+                    <div class="messageTime">
+                        <span>10:41 PM</span>
+                        <div class="messageActions flex">
+                            <button class="messageItemButton replyMessage">Reply</button>
+                            <button class="messageItemButton" data-toggle="modal" data-target="#forwardMessageTo"><i class="fas fa-share"></i></button>
+                            <button class="messageItemButton deleteMessageModal" data-toggle="modal" data-target="#deleteMessageModal"><i class="far fa-trash-alt"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <ul id="chatMenuDropdownTwo" class="dropdownChatMenu flex">
+                <li> <label for="uploadPhotoOrVideo"><input type="file" id="uploadPhotoOrVideo"><span><i class="far fa-images"></i></span> <span>Photo or video</span></label> </li>
+                <li> <label for="uploadFile"><input type="file" id="uploadFile"><span><i class="far fa-images"></i></span> <span>File</span></label> </li>
+                <!-- <li> <span><i class="far fa-images"></i></span> <span>Photo or video</span></li> -->
+                <!-- <li> <span><i class="fas fa-camera"></i></span> <span>Camera</span></li> -->
+                <!-- <li> <span><i class="fas fa-map-marker-alt"></i></span> <span>Location</span></li> -->
+            </ul>
+            <div class="chatMainContainerBottom flex">
+                <div class="chatMainContainerBottomReplyingMessage flex">
+                    <span>Replying message</span>
+                    <div class="replyingMessageText"></div>
+                    <div class="undoReply"><i class="fas fa-times"></i></div>
+                </div>
+                <span class="chatMainContainerBottomWriteArea flex"><button id="clipButton"><i class="fas fa-paperclip"></i></button>
+                    <textarea placeholder="Write a message..." id="chatTextArea"></textarea>
+                    <button id="sendMessage"><i class="far fa-paper-plane"></i></button></span>
+            </div>
+        </div>
+    </main>
+    <script src="../libs/jquery3.2.1.js"></script>
+    <script src="../libs/bootstrap.min.js"></script>
+    <script src="../js/pickmeup.min.js"></script>
+    <script src="../js/calendar.js"></script>
+    <script async src="../js/select2.full.min.js"></script>
+    <script async src="../js/dashboard.js"></script>
+    <script async src="../js/all.min.js"></script>
+    <script src="../js/lightbox.js"></script>
+
+    <!-- <script acync src="../js/charts.js"></script> -->
+    <div class="modal fade" id="showAllMedia" tabindex="-1" role="dialog" aria-labelledby="showAllMedia">
+        <div class="modal-dialog addModalStyle" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">All media</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="showAllmediaContainer flex">
+                        <a href="../img/media.jpg" class="showAllmediaItem" data-lightbox="seeAllMedia-1">
+                            <img src="../img/media.jpg" alt="">
+                        </a>
+                        <a href="../img/media.jpg" class="showAllmediaItem" data-lightbox="seeAllMedia-1">
+                            <img src="../img/media.jpg" alt="">
+                        </a>
+                        <a href="../img/media.jpg" class="showAllmediaItem" data-lightbox="seeAllMedia-1">
+                            <img src="../img/media.jpg" alt="">
+                        </a>
+                        <a href="../img/media.jpg" class="showAllmediaItem" data-lightbox="seeAllMedia-1">
+                            <img src="../img/media.jpg" alt="">
+                        </a>
+                        <a href="../img/media.jpg" class="showAllmediaItem" data-lightbox="seeAllMedia-1">
+                            <img src="../img/media.jpg" alt="">
+                        </a>
+                        <a href="../img/media.jpg" class="showAllmediaItem" data-lightbox="seeAllMedia-1">
+                            <img src="../img/media.jpg" alt="">
+                        </a>
+                        <a href="../img/media.jpg" class="showAllmediaItem" data-lightbox="seeAllMedia-1">
+                            <img src="../img/media.jpg" alt="">
+                        </a>
+                        <a href="../img/media.jpg" class="showAllmediaItem" data-lightbox="seeAllMedia-1">
+                            <img src="../img/media.jpg" alt="">
+                        </a>
+                        <a href="../img/media.jpg" class="showAllmediaItem" data-lightbox="seeAllMedia-1">
+                            <img src="../img/media.jpg" alt="">
+                        </a>
+                        <a href="../img/media.jpg" class="showAllmediaItem" data-lightbox="seeAllMedia-1">
+                            <img src="../img/media.jpg" alt="">
+                        </a>
+                        <a href="../img/media.jpg" class="showAllmediaItem" data-lightbox="seeAllMedia-1">
+                            <img src="../img/media.jpg" alt="">
+                        </a>
+                        <a href="../img/media.jpg" class="showAllmediaItem" data-lightbox="seeAllMedia-1">
+                            <img src="../img/media.jpg" alt="">
+                        </a>
+                        <a href="../img/media.jpg" class="showAllmediaItem" data-lightbox="seeAllMedia-1">
+                            <img src="../img/media.jpg" alt="">
+                        </a>
+                        <a href="../img/media.jpg" class="showAllmediaItem" data-lightbox="seeAllMedia-1">
+                            <img src="../img/media.jpg" alt="">
+                        </a>
+                        <a href="../img/media.jpg" class="showAllmediaItem" data-lightbox="seeAllMedia-1">
+                            <img src="../img/media.jpg" alt="">
+                        </a>
+                        <a href="../img/media.jpg" class="showAllmediaItem" data-lightbox="seeAllMedia-1">
+                            <img src="../img/media.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer newModalFooter flex">
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="contactInfo" tabindex="-1" role="dialog" aria-labelledby="contactInfo">
+        <div class="modal-dialog addModalStyle" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">User information</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="contactInfoMain">
+                        <div class="contactInfoColumn">
+                            <div class="contactInfoContainer flex">
+                                <div class="contactInfoSubContainer flex">
+                                    <img src="../img/user12.png" alt="">
+                                </div>
+                                <div class="contactInfoSubContainer flex">
+                                    <div class="chatUserInfoNameStauts">
+                                        <div class="chatUserInfoName">Jhon Smith</div>
+                                        <div class="chatUserInfoStatus">Registred 11.09.2001</div>
+                                        <div class="chatUserInfoStatusLocal">Online</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contactInfoNotifications">
+                                Notifications
+                                <div class="switch-btn"></div>
+                            </div>
+                            <a href="#">All media</a>
+                        </div>
+                        <div class="contactInfoColumn">
+                            <div class="companyInfoDatas">
+                                <div class="companyInfoDatasTitle">Company</div>
+                                <div class="companyInfoDatasValue">Coca-Cola Inc</div>
+                            </div>
+                            <div class="companyInfoDatas">
+                                <div class="companyInfoDatasTitle">Group</div>
+                                <div class="companyInfoDatasValue">Lawyers</div>
+                            </div>
+                            <div class="companyInfoDatas">
+                                <div class="companyInfoDatasTitle">Phone number</div>
+                                <div class="companyInfoDatasValue">+380 67 199 75 85</div>
+                            </div>
+                            <div class="companyInfoDatas">
+                                <div class="companyInfoDatasTitle">E-mail</div>
+                                <div class="companyInfoDatasValue">email@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                    <script>
+                        $('.switch-btn').click(function() {
+                            $(this).toggleClass('switch-on');
+                        });
+                    </script>
+                </div>
+                <div class="modal-footer newModalFooter flex">
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="deleteMessageModal" tabindex="-1" role="dialog" aria-labelledby="deleteMessageModal">
+        <div class="modal-dialog addModalStyle" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Delete message</h4>
+                </div>
+                <div class="modal-body">
+                    <h3>Are you sure want to delete this message?</h3>
+                </div>
+                <div class="modal-footer newModalFooter flex">
+                    <button type="submit" class="btn btn-default" data-dismiss="modal">Delete</button>
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="forwardMessageTo" tabindex="-1" role="dialog" aria-labelledby="forwardMessageTo">
+        <div class="modal-dialog addModalStyle" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Forward message to...</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="chatContactsList flex">
+                        <a href="javascript:void(0)" class="chatContactsListItem chatContactsListItemChooseForward flex">
+                            <div class="chatContactsListItemPhoto">
+                                <img src="../img/user1.png" alt="">
+                            </div>
+                            <div class="chatContactsListItemNameStatus flex">
+                                <div class="chatContactsListItemName flex">Walther White</div>
+                                <div class="chatContactsListItemStatusOnline flex">Online</div>
+                            </div>
+                        </a>
+                        <a href="javascript:void(0)" class="chatContactsListItem chatContactsListItemChooseForward flex">
+                            <div class="chatContactsListItemPhoto">
+                                <img src="../img/user2.png" alt="">
+                            </div>
+                            <div class="chatContactsListItemNameStatus flex">
+                                <div class="chatContactsListItemName flex">Walther White</div>
+                                <div class="chatContactsListItemStatusOnline flex">Online</div>
+                            </div>
+                        </a>
+                        <a href="javascript:void(0)" class="chatContactsListItem chatContactsListItemChooseForward flex">
+                            <div class="chatContactsListItemPhoto">
+                                <img src="../img/user3.png" alt="">
+                            </div>
+                            <div class="chatContactsListItemNameStatus flex">
+                                <div class="chatContactsListItemName flex">Walther White</div>
+                                <div class="chatContactsListItemStatusOnline flex">Online</div>
+                            </div>
+                        </a>
+                        <a href="javascript:void(0)" class="chatContactsListItem chatContactsListItemChooseForward flex">
+                            <div class="chatContactsListItemPhoto">
+                                <img src="../img/user4.png" alt="">
+                            </div>
+                            <div class="chatContactsListItemNameStatus flex">
+                                <div class="chatContactsListItemName flex">Walther White</div>
+                                <div class="chatContactsListItemStatusOnline flex">Online</div>
+                            </div>
+                        </a>
+                        <a href="javascript:void(0)" class="chatContactsListItem chatContactsListItemChooseForward flex">
+                            <div class="chatContactsListItemPhoto">
+                                <img src="../img/user5.png" alt="">
+                            </div>
+                            <div class="chatContactsListItemNameStatus flex">
+                                <div class="chatContactsListItemName flex">Walther White</div>
+                                <div class="chatContactsListItemStatusOnline flex">Online</div>
+                            </div>
+                        </a>
+                        <a href="javascript:void(0)" class="chatContactsListItem chatContactsListItemChooseForward flex">
+                            <div class="chatContactsListItemPhoto">
+                                <img src="../img/user6.png" alt="">
+                            </div>
+                            <div class="chatContactsListItemNameStatus flex">
+                                <div class="chatContactsListItemName flex">Walther White</div>
+                                <div class="chatContactsListItemStatusOnline flex">Online</div>
+                            </div>
+                        </a>
+                        <a href="javascript:void(0)" class="chatContactsListItem chatContactsListItemChooseForward flex">
+                            <div class="chatContactsListItemPhoto">
+                                <img src="../img/user7.png" alt="">
+                            </div>
+                            <div class="chatContactsListItemNameStatus flex">
+                                <div class="chatContactsListItemName flex">Walther White</div>
+                                <div class="chatContactsListItemStatusOnline flex">Online</div>
+                            </div>
+                        </a>
+                        <a href="javascript:void(0)" class="chatContactsListItem chatContactsListItemChooseForward flex">
+                            <div class="chatContactsListItemPhoto">
+                                <img src="../img/user8.png" alt="">
+                            </div>
+                            <div class="chatContactsListItemNameStatus flex">
+                                <div class="chatContactsListItemName flex">Walther White</div>
+                                <div class="chatContactsListItemStatusOnline flex">Online</div>
+                            </div>
+                        </a>
+                        <a href="javascript:void(0)" class="chatContactsListItem chatContactsListItemChooseForward flex">
+                            <div class="chatContactsListItemPhoto">
+                                <img src="../img/user9.png" alt="">
+                            </div>
+                            <div class="chatContactsListItemNameStatus flex">
+                                <div class="chatContactsListItemName flex">Walther White</div>
+                                <div class="chatContactsListItemStatusOnline flex">Online</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer newModalFooter flex">
+                    <button type="submit" class="btn btn-default" data-dismiss="modal">Forward</button>
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="checkboxLayout"></div>
+    <div class="pushMessage flex">
+        <div class="pushMessageMainSub flex">
+            <div class="pushMessageIco">
+                <i class="fas fa-times"></i>
+            </div>
+            <a href="javascript:void(0)" class="pushMessageGoTo">
+                <i class="fas fa-angle-right"></i>
+            </a>
+            <div class="pushMessageSub flex">
+                <img src="../img/user12.png" alt="">
+            </div>
+            <div class="pushMessageSub flex">
+                <div class="pusMessageName">Jesse Pinkman</div>
+                <div class="pusMessageNamePreview">
+                    <p>Hey everybody, my name is Jesse Pinkman and this is a methass bitch!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>

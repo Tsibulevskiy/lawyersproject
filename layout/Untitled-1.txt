@@ -1,0 +1,19 @@
+Host: 139.60.163.136
+Port: 22
+Login: vlad
+Pass: Y9m0J0z6
+
+
+
+
+host: 139.60.163.136
+port: 21
+
+Saudialaw.com
+login: vlad
+pass: M2b4Y0j3
+
+CRM
+login: vladcrm
+pass: W2t4B2m2
+

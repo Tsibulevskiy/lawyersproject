@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/select2.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/fontawesome.css">
+    <link rel="stylesheet" href="../css/pickmeup.css">
+    <link rel='stylesheet' href='../css/calendar.min.css'>
+    <link rel='stylesheet' href='../css/daygrid-calendar.min.css'>
+    <link rel="stylesheet" href="../css/main-calendar.css">
+
+
+
+
+
+
+    <!-- <link rel="stylesheet" href="../css/pickmeup-dropdown.css"> -->
+    <title>Dashboard: calendar</title>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+    </script>
+
+</head>
+
+<body>
+    <main class="flex">
+        <aside class="flex" id="sidebar">
+            <div class="mainAsideContainer flex">
+                <div class="topPartMainContainer">
+                    <div class="subAsideContainer flex">
+                        <div class="asideLogoContainer">
+                            <img src="../img/logo.png" alt="" class="toplogo">
+                        </div>
+                    </div>
+                    <div class="subAsideContainer flex">
+                        <a href="javascript:void(0)" class="sidebarItem sidebarItemActive">
+                            <i class="fas fa-home"></i>
+                            <span class="menuItemName">dashboard</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="far fa-calendar-alt"></i>
+                            <span class="menuItemName">calendar</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-list"></i>
+                            <span class="menuItemName">tasks</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-briefcase"></i>
+                            <span class="menuItemName">matters</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-users"></i>
+                            <span class="menuItemName">contacts</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="far fa-clock"></i>
+                            <span class="menuItemName">Activities</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-wallet"></i>
+                            <span class="menuItemName">Bills</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-landmark"></i>
+                            <span class="menuItemName">accounts</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-folder"></i>
+                            <span class="menuItemName">Documents</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-phone"></i>
+                            <span class="menuItemName">Communications</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-chart-bar"></i>
+                            <span class="menuItemName">Reports</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-cog"></i>
+                            <span class="menuItemName">Settings</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="subAsideContainer flex">
+                    <div class="userInfoBlock flex">
+                        <div class="userInfo flex">
+                            <span class="userinitials">SG</span>
+                            <span class="username menuItemName">saul Goodman</span>
+                            <div class="userInfoDetails flex">
+                                <div class="userInfoDetailsSub flex">
+                                    <h5>saul Goodman</h5>
+                                    <p>Support code: 561-407-711-9992</p>
+                                    <a href="javascript:void(0)">View profile</a>
+                                </div>
+                                <div class="userInfoDetailsSub flex">
+                                    <a href="javascript:void(0)">Referral Rewards</a>
+                                    <a href="javascript:void(0)">Sign out</a>
+                                </div>
+
+                            </div>к
+                        </div>
+                    </div>
+                    <div class="collapseButtonContainer">
+                        <div class="collapseButtonContainerSub flex" id="collapseSidebar">
+                            <span class="arrowOfCollapse">
+                                    <i class="fas fa-sign-out-alt"></i>
+                                </span>
+                            <span class="menuItemName">Collapse</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <section class="mainDashboardContainer">
+            <div class="topbar flex">
+                <div class="topbarSub flex">
+                    <form action="" class="searchForm">
+                        <select name="search" type="text" class="searchInput" id="mainSearchInput" min="3" autocomplete="off" placeholder="Serach..." value=" ">
+                            <option value="" disabled selected>Search...</option>
+                            <optgroup label="Matters">
+                            <option value="">Who killed John Kennedy</option>
+                            <option value="">Who killed Sergey Zavorotko</option>
+                            <option value="">Who killed John Dou</option>
+                            <option value="">Who killed Jon Snow</option>
+                            <option value="">Who killed Rob Stark</option>
+                            <option value="">Who killed The Tanos</option>
+                            <option value="">Who killed The Superman</option>
+                            <option value="">Who killed Matt Murdock</option>
+                            <option value="">Who killed Laura Palmer</option>
+                            <option value="">Who killed John Lennon</option>
+                            <option value="">Who killed Frank Castle</option>
+                            <option value="">Who killed Poor Poo</option>
+                            <option value="">Who killed Little bear </option>
+                            <option value="">Who killed Gustawo Fring </option>
+                        </optgroup>
+                        <optgroup label="Contacts">
+                                <option value="">Laura Palmer</option>
+                                <option value="">John Kennedy</option>
+                                <option value="">Sergey Zavorotko</option>
+                                <option value="">John Dou</option>
+                                <option value="">Jon Snow</option>
+                                <option value="">Rob Stark</option>
+                                <option value="">The Tanos</option>
+                                <option value="">The Superman</option>
+                                <option value="">Matt Murdock</option>
+                                <option value="">John Lennon</option>
+                                <option value="">Frank Castle</option>
+                                <option value="">Poor Poo</option>
+                                <option value="">Little bear</option>
+                                <option value="">Papa Jo</option>
+                                <option value="">Walter White</option>
+
+                        </optgroup>
+                        </select>
+                        <label for="search">
+                            <i class="fas fa-search"></i>
+                        </label>
+                    </form>
+                    <div class="dropdown">
+                        <button id="recentSearch" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="recentSearch flex">
+                          <span>Recent</span>
+                          <i class="fas fa-caret-down"></i>
+                        </button>
+                        <ul class="dropdown-menu newDropdown" aria-labelledby="recentSearch">
+                            <li class="noRecent">You don't have any recent items</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="topbarSub flex">
+                    <div class="dropdown dropDownTimeKeeper flex">
+                        <button class="timeKeeperButton flex" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#timeEntryModal">
+                            <i class="fas fa-play"></i>
+                            <p>
+                                <span>00</span>
+                                <span>:</span>
+                                <span>00</span>
+                                <span>:</span>
+                                <span>00</span>
+                            </p>
+                        </button>
+                        <button class="timeKeeperButton flex" id="timeKeeper" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="far fa-clock"></i>
+                        </button>
+                        <ul class="dropdown-menu newDropdowntimeKeeper" aria-labelledby="timeKeeper">
+                            <div class="timeKeeperDropDownContainer flex">
+                                <div class="timeKeeperHeading flex">
+                                    <h4>Timekeeper</h4><span><i class="fas fa-times"></i></span>
+                                </div>
+                                <div class="timeKeeperSetting flex">
+                                    <span class="timeKeeperSettingSubContainer flex">                                    
+                                        <div class="timeKeeperDateButtonContainer flex">
+                                            <div class="timeKeeperDateButton flex">
+                                                <i class="fas fa-caret-left"></i>
+                                            </div>
+                                            <div class="timeKeeperDateButton flex">
+                                                <i class="fas fa-caret-right"></i>
+                                            </div>
+                                        </div>
+                                        <span class="timeKeeperDate">Today, Dec 12, 2018</span></span>
+                                    <p class="timeKeeperCount">
+                                        <span>00</span>
+                                        <span>:</span>
+                                        <span>00</span>
+                                        <span>:</span>
+                                        <span>00</span>
+                                    </p>
+                                </div>
+                                <div class="recentCreatedEntries flex">
+                                    <span class="noTimeEntries">No time entries created today</span>
+                                    <button class="timeKeeperButton flex" data-toggle="modal" data-target="#timeEntryModal">
+                                        <i class="fas fa-play"></i>
+                                        <p>
+                                            <span>00</span>
+                                            <span>:</span>
+                                            <span>00</span>
+                                            <span>:</span>
+                                            <span>00</span>
+                                        </p>
+                                    </button>
+                                </div>
+                                <div class="timeKeeperButtons flex">
+                                    <button>See all time entries</button>
+                                    <button>Add time</button>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button class="createNewButoon flex" id="createNew" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-plus-circle"></i>
+                        <span>Create new</span>
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                        <ul class="dropdown-menu createNewDropdown " aria-labelledby="createNew">
+                            <li><a href="javascript:void(0)" data-toggle="modal" data-target="#timeEntryModal">Time Entry</a></li>
+                            <li><a href="javascript:void(0)" data-toggle="modal" data-target="#expenseEntryModal">Expence Entry</a></li>
+                            <li><a href="javascript:void(0)">Task</a></li>
+                            <li><a href="javascript:void(0)">Person</a></li>
+                            <li><a href="javascript:void(0)">Company</a></li>
+                            <li><a href="javascript:void(0)">Matter</a></li>
+                            <li><a href="javascript:void(0)">Record payment</a></li>
+                            <li><a href="javascript:void(0)">Trust Request</a></li>
+                            <li><a href="javascript:void(0)">Email Log</a></li>
+                            <li><a href="javascript:void(0)">Phone Log</a></li>
+                            <li><a href="javascript:void(0)">Secure message</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="calendarTabContainer tabContainer flex">
+
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a id="calendarTabSwitch" href="#dashboard" aria-controls="dashboard" role="tab" data-toggle="tab">Calendar</a></li>
+                    <li role="presentation"><a href="#calendarFeeds" aria-controls="calendarFeeds" role="tab" data-toggle="tab">Feeds</a></li>
+                    <li role="presentation"><a href="#calendarSharing" aria-controls="calendarSharing" role="tab" data-toggle="tab">Sharing</a></li>
+                    <li role="presentation"><a href="#newCalendarAdding" aria-controls="newCalendarAdding" role="tab" data-toggle="tab">New Calendar</a></li>
+                </ul>
+                <div class="calTopbarContainer flex">
+                    <div class="dropdown">
+                        <button class="newmatter deleteCalendar flex" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span>Delete calendar <i class="fas fa-exclamation-triangle"></i></span>
+                    </button>
+                        <ul class="dropdown-menu  calendarList" aria-labelledby="createNew">
+                            <li class="deleteAlert color7">Your Calendar</li>
+                            <li class="deleteAlert color2">Tasks</li>
+                            <li class="deleteAlert color8">Statue of Limitations</li>
+                            <li class="deleteAlert color6">Firm</li>
+                        </ul>
+                    </div>
+                    <button class="newmatter" data-toggle="modal" data-target="#newMatter">Print</button>
+                    <button class="newmatter" data-toggle="modal" data-target="#newMatter">Refresh</button>
+                    <button class="newmatter newmatter-focus" data-toggle="modal" data-target="#newMatter">Add Event</button>
+                </div>
+
+
+            </div>
+            <div class="tab-content tabContent flex">
+                <div role="tabpanel" class="tab-pane fade in active" id="dashboard">
+                    <div class="mainCalendarDashboardContainer flex">
+                        <div class="mainCalendarDashboardContainerSub">
+
+                            <div id='main-calendar'></div>
+                        </div>
+                        <div class="mainCalendarDashboardContainerSub flex selectsForTasks">
+                            <h3>Calendars</h3>
+                            <div class="selectsForTasksInner">
+                                <a class="btn btn-primary selectsForTasksInner1" data-toggle="collapse" href="#listTasksSelect1" onclick="setChekInput(this)" id="task-selektor-1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    <div><input type="checkbox"> Your Calendar</div> <span class="carret-down-container">&#9660;</span>
+                                </a>
+                                <div class="collapse" id="listTasksSelect1">
+                                    <div class="card card-body">
+                                        <p>Task 1</p>
+                                        <p>Task 2</p>
+                                        <p>Task 3</p>
+                                        <p>Task 4</p>
+                                    </div>
+                                </div>
+                                <a class="btn btn-primary selectsForTasksInner2" data-toggle="collapse" href="#listTasksSelect2" onclick="setChekInput(this)" id="task-selektor-2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    <div><input type="checkbox"> Tasks</div> <span class="carret-down-container">&#9660;</span>
+                                </a>
+                                <div class="collapse" id="listTasksSelect2">
+                                    <div class="card card-body">
+                                        <p>Task 1</p>
+                                        <p>Task 2</p>
+                                        <p>Task 3</p>
+                                        <p>Task 4</p>
+                                    </div>
+                                </div>
+                                <a class="btn btn-primary selectsForTasksInner3" data-toggle="collapse" href="#listTasksSelect3" onclick="setChekInput(this)" role="button" id="task-selektor-3" aria-expanded="false" aria-controls="collapseExample">
+                                    <div><input type="checkbox"> Statute of Limitations</div> <span class="carret-down-container">&#9660;</span>
+                                </a>
+                                <div class="collapse" id="listTasksSelect3">
+                                    <div class="card card-body">
+                                        <p>Task 1</p>
+                                        <p>Task 2</p>
+                                        <p>Task 3</p>
+                                        <p>Task 4</p>
+                                    </div>
+                                </div>
+                                <a class="btn btn-primary selectsForTasksInner4" data-toggle="collapse" href="#listTasksSelect4" onclick="setChekInput(this)" role="button" aria-expanded="false" aria-controls="collapseExample" id="task-selektor-4">
+                                    <div><input type="checkbox"> Firm</div> <span class="carret-down-container">&#9660;</span>
+                                </a>
+                                <div class="collapse" id="listTasksSelect4">
+                                    <div class="card card-body">
+                                        <p>Task 1</p>
+                                        <p>Task 2</p>
+                                        <p>Task 3</p>
+                                        <p>Task 4</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div role="tabpanel" class="tab-pane fade in" id="calendarFeeds">
+                    <div class="mainCalendarDashboardContainer flex">
+                        <div class="mainCalendarDashboardContainerSub">
+
+                            <div class="calendarFeedsTopTexts">
+                                <p>
+                                    Calendar feeds allow you to view your Clio calendar events from third-party applications such as Outlook or iCal. For more information, you can read our support article on <a>what calendar feeds are, and how to use them.</a>
+                                </p>
+                                <hr>
+                                <p class="calendarFeedsBlocks">
+                                    <svg width="19" height="21" viewBox="0 0 19 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6.33333 9.45H4.22222V11.55H6.33333V9.45ZM10.5556 9.45H8.44444V11.55H10.5556V9.45ZM14.7778 9.45H12.6667V11.55H14.7778V9.45ZM16.8889 2.1H15.8333V0H13.7222V2.1H5.27778V0H3.16667V2.1H2.11111C0.95 2.1 0 3.045 0 4.2V18.9C0 20.055 0.95 21 2.11111 21H16.8889C18.05 21 19 20.055 19 18.9V4.2C19 3.045 18.05 2.1 16.8889 2.1ZM16.8889 18.9H2.11111V7.35H16.8889V18.9Z" fill="#323A4D"/>
+                                        <path d="M4.49953e-07 5.2381L4.125 5.2381L4.125 11L6.875 11L6.875 5.2381L11 5.2381L5.5 -4.72849e-07L4.49953e-07 5.2381Z" fill="#69E38D"/>
+                                    </svg>
+                                    <span>Your Calendar ics feed (Outlook/iCal)</span>
+                                </p>
+                                <p class="calendarFeedsBlocks">
+                                    <svg width="19" height="21" viewBox="0 0 19 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6.33333 9.45H4.22222V11.55H6.33333V9.45ZM10.5556 9.45H8.44444V11.55H10.5556V9.45ZM14.7778 9.45H12.6667V11.55H14.7778V9.45ZM16.8889 2.1H15.8333V0H13.7222V2.1H5.27778V0H3.16667V2.1H2.11111C0.95 2.1 0 3.045 0 4.2V18.9C0 20.055 0.95 21 2.11111 21H16.8889C18.05 21 19 20.055 19 18.9V4.2C19 3.045 18.05 2.1 16.8889 2.1ZM16.8889 18.9H2.11111V7.35H16.8889V18.9Z" fill="#323A4D"/>
+                                        <path d="M11 5.76191L6.875 5.76191L6.875 1.20206e-06L4.125 7.21238e-07L4.125 5.7619L-1.00744e-06 5.7619L5.5 11L11 5.76191Z" fill="#FF2747"/>
+                                    </svg>
+                                    <span>Download Your Calendar ics</span>
+                                </p>
+                                <hr>
+                                <p class="calendarFeedsBlocks">
+                                    <svg width="19" height="21" viewBox="0 0 19 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6.33333 9.45H4.22222V11.55H6.33333V9.45ZM10.5556 9.45H8.44444V11.55H10.5556V9.45ZM14.7778 9.45H12.6667V11.55H14.7778V9.45ZM16.8889 2.1H15.8333V0H13.7222V2.1H5.27778V0H3.16667V2.1H2.11111C0.95 2.1 0 3.045 0 4.2V18.9C0 20.055 0.95 21 2.11111 21H16.8889C18.05 21 19 20.055 19 18.9V4.2C19 3.045 18.05 2.1 16.8889 2.1ZM16.8889 18.9H2.11111V7.35H16.8889V18.9Z" fill="#323A4D"/>
+                                        <path d="M4.49953e-07 5.2381L4.125 5.2381L4.125 11L6.875 11L6.875 5.2381L11 5.2381L5.5 -4.72849e-07L4.49953e-07 5.2381Z" fill="#69E38D"/>
+                                    </svg>
+                                    <span>Firm ics feed (Outlook/iCal)</span>
+                                </p>
+                                <p class="calendarFeedsBlocks">
+                                    <svg width="19" height="21" viewBox="0 0 19 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6.33333 9.45H4.22222V11.55H6.33333V9.45ZM10.5556 9.45H8.44444V11.55H10.5556V9.45ZM14.7778 9.45H12.6667V11.55H14.7778V9.45ZM16.8889 2.1H15.8333V0H13.7222V2.1H5.27778V0H3.16667V2.1H2.11111C0.95 2.1 0 3.045 0 4.2V18.9C0 20.055 0.95 21 2.11111 21H16.8889C18.05 21 19 20.055 19 18.9V4.2C19 3.045 18.05 2.1 16.8889 2.1ZM16.8889 18.9H2.11111V7.35H16.8889V18.9Z" fill="#323A4D"/>
+                                        <path d="M11 5.76191L6.875 5.76191L6.875 1.20206e-06L4.125 7.21238e-07L4.125 5.7619L-1.00744e-06 5.7619L5.5 11L11 5.76191Z" fill="#FF2747"/>
+                                    </svg>
+                                    <span>Download Firm ics</span>
+                                </p>
+                                <hr>
+                                <p class="calendarFeedsBlocks">
+                                    <svg width="19" height="21" viewBox="0 0 19 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6.33333 9.45H4.22222V11.55H6.33333V9.45ZM10.5556 9.45H8.44444V11.55H10.5556V9.45ZM14.7778 9.45H12.6667V11.55H14.7778V9.45ZM16.8889 2.1H15.8333V0H13.7222V2.1H5.27778V0H3.16667V2.1H2.11111C0.95 2.1 0 3.045 0 4.2V18.9C0 20.055 0.95 21 2.11111 21H16.8889C18.05 21 19 20.055 19 18.9V4.2C19 3.045 18.05 2.1 16.8889 2.1ZM16.8889 18.9H2.11111V7.35H16.8889V18.9Z" fill="#323A4D"/>
+                                        <path d="M4.49953e-07 5.2381L4.125 5.2381L4.125 11L6.875 11L6.875 5.2381L11 5.2381L5.5 -4.72849e-07L4.49953e-07 5.2381Z" fill="#69E38D"/>
+                                    </svg>
+                                    <span>All visible calendars ics feed (Outlook/iCal)</span>
+                                </p>
+                                <p class="calendarFeedsBlocks">
+                                    <svg width="19" height="21" viewBox="0 0 19 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6.33333 9.45H4.22222V11.55H6.33333V9.45ZM10.5556 9.45H8.44444V11.55H10.5556V9.45ZM14.7778 9.45H12.6667V11.55H14.7778V9.45ZM16.8889 2.1H15.8333V0H13.7222V2.1H5.27778V0H3.16667V2.1H2.11111C0.95 2.1 0 3.045 0 4.2V18.9C0 20.055 0.95 21 2.11111 21H16.8889C18.05 21 19 20.055 19 18.9V4.2C19 3.045 18.05 2.1 16.8889 2.1ZM16.8889 18.9H2.11111V7.35H16.8889V18.9Z" fill="#323A4D"/>
+                                        <path d="M11 5.76191L6.875 5.76191L6.875 1.20206e-06L4.125 7.21238e-07L4.125 5.7619L-1.00744e-06 5.7619L5.5 11L11 5.76191Z" fill="#FF2747"/>
+                                    </svg>
+                                    <span>Download All visible calendars ics</span>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade in" id="calendarSharing">
+                    <div class="mainCalendarDashboardContainer flex">
+                        <div class="calendarSharingDashboardContainerSub">
+                            <h3>Calendar</h3>
+                            <div class="tabContainer calendarSharingInnerTabContainer">
+                                <p>Calendar</p>
+                                <select name="" class="calendarSharingSelect">
+                                    <option value="">Diana Shurman</option>
+                                    <option value="">Firm</option>
+                                    <option value="">Tasks</option>
+                                </select>
+                                <p>Name</p>
+                                <input type="text" placeholder="Diana Shurman">
+                            </div>
+                            <h3>Sharing Premissions</h3>
+                            <div class="tabContainer calendarSharingInnerTabContainer">
+                                <p>Group</p>
+                                <select name="" class="calendarSharingSelect">
+                                    <option value="">Diana Shurman</option>
+                                    <option value="">Firm</option>
+                                    <option value="">Tasks</option>
+                                </select>
+                                <p>Permission</p>
+                                <select name="" class="calendarSharingSelect">
+                                    <option value="">Owner</option>
+                                    <option value="">Firm</option>
+                                    <option value="">Tasks</option>
+                                </select>
+                            </div>
+                            <button class="selectsForTasksInner4 sharingCalendarAddButton collapsed" data-toggle="collapse" href="#addNewPremission" role="button" aria-expanded="false" aria-controls="addNewPremission" id="task-selektor-4">
+                                    <span>+</span> Add Calendar Share
+                            </button>
+                            <div class="collapse" id="addNewPremission">
+                                <div class="tabContainer calendarSharingInnerTabContainer">
+                                    <p>Group<a href="#addNewPremission" data-toggle="collapse" href="#addNewPremission" role="button" aria-expanded="false" aria-controls="addNewPremission">Remove Permission</a> </p>
+                                    <select name="" id="" class="selectpicker">
+                                    <option value="">Diana Shurman</option>
+                                    <option value="">Firm</option>
+                                    <option value="">Tasks</option>
+                                </select>
+                                    <p>Permission</p>
+                                    <select name="" id="" class="selectpicker">
+                                    <option value="">Diana Shurman</option>
+                                    <option value="">Firm</option>
+                                    <option value="">Tasks</option>
+                                </select>
+                                </div>
+                            </div>
+
+                            <hr>
+                            <div>
+                                <button class="newmatter newmatter-focus" data-toggle="modal" data-target="#newMatter">Update Calendar</button>
+                                <a href="">Cancel</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade in" id="newCalendarAdding">
+                    <div class="mainCalendarDashboardContainer flex">
+                        <div class="calendarSharingDashboardContainerSub">
+                            <h3>Calendar</h3>
+                            <div class="tabContainer calendarSharingInnerTabContainer calendarNewTabContainer">
+                                <p>Name<a href="#">required</a></p>
+                                <input type="text">
+                                <div class="dropdown" id="chooseColorDropdown">
+                                    <button id="chooseColor" class="flex" data-toggle="dropdown" role="button" data-id="" title="Diana Shurman" aria-expanded="false"><p >Choose color</p> <span id="chooseColorMarker" class=""></span></button>
+                                    <div class="dropdown-menu colorChooseMenu">
+                                        <div class="colorChooseMenuContainer flex">
+                                            <div class="colorChooseMenuItem color1"></div>
+                                            <div class="colorChooseMenuItem color2"></div>
+                                            <div class="colorChooseMenuItem color3"></div>
+                                            <div class="colorChooseMenuItem color4"></div>
+                                            <div class="colorChooseMenuItem color5"></div>
+                                            <div class="colorChooseMenuItem color6"></div>
+                                            <div class="colorChooseMenuItem color7"></div>
+                                            <div class="colorChooseMenuItem color8"></div>
+                                            <div class="colorChooseMenuItem color9"></div>
+                                            <div class="colorChooseMenuItem color10"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>Sharing Premissions</h3>
+                            <div class="tabContainer calendarSharingInnerTabContainer">
+                                <p>Group</p>
+                                <select name="" id="" class="selectpicker">
+                                        <option value="">Diana Shurman</option>
+                                        <option value="">Firm</option>1
+                                        <option value="">Tasks</option>
+                                    </select>
+                                <p>Permission</p>
+                                <select name="" id="" class="selectpicker">
+                                        <option value="">Owner</option>
+                                        <option value="">Firm</option>
+                                        <option value="">Tasks</option>
+                                    </select>
+                            </div>
+
+
+                            <button class="selectsForTasksInner4 sharingCalendarAddButton collapsed" data-toggle="collapse" href="#addNewPremissionCalendar" role="button" aria-expanded="false" aria-controls="addNewPremissionCalendar">
+                                        <span>+</span> Add Calendar Share
+                                </button>
+                            <div class="collapse" id="addNewPremissionCalendar">
+                                <div class="tabContainer calendarSharingInnerTabContainer">
+                                    <p>Group<a href="#addNewPremissionCalendar" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="addNewPremissionCalendar">Remove Permission</a> </p>
+                                    <select name="" id="" class="selectpicker">
+                                        <option value="">Diana Shurman</option>
+                                        <option value="">Firm</option>
+                                        <option value="">Tasks</option>
+                                    </select>
+                                    <p>Permission</p>
+                                    <select name="" id="" class="selectpicker">
+                                        <option value="">Owner</option>
+                                        <option value="">Firm</option>
+                                        <option value="">Tasks</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <hr>
+                            <div>
+                                <button class="newmatter newmatter-focus" data-toggle="modal" data-target="#newMatter">Update Calendar</button>
+                                <a href="">Cancel</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="infoblock flex">
+                <button class="infiblockButton flex">
+                    <i class="fas fa-info-circle"></i>
+                    <span>INFORMATION</span>
+                </button>
+            </div>
+
+        </section>
+    </main>
+    <div class="modal fade" id="timeEntryModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog newModalStyle" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Time entry</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="timeEntryModalContainer flex">
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow">
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <label for="duration">Duration</label>
+                                </div>
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <input type="text" name="duration" placeholder="1h 12m, 1:12...">
+                                    <button class="timeKeeperButton flex" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#timeEntryModal">
+                                        <i class="fas fa-play"></i>
+                                        <p>
+                                            <span>00</span>
+                                            <span>:</span>
+                                            <span>00</span>
+                                            <span>:</span>
+                                            <span>00</span>
+                                        </p>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="category">Activity category</label>
+                                <select type="text" name="category" placeholder="Find a category" class="modalSelect2">
+                                    <option value="">category 1</option>
+                                    <option value="">category 2</option>
+                                    <option value="">category 3</option>
+                                </select>
+                            </div>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="description">Description</label>
+                                <textarea name="description" placeholder="Descript the entry"></textarea>
+                            </div>
+                        </div>
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="Matter">Matter</label>
+                                <select type="text" name="Matter" placeholder="Find a matter" class="modalSelect2">
+                                    <option value="">Matter 1</option>
+                                    <option value="">Matter 2</option>
+                                    <option value="">Matter 3</option>
+                                </select>
+                            </div>
+                            <article class="timeEntryModalContainerSubRow flex">
+                                <label for="Date">Date</label>
+                                <input type="text" name="Date" list="Date" placeholder="Find a Date" class="inputCalendarOne">
+                            </article>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="firmUser">Firm user</label>
+                                <select type="text" name="firmUser" placeholder="Find a firm user" class="modalSelect2 firmUserFieldSelect2">
+                                    <option value="">Firm User 1</option>
+                                    <option value="">Firm User 2</option>
+                                    <option value="">Firm User 3</option>    
+                                </select>
+                            </div>
+                            <div class="timeEntryModalContainerSubRowSub flex">
+                                <input type="text" name="duration" placeholder="" value="0.00" pattern="/^(?!0.*$)([0-9]{1,3}(,[0-9]{3})?(,[0-9]{3})?(\.[0-9]{2})?)$/">
+                                <span>Defaulte rate</span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer newModalFooter flex">
+                    <button type="submit" class="btn btn-default" data-dismiss="modal">save entry</button>
+                    <button type="submit" class="btn btn-primary">Save and create new</button>
+                    <button type="submit" class="btn btn-primary">Save and duplicate</button>
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="expenseEntryModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog newModalStyle" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Expence entry</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="timeEntryModalContainer flex">
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow">
+                                <label for="duration">Amount</label>
+                                <div class="currency flex">
+                                    <span>$</span>
+                                    <input type="text" name="duration" placeholder="00.0">
+                                </div>
+                            </div>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="description">Description</label>
+                                <textarea name="description" placeholder="Descript the entry"></textarea>
+                            </div>
+                        </div>
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="Matter">Matter</label>
+                                <input type="text" name="Matter" placeholder="Find a matter" class="modalSelect2">
+                            </div>
+                            <article class="timeEntryModalContainerSubRow flex">
+                                <label for="Date">Date</label>
+                                <input type="text" name="Date" list="Date" placeholder="Find a Date" class="inputCalendarTwo">
+                            </article>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="firmUser">Firm user</label>
+                                <input type="text" name="firmUser" placeholder="Find a firm user" class="modalSelect2">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer newModalFooter flex">
+                    <button type="submit" class="btn btn-default" data-dismiss="modal">save entry</button>
+                    <button type="submit" class="btn btn-primary">Save and create new</button>
+                    <button type="submit" class="btn btn-primary">Save and duplicate</button>
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="taskModal" tabindex="-1" role="dialog" aria-labelledby="taskModal">
+        <div class="modal-dialog newModalStyle" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Create task</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="timeEntryModalContainer flex">
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="taskname">Task name</label>
+                                <input type="text" name="taskname" placeholder="">
+                            </div>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="description">Description</label>
+                                <textarea name="description" placeholder="Descript the entry"></textarea>
+                            </div>
+                        </div>
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="assignee">Assignee</label>
+                                <input type="text" name="assignee" placeholder="">
+                            </div>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="Matter">Matter</label>
+                                <input type="text" name="Matter" placeholder="Find a matter">
+                            </div>
+                            <article class="timeEntryModalContainerSubRow flex">
+                                <label for="Date">Date</label>
+                                <input type="text" name="Date" list="Date" placeholder="Find a Date" class="inputCalendarThree">
+                            </article>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="time">Time</label>
+                                <input type="text" name="time" placeholder="Time">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer newModalFooter flex">
+                    <button type="submit" class="btn btn-default" data-dismiss="modal">save entry</button>
+                    <button type="submit" class="btn btn-primary">Save and create new</button>
+                    <button type="submit" class="btn btn-primary">Save and duplicate</button>
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="calendarEventModal" tabindex="-1" role="dialog" aria-labelledby="taskModal">
+        <div class="modal-dialog newModalStyle" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Create calendar event</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="timeEntryModalContainer flex">
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="taskname">Event name</label>
+                                <input type="text" name="taskname" placeholder="">
+                            </div>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="description">Description</label>
+                                <textarea name="description" placeholder="Descript the entry"></textarea>
+                            </div>
+                        </div>
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="assignee">Assignee</label>
+                                <input type="text" name="assignee" placeholder="">
+                            </div>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="Matter">Matter</label>
+                                <input type="text" name="Matter" placeholder="Find a matter" class="modalSelect2">
+                            </div>
+                            <article class="timeEntryModalContainerSubRow flex">
+                                <label for="Date">Date</label>
+                                <input type="text" name="Date" class="inputCalendarFour">
+                            </article>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="time">Time</label>
+                                <input type="text" name="time" placeholder="Time">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer newModalFooter flex">
+                    <button type="submit" class="btn btn-default" data-dismiss="modal">save entry</button>
+                    <button type="submit" class="btn btn-primary">Save and create new</button>
+                    <button type="submit" class="btn btn-primary">Save and duplicate</button>
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="calendarEventInfo" tabindex="-1" role="dialog" aria-labelledby="taskModal">
+        <div class="modal-dialog newModalStyle" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Event info</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="eventInfoContainer flex">
+                        <h3>Meet with John</h3>
+                        <div class="eventSubContainer flex">
+                            <div class="eventInfoContainerSub flex">
+                                <div class="eventDetailsRow">
+                                    <span><i class="far fa-clock"></i></span>
+                                    <span>10:00 PM</span>
+                                </div>
+                                <div class="eventDetailsRow">
+                                    <span><i class="far fa-calendar"></i></span>
+                                    <span>11.09.01</span>
+                                </div>
+                                <div class="eventDetailsRow">
+                                    <span><i class="fas fa-map-marked-alt"></i></span>
+                                    <span>World Traning Centre</span>
+                                </div>
+                            </div>
+                            <div class="eventInfoContainerSub flex">
+                                <div class="eventDetailsRow">
+                                    <span><i class="fas fa-user"></i></span>
+                                    <a href="javascript:void(0)">John Smith</a>
+                                </div>
+                                <div class="eventDetailsRow">
+                                    <span><i class="far fa-file-alt"></i></span>
+                                    <a href="javascript:void(0)">Matter #111222</a>
+                                </div>
+                                <div class="eventDetailsRow">
+                                    <span><i class="fas fa-user-tie"></i></span>
+                                    <a href="javascript:void(0)">Saul Goodman</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="eventDescription">
+                            <h4>Description</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolor quo ab magnam a asperiores impedit obcaecati, nostrum fugit totam! Doloribus atque deserunt doloremque quibusdam. Neque necessitatibus porro iusto illo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer newModalFooter flex">
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal">Delete</button>
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../libs/jquery3.2.1.js"></script>
+    <script src="../libs/bootstrap.min.js"></script>
+    <script src="../js/pickmeup.min.js"></script>
+    <script src="../js/calendar.js"></script>
+    <script src='../js/js-calendar.min.js'></script>
+    <script src='../js/daygrid-calendar.min.js'></script>
+    <script async src="../js/select2.full.min.js"></script>
+    <script async src="../js/dashboard.js"></script>
+    <script async src="../js/all.min.js"></script>
+    <script acync src="../js/charts.js"></script>
+    <!-- Latest compiled and minified CSS 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">
+-->
+    <!-- Latest compiled and minified JavaScript 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/js/bootstrap-select.min.js"></script>
+-->
+    <!-- (Optional) Latest compiled and minified JavaScript translation files
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/js/i18n/defaults-*.min.js"></script>
+ -->
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var calendarEl = document.getElementById('main-calendar');
+
+            var calendar = new FullCalendar.Calendar(calendarEl, {
+                schedulerLicenseKey: 'GPL-My-Project-Is-Open-Source',
+                plugins: ['interaction', 'dayGrid', 'timeGrid', 'resourceTimeline', 'resourceTimeGrid'],
+                defaultView: 'resourceTimeGridDay',
+                dir: 'rtl',
+                defaultDate: '2019-04-07',
+                timeZone: 'UTC',
+                header: {
+                    left: 'resourceTimeGridDay, timeGridWeek, dayGridMonth',
+                    center: '',
+                    right: 'today,title,prev,next'
+                },
+                resources: [{
+                    id: 'a',
+                    title: 'Firm'
+                }, {
+                    id: 'b',
+                    title: 'Diana Shurman'
+                }, {
+                    id: 'c',
+                    title: 'Tasks'
+                }, {
+                    id: 'd',
+                    title: 'Statue of Limitations'
+                }],
+                events: [{
+                    title: 'All Day Event',
+                    start: '2019-04-01',
+                    color: 'purple'
+                }, {
+                    title: 'Long Event',
+                    start: '2019-04-07',
+                    end: '2019-04-10'
+                }, {
+                    groupId: '999',
+                    title: 'New Meeteng today very important to do New Meeteng today very important to do New Meeteng today very important to do New Meeteng today very important to do',
+                    start: '2019-04-09T19:20:00'
+                }, {
+                    groupId: '999',
+                    title: 'Repeating Event',
+                    start: '2019-04-16T16:00:00'
+                }, {
+                    title: 'Conference',
+                    start: '2019-04-11',
+                    end: '2019-04-13',
+                    color: 'purple'
+                }, {
+                    title: 'Meeting',
+                    start: '2019-04-12T10:30:00',
+                    end: '2019-04-12T12:30:00'
+                }, {
+                    title: 'Lunch',
+                    start: '2019-04-12T12:00:00'
+                }, {
+                    title: 'Meeting',
+                    start: '2019-04-12T14:30:00',
+                    color: 'purple'
+                }, {
+                    title: 'Birthday Party',
+                    start: '2019-04-13T07:00:00'
+                }, {
+                    title: 'Click for Google',
+                    url: 'http://google.com/',
+                    start: '2019-04-28'
+                }],
+                eventClick: function(info) {
+                    var minutesDetails = info.event.start.getMinutes();
+                    if (minutesDetails < 9) {
+                        minutesDetails = '0' + minutesDetails;
+                    }
+                    var secondsDetails = info.event.start.getSeconds();
+                    if (secondsDetails < 9) {
+                        secondsDetails = '0' + secondsDetails;
+                    }
+                    $('#calendar-task-info-time').html(info.event.start.getHours() + ':' + minutesDetails + ':' + secondsDetails);
+                    var detailsMonth = info.event.start.getMonth() + 1;
+                    $('#calendar-task-info-date').html(String(info.event.start.getFullYear()) + '.' + detailsMonth + '.' + info.event.start.getDate());
+                    $('#calendar-task-info-name').html(info.event.title);
+                    $('#eventDetailInfoModal').trigger('click');
+
+
+                }
+
+
+            });
+
+            calendar.render();
+
+        });
+    </script>
+    <script>
+        $('#main-calendar').fullCalendar({
+
+        });
+    </script>
+    <script>
+        var tabs = $('.nav.nav-tabs li a');
+        $(tabs).click(function() {
+            if (event.target.id == 'calendarTabSwitch') {
+                $('.calendarTabContainer.tabContainer.flex div button').css('display', 'inline-block');
+            } else {
+                $('.calendarTabContainer.tabContainer.flex div button').css('display', 'none');
+            }
+        });
+    </script>
+    <!-- Task details modal -->
+    <div class="modal fade" id="calendarTaskInfo" tabindex="-1" role="dialog" aria-labelledby="taskModal">
+        <div class="modal-dialog newModalStyle" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Task details</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="eventInfoContainer flex">
+
+                        <div class="eventSubContainer flex">
+                            <div class="eventInfoContainerSub flex">
+                                <div class="eventDetailsRow">
+                                    <span><i class="far fa-clock"></i></span>
+                                    <span id="calendar-task-info-time"></span>
+                                </div>
+                            </div>
+                            <div class="eventInfoContainerSub flex">
+                                <div class="eventDetailsRow">
+                                    <span><i class="far fa-calendar"></i></span>
+                                    <span id="calendar-task-info-date"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="eventDescription">
+                            <h4>Title:</h4>
+                            <p id="calendar-task-info-name"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer newModalFooter flex">
+
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button data-toggle="modal" id="eventDetailInfoModal" data-target="#calendarTaskInfo" style="z-index: 1000; position: absolute; right: 0; bottom: 0;">Details</button>
+
+    <div class="modal fade" id="deleteCalendarModal" tabindex="-1" role="dialog" aria-labelledby="deleteCalendarModal">
+        <div class="modal-dialog addModalStyle" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Delete calendar</h4>
+                </div>
+                <div class="modal-body">
+                    <h3>Are you sure want to delete calendar <span>"Your calendar"</span> ?</h3>
+                </div>
+                <div class="modal-footer newModalFooter flex">
+                    <button type="submit" class="btn btn-default" data-dismiss="modal">Delete</button>
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+</html>

@@ -1,0 +1,2064 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/select2.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/fontawesome.css">
+    <link rel="stylesheet" href="../css/pickmeup.css">
+    <link rel="stylesheet" href="../css/bills.css">
+    <title>Bills</title>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript"></script>
+</head>
+
+<body>
+    <main class="flex">
+        <aside class="flex" id="sidebar">
+            <div class="mainAsideContainer flex">
+                <div class="topPartMainContainer">
+                    <div class="subAsideContainer flex">
+                        <div class="asideLogoContainer">
+                            <img src="../img/logo.png" alt="" class="toplogo">
+                        </div>
+                    </div>
+                    <div class="subAsideContainer flex">
+                        <a href="javascript:void(0)" class="sidebarItem sidebarItemActive">
+                            <i class="fas fa-home"></i>
+                            <span class="menuItemName">dashboard</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="far fa-calendar-alt"></i>
+                            <span class="menuItemName">calendar</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-list"></i>
+                            <span class="menuItemName">tasks</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-briefcase"></i>
+                            <span class="menuItemName">matters</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-users"></i>
+                            <span class="menuItemName">contacts</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i clas s="far fa-clock"></i>
+                            <span class="menuItemName">Activities</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-wallet"></i>
+                            <span class="menuItemName">Bills</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-landmark"></i>
+                            <span class="menuItemName">accounts</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-folder"></i>
+                            <span class="menuItemName">Documents</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-phone"></i>
+                            <span class="menuItemName">Communications</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-chart-bar"></i>
+                            <span class="menuItemName">Reports</span>
+                        </a>
+                        <a href="javascript:void(0)" class="sidebarItem">
+                            <i class="fas fa-cog"></i>
+                            <span class="menuItemName">Settings</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="subAsideContainer flex">
+                    <div class="userInfoBlock flex">
+                        <div class="userInfo flex">
+                            <span class="userinitials">SG</span>
+                            <span class="username menuItemName">saul Goodman</span>
+                            <div class="userInfoDetails flex">
+                                <div class="userInfoDetailsSub flex">
+                                    <h5>saul Goodman</h5>
+                                    <p>Support code: 561-407-711-9992</p>
+                                    <a href="javascript:void(0)">View profile</a>
+                                </div>
+                                <div class="userInfoDetailsSub flex">
+                                    <a href="javascript:void(0)">Referral Rewards</a>
+                                    <a href="javascript:void(0)">Sign out</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collapseButtonContainer">
+                        <div class="collapseButtonContainerSub flex" id="collapseSidebar">
+                            <span class="arrowOfCollapse">
+                                <i class="fas fa-sign-out-alt"></i>
+                                </span>
+                            <span class="menuItemName">Collapse</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <section class="mainDashboardContainer">
+            <div class="topbar flex">
+                <div class="topbarSub flex">
+                    <form action="" class="searchForm">
+                        <select name="search" type="text" class="searchInput" id="mainSearchInput" min="3" autocomplete="off" placeholder="Serach..." value=" ">
+                                <option value="" disabled selected>Search...</option>
+                                <optgroup label="Matters">
+                                    <option value="">Who killed John Kennedy</option>
+                                    <option value="">Who killed Sergey Zavorotko</option>
+                                    <option value="">Who killed John Dou</option>
+                                    <option value="">Who killed Jon Snow</option>
+                                    <option value="">Who killed Rob Stark</option>
+                                    <option value="">Who killed The Tanos</option>
+                                    <option value="">Who killed The Superman</option>
+                                    <option value="">Who killed Matt Murdock</option>
+                                    <option value="">Who killed Laura Palmer</option>
+                                    <option value="">Who killed John Lennon</option>
+                                    <option value="">Who killed Frank Castle</option>
+                                    <option value="">Who killed Poor Poo</option>
+                                    <option value="">Who killed Little bear </option>
+                                    <option value="">Who killed Gustawo Fring </option>
+                                </optgroup>
+                                <optgroup label="Contacts">
+                                    <option value="">Laura Palmer</option>
+                                    <option value="">John Kennedy</option>
+                                    <option value="">Sergey Zavorotko</option>
+                                    <option value="">John Dou</option>
+                                    <option value="">Jon Snow</option>
+                                    <option value="">Rob Stark</option>
+                                    <option value="">The Tanos</option>
+                                    <option value="">The Superman</option>
+                                    <option value="">Matt Murdock</option>
+                                    <option value="">John Lennon</option>
+                                    <option value="">Frank Castle</option>
+                                    <option value="">Poor Poo</option>
+                                    <option value="">Little bear</option>
+                                    <option value="">Papa Jo</option>
+                                    <option value="">Walter White</option>
+                                </optgroup>
+                            </select>
+                        <label for="search">
+                            <i class="fas fa-search"></i>
+                            </label>
+                    </form>
+                    <div class="dropdown">
+                        <button id="recentSearch" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="recentSearch flex">
+                            <span>Recent</span>
+                            <i class="fas fa-caret-down"></i>
+                            </button>
+                        <ul class="dropdown-menu newDropdown" aria-labelledby="recentSearch">
+                            <li class="noRecent">You don't have any recent items</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="topbarSub flex">
+                    <div class="dropdown dropDownTimeKeeper flex">
+                        <button class="timeKeeperButton flex" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#timeEntryModal">
+                                <i class="fas fa-play"></i>
+                                <p>
+                                    <span>00</span>
+                                    <span>:</span>
+                                    <span>00</span>
+                                    <span>:</span>
+                                    <span>00</span>
+                                </p>
+                            </button>
+                        <button class="timeKeeperButton flex" id="timeKeeper" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="far fa-clock"></i>
+                            </button>
+                        <ul class="dropdown-menu newDropdowntimeKeeper" aria-labelledby="timeKeeper">
+                            <div class="timeKeeperDropDownContainer flex">
+                                <div class="timeKeeperHeading flex">
+                                    <h4>Timekeeper</h4>
+                                    <span><i class="fas fa-times"></i></span>
+                                </div>
+                                <div class="timeKeeperSetting flex">
+                                    <span class="timeKeeperSettingSubContainer flex">
+                                            <div class="timeKeeperDateButtonContainer flex">
+                                                <div class="timeKeeperDateButton flex">
+                                                    <i class="fas fa-caret-left"></i>
+                                                </div>
+                                                <div class="timeKeeperDateButton flex">
+                                                    <i class="fas fa-caret-right"></i>
+                                                </div>
+                                            </div>
+                                            <span class="timeKeeperDate">Today, Dec 12, 2018</span>
+                                    </span>
+                                    <p class="timeKeeperCount">
+                                        <span>00</span>
+                                        <span>:</span>
+                                        <span>00</span>
+                                        <span>:</span>
+                                        <span>00</span>
+                                    </p>
+                                </div>
+                                <div class="recentCreatedEntries flex">
+                                    <span class="noTimeEntries">No time entries created today</span>
+                                    <button class="timeKeeperButton flex" data-toggle="modal" data-target="#timeEntryModal">
+                                            <i class="fas fa-play"></i>
+                                            <p>
+                                                <span>00</span>
+                                                <span>:</span>
+                                                <span>00</span>
+                                                <span>:</span>
+                                                <span>00</span>
+                                            </p>
+                                        </button>
+                                </div>
+                                <div class="timeKeeperButtons flex">
+                                    <button>See all time entries</button>
+                                    <button>Add time</button>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button class="createNewButoon flex" id="createNew" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-plus-circle"></i>
+                            <span>Create new</span>
+                            <i class="fas fa-caret-down"></i>
+                            </button>
+                        <ul class="dropdown-menu createNewDropdown " aria-labelledby="createNew">
+                            <li><a href="javascript:void(0)" data-toggle="modal" data-target="#timeEntryModal">Time Entry</a></li>
+                            <li><a href="javascript:void(0)" data-toggle="modal" data-target="#expenseEntryModal">Expence Entry</a></li>
+                            <li><a href="javascript:void(0)">Task</a></li>
+                            <li><a href="javascript:void(0)">Person</a></li>
+                            <li><a href="javascript:void(0)">Company</a></li>
+                            <li><a href="javascript:void(0)">Matter</a></li>
+                            <li><a href="javascript:void(0)">Record payment</a></li>
+                            <li><a href="javascript:void(0)">Trust Request</a></li>
+                            <li><a href="javascript:void(0)">Email Log</a></li>
+                            <li><a href="javascript:void(0)">Phone Log</a></li>
+                            <li><a href="javascript:void(0)">Secure message</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="headingContainerMatters flex">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation"><a href="#all2" aria-controls="all2" role="tab" data-toggle="tab">Billable Clients</a></li>
+                    <li role="presentation"><a href="#all3" aria-controls="all3" role="tab" data-toggle="tab">Statements of Account</a></li>
+                    <li role="presentation" class="active"><a href="#all1" aria-controls="all1" role="tab" data-toggle="tab">Bills</a></li>
+                    <li role="presentation"><a href="#all4" aria-controls="all4" role="tab" data-toggle="tab">Export Transactions</a></li>
+                </ul>
+                <div>
+                    <button class="newmatter billsTopButton" data-toggle="modal" data-target="#newTrustRequest">New trust Request</button>
+                    <button class="setupTarget" data-toggle="modal" data-target="#recordPaymentModal">Record Payment</button>
+                </div>
+            </div>
+            <div class="tab-content tabContent flex">
+                <div role="tabpanel" class="tab-pane fade in active" id="all1">
+                    <div class="tabContainer tabContainerMatters flex">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#draft" aria-controls="draft" role="tab" data-toggle="tab">Draft</a></li>
+                            <li role="presentation"><a href="#approval" aria-controls="approval" role="tab" data-toggle="tab">Pending approval</a></li>
+                            <li role="presentation"><a href="#payment" aria-controls="payment" role="tab" data-toggle="tab">Awaiting payment</a></li>
+                            <li role="presentation"><a href="#paid" aria-controls="paid" role="tab" data-toggle="tab">Paid</a></li>
+                            <li role="presentation"><a href="#all" aria-controls="all" role="tab" data-toggle="tab">All</a></li>
+                        </ul>
+                        <div class="headingContainerFilter flex">
+                            <input type="text" placeholder="Filter by keyword">
+                            <div class="dropdown">
+                                <button type="button" id="columns" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="billsHeadingRightButtons"> 
+                                    <span>Columns</span> 
+                                    <i class="fas fa-caret-down"></i>
+                                    </button>
+                                <ul class="dropdown-menu columnsDropDown" aria-labelledby="columns">
+                                    <li>
+                                        <label class="columnShowCheckBoxLabel" for="actions">
+                                            <input type="checkbox" class="selectColumn" id="actions" checked>Actions
+                                            </label>
+                                    </li>
+                                    <li>
+                                        <label class="columnShowCheckBoxLabel" for="matter">
+                                            <input type="checkbox" class="selectColumn" id="matter" checked>Matter
+                                            </label>
+                                    </li>
+                                    <li>
+                                        <label class="columnShowCheckBoxLabel" for="client">
+                                            <input type="checkbox" class="selectColumn" id="client" checked>Client
+                                            </label>
+                                    </li>
+                                    <li>
+                                        <label class="columnShowCheckBoxLabel" for="responsibleSolicitor">
+                                            <input type="checkbox" class="selectColumn" id="responsibleSolicitor" checked>Responsible solicitor
+                                            </label>
+                                    </li>
+                                    <li>
+                                        <label class="columnShowCheckBoxLabel" for="originatingSolictor">
+                                            <input type="checkbox" class="selectColumn" id="originatingSolictor" checked>Originating solictor
+                                            </label>
+                                    </li>
+                                    <li>
+                                        <label class="columnShowCheckBoxLabel" for="practiceArea">
+                                            <input type="checkbox" class="selectColumn" id="practiceArea" checked>Practice Area
+                                            </label>
+                                    </li>
+                                    <li>
+                                        <label class="columnShowCheckBoxLabel" for="openDate">
+                                            <input type="checkbox" class="selectColumn" id="openDate" checked>Open date
+                                            </label>
+                                    </li>
+                                    <li>
+                                        <label class="columnShowCheckBoxLabel" for="pendingDate">
+                                            <input type="checkbox" class="selectColumn" id="pendingDate" checked>Pending date
+                                            </label>
+                                    </li>
+                                    <li>
+                                        <label class="columnShowCheckBoxLabel" for="statueOfLimitations">
+                                            <input type="checkbox" class="selectColumn" id="statueOfLimitations" checked>Statue of limitations date
+                                            </label>
+                                    </li>
+                                    <li><button class="redButton">Update Columns</button></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <button data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" class="billsHeadingRightButtons"> <span>Filters</span> <i class="fas fa-caret-down"></i></button>
+                                <div class="dropdown-menu dropdownFiltersMatters">
+                                    <form class="dropdownFiltersMattersSub flex">
+                                        <div class="dropdownFiltersMattersSubTop flex">
+                                            <div class="dropdownFiltersMattersSubTopSub flex">
+                                                <label for="clientFilter" class="filterLabel flex">
+                                                        <span>Client</span>
+                                                        <select id="clientFilter">
+                                                            <option value="option" disabled selected>option</option>
+                                                            <option value="option">option</option>
+                                                            <option value="option">option</option>
+                                                        </select>
+                                                    </label>
+                                                <label for="responsibleSolictorFilter" class="filterLabel flex">
+                                                        <span>Responsible solictor</span>
+                                                        <select id="responsibleSolictorFilter">
+                                                            <option value="option" disabled selected>option</option>
+                                                            <option value="option">option</option>
+                                                            <option value="option">option</option>
+                                                        </select>
+                                                    </label>
+                                                <label for="originatingSolicitorFilter" class="filterLabel flex">
+                                                        <span>Originating solicitor</span>
+                                                        <select id="originatingSolicitorFilter">
+                                                            <option value="option" disabled selected>option</option>
+                                                            <option value="option">option</option>
+                                                            <option value="option">option</option>
+                                                        </select>
+                                                    </label>
+                                                <label for="statusDateFilter" class="filterLabel flex">
+                                                        <span>Status date</span>
+                                                        <select id="statusDateFilter">
+                                                            <option value="option" disabled selected>Pending</option>
+                                                            <option value="option">option</option>
+                                                            <option value="option">option</option>
+                                                        </select>
+                                                        <select id="statusDateFilterTwo">
+                                                            <option value="option" disabled selected>Close</option>
+                                                            <option value="option">option</option>
+                                                            <option value="option">option</option>
+                                                        </select>
+                                                    </label>
+                                            </div>
+                                            <div class="dropdownFiltersMattersSubTopSub flex">
+                                                <label for="billableStatus" class="filterLabel flex">
+                                                        <span>Billable Status</span>
+                                                        <select id="billableStatus">
+                                                            <option value="option" disabled selected>option</option>
+                                                            <option value="option">option</option>
+                                                            <option value="option">option</option>
+                                                        </select>
+                                                    </label>
+                                                <label for="permissions" class="filterLabel flex">
+                                                        <span>Permissions</span>
+                                                        <select id="permissions">
+                                                            <option value="option" disabled selected>option</option>
+                                                            <option value="option">option</option>
+                                                            <option value="option">option</option>
+                                                        </select>
+                                                    </label>
+                                                <label for="practiceArea" class="filterLabel flex">
+                                                        <span>Practice Area</span>
+                                                        <select id="practiceArea">
+                                                            <option value="option" disabled selected>option</option>
+                                                            <option value="option">option</option>
+                                                            <option value="option">option</option>
+                                                        </select>
+                                                    </label>
+                                                <label for="">
+                                                        <div class="labelSubContainer flex">
+                                                            <select name="" id="">
+                                                                <option value="">before</option>
+                                                                <option value="">after</option>
+                                                            </select>
+                                                            <input type="text" class="inputCalendarOne ddCalFilterMatters" placeholder="Enter filter date">
+                                                        </div>
+                                                        <div class="labelSubContainer flex">
+                                                            <select name="" id="">
+                                                                <option value="">before</option>
+                                                                <option value="">after</option>
+                                                            </select>
+                                                            <input type="text" class="inputCalendarTwo ddCalFilterMatters" placeholder="Enter filter date">
+                                                        </div>
+                                                    </label>
+                                            </div>
+                                        </div>
+                                        <div class="dropdownFiltersMattersSubBottom flex">
+                                            <div class="dropdownFiltersMattersSubBottomButtons flex">
+                                                <button class="redButton" type="submit">Apply filters</button>
+                                                <button type="reset">Clear filters</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content tabContent flex">
+                        <div role="tabpanel" class="tab-pane fade in active" id="draft">
+                            <div class="mattersContainer flex">
+                                <div class="matterContainerTop flex">
+                                    <div class="matterColumn">Actions</div>
+                                    <div class="matterColumn">Matter</div>
+                                    <div class="matterColumn">Client</div>
+                                    <div class="matterColumn">Responsible solicitor</div>
+                                    <div class="matterColumn">Originating solictor</div>
+                                    <div class="matterColumn">Practice Area</div>
+                                    <div class="matterColumn">Open date</div>
+                                    <div class="matterColumn">Pending date</div>
+                                    <div class="matterColumn">Statue of limitations date
+                                    </div>
+                                </div>
+                                <div class="matterContainerMiddle flex">
+                                    <a href="javascript:void(0)" class="matterRow flex">
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                    </a>
+                                    <a href="javascript:void(0)" class="matterRow flex">
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                    </a>
+                                    <a href="javascript:void(0)" class="matterRow flex">
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                    </a>
+                                    <a href="javascript:void(0)" class="matterRow flex">
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                    </a>
+                                    <a href="javascript:void(0)" class="matterRow flex">
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                    </a>
+                                    <a href="javascript:void(0)" class="matterRow flex">
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                    </a>
+                                    <a href="javascript:void(0)" class="matterRow flex">
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                    </a>
+                                    <a href="javascript:void(0)" class="matterRow flex">
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                    </a>
+                                    <a href="javascript:void(0)" class="matterRow flex">
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                    </a>
+                                    <a href="javascript:void(0)" class="matterRow flex">
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                    </a>
+                                    <a href="javascript:void(0)" class="matterRow flex">
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                    </a>
+                                    <a href="javascript:void(0)" class="matterRow flex">
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                    </a>
+                                    <a href="javascript:void(0)" class="matterRow flex">
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                    </a>
+                                    <a href="javascript:void(0)" class="matterRow flex">
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                    </a>
+                                    <a href="javascript:void(0)" class="matterRow flex">
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                        <div class="matterRowCol">Lorem Ipsum</div>
+                                    </a>
+
+                                </div>
+                                <div class="matterContainerBottom flex">
+                                    <ul class="pager newPager">
+                                        <li class="previous"><a href="javascript:void(0)"><i class="fas fa-caret-left"></i></a></li>
+                                        <li class="next"><a href="javascript:void(0)"><i class="fas fa-caret-right"></i></a></li>
+                                    </ul>
+                                    <p><span>No</span> results found</p>
+                                    <div class="mattersResultPerPage flex">
+                                        <select name="" id="numResults">
+                                                <option value="10">10</option>
+                                                <option value="25">25</option>
+                                                <option value="50">50</option>
+                                                <option value="75">75</option>
+                                                <option value="100">100</option>
+                                                <option value="150">150</option>
+                                            </select>
+                                        <p>results per page</p>
+                                    </div>
+                                    <button class="exportMatters">Export</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="approval">
+
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="payment">
+
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="paid">
+
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="all">
+
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="all2">
+                    <div class="tabContainer tabContainerBills flex">
+                        <button class="flex tabContainerBills" type="button" data-toggle="collapse" data-target="#collapseFilter" aria-expanded="false" aria-controls="collapseFilter">
+                            <span>Filter</span>
+                            <i class="fas fa-caret-down"></i>
+                        </button>
+                    </div>
+                    <div class="tabContainer">
+                        <span class="collapse" id="collapseFilter">
+                            <div class="billsClientsFormCOntainer">
+                                <div class="billsClientsFormInner">
+                                    <strong>Client</strong>
+                                    <input type="text" placeholder="Find a contact" class="BillableClientsSelect2">
+                                </div>
+                                <div class="billsClientsFormInner">
+                                    <strong>Matter</strong>
+                                    <input type="text" placeholder="Find a Matter" class="BillableClientsSelect2">
+                                </div>
+                                <div class="billsClientsFormInner">
+                                    <strong>Responsible Solicitor</strong>
+                                    <input type="text" placeholder="Find a firm user" class="BillableClientsSelect2">
+                                </div>
+                                <div class="billsClientsFormInner">
+                                    <strong>Orginating Solicitor</strong>
+                                    <input type="text" placeholder="Find a firm user" class="BillableClientsSelect2">
+                                </div>
+                                <div class="billsClientsFormInner">
+                                    <strong>Activities Date Range From</strong>
+                                    <input type="text" placeholder="DD/MM/YYYY" id="dateRangeBillsOne">
+                                    <div class="billsCalendarIcons">
+                                        <i class="far fa-calendar"></i>
+                                    </div>
+                                </div>
+                                <div class="billsClientsFormInner">
+                                    <strong>Activities Date Range To</strong>
+                                    <input type="text" placeholder="DD/MM/YYYY" id="dateRangeBillsTwo">
+                                    <div class="billsCalendarIcons">
+                                        <i class="far fa-calendar"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </span>
+                        <div class="billsClientsFormCOntainer flex bilssClientsFormAds">
+                            <div class="billsClientsFormInner flex">
+                                <strong>Search</strong>
+                                <div class="billsClientsFormInnerSub flex">
+                                    <span>
+                                        <input type="text" placeholder="Enter search term">
+                                        <button class="newmatter billsTopButton billsBottomSearchButton" data-toggle="modal" data-target="#newTrustRequest">Search</button>
+                                    </span>
+                                    <button class="newmatter billsTopButton billsBottomGenerateButton" data-toggle="modal" data-target="#generateInvoice">Generate Invoice</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabContainer tabContainerBills flex">
+                        <div class="billsClientsResultsContainer">
+                            <div class="billsClientsResults billsClientsResultsHeading">
+                                <strong>Name</strong>
+                                <div>
+                                    <strong>Unbilled Hours</strong>
+                                    <strong>Amount Due</strong>
+                                    <strong>Amount in Trust</strong>
+                                </div>
+                            </div>
+                            <div class="billsClientsResults">
+                                <span>Nothing to bill</span>
+                                <div>
+                                    <strong>-</strong>
+                                    <strong>-</strong>
+                                    <strong>-</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="all3">
+                    <div class="tabContainer">
+                        <div class="billsClientsFormCOntainer billsStatementsContainer">
+                            <div class="billsClientsFormInner">
+                                <strong>Filters</strong>
+                                <label for="" class="billsCheckboxLabels">
+                                    <input type="checkbox">
+                                    <span>Show clients with zero balance</span>
+                                </label>
+                                <label for="" class="billsCheckboxLabels">
+                                    <input type="checkbox">
+                                    <span>Show unbilled clients with funds in Trust or Operating account</span>
+                                </label>
+                                <label class="billsRadioButtonsContainers">
+                                    <input type="radio">
+                                    <span>All clients</span>
+                                </label>
+                                <label class="billsRadioButtonsContainers">
+                                    <input type="radio">
+                                    <span>Specific Client</span>
+                                </label>
+                                <label class="billsRadioButtonsContainers">
+                                    <input type="radio">
+                                    <span>Responsible Attorney</span>
+                                </label>
+                                <label for="" class="billsSelectsLabels">
+                                    <strong>Group results By</strong>
+                                    <select name="" id="">
+                                        <option value="">Responsible Solictor</option>
+                                        <option value="">Client</option>
+                                    </select>
+                                </label>
+                            </div>
+                            <div class="billsClientsFormInner">
+                                <strong>Matter Information</strong>
+                                <label for="" class="billsCheckboxLabels">
+                                    <input type="checkbox">
+                                    <span>Include matter information (separate invoices by matter)</span>
+                                </label>
+                                <label for="" class="billsSelectsLabels">
+                                    <strong>Select Date Range </strong>
+                                    <select name="" id="">
+                                        <option value="">All dates</option>
+                                        <option value="">This year</option>
+                                        <option value="">This quarter</option>
+                                        <option value="">This month</option>
+                                        <option value="">This week (Mon - Sun)</option>
+                                        <option value="">Today</option>
+                                    </select>
+                                </label>
+                            </div>
+                            <div class="billsClientsFormInner">
+                                <strong>Account Balances</strong>
+                                <label for="" class="billsCheckboxLabels">
+                                    <input type="checkbox">
+                                    <span>Show clients trust balance</span>
+                                </label>
+                                <label for="" class="billsCheckboxLabels">
+                                    <input type="checkbox">
+                                    <span>Show client operating balance</span>
+                                </label>
+                                <label for="" class="billsSelectsLabels">
+                                    <strong>Bill Theme</strong>
+                                    <select name="" id="">
+                                        <option value="">Client</option>
+                                        <option value="">Responsible Solictor</option>
+                                        <option value="">Test</option>
+                                    </select>
+                                </label>
+                                <label for="" class="billsSelectsLabels">
+                                    <strong>Format</strong>
+                                    <select name="" id="">
+                                        <option value="">PDF</option>
+                                    </select>
+                                </label>
+                            </div>
+                            <div class="billsClientsFormInner">
+                                <button class="setupTarget" data-toggle="modal" data-target="#newMatter">Record Payment</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="all4">
+                    <div class="tabContainer">
+                        <div class="billsClientsFormCOntainer billsStatementsContainer billsTransactionsContainer">
+                            <div class="billsClientsFormInner">
+                                <strong>Date Range </strong>
+                                <label class="billsRadioButtonsContainers">
+                                    <input type="radio">
+                                    <span>All transactions across all dates</span>
+                                </label>
+                                <label class="billsRadioButtonsContainers billsMoreInputsContainer">
+                                    <input type="radio">
+                                    <span>From</span>
+                                    <div class="billsMoreInputsContainerInner">
+                                        <div class="billsCalendarIcons">
+    <i class="far fa-calendar"></i>
+                                        </div>
+                                        <input type="text" placeholder="dd/mm/yyyy" id="dateRangeBillsThree">
+                                    </div>
+                                    <div class="billsMoreInputsContainerInner">
+                                        <div class="billsCalendarIcons">
+    <i class="far fa-calendar"></i>
+                                        </div>
+                                        <input type="text" placeholder="dd/mm/yyyy" id="dateRangeBillsFour">
+                                    </div>
+                                </label>
+                                <strong class="billsTransactionsSubHeading">Export Format</strong>
+                                <p>You may also want to view your <a href="">Quickbooks Export Options.</a></p>
+                                <label for="" class="billsSelectsLabels">
+                                    <strong>Format</strong>
+                                    <select name="" id="">
+                                        <option value="">Quickbooks IIF</option>
+                                        <option value="">Client</option>
+                                        <option value="">Client</option>
+                                        <option value="">Client</option>
+                                        <option value="">Client</option>
+                                    </select>
+                                </label>
+                            </div>
+                            <div class="billsTransactionsButtonContainer">
+                                <button class="newmatter newmatter-focus" data-toggle="modal" data-target="#newMatter">Export Bills</button>
+                                <a href="">Cancel</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="infoblock flex">
+                <button class="infiblockButton flex">
+                    <i class="far fa-file-alt"></i>
+                    <span>INFORMATION</span>
+                    </button>
+            </div>
+        </section>
+    </main>
+    <div class="modal fade sendInInvitation newTrustRequestModal" id="newTrustRequest" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog newModalStyle" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">New Trust Request</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="timeEntryModalContainer flex">
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow">
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <label for="duration">Issue Date <span>required</span></label>
+                                </div>
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <input type="text" id="newTrustDateOne">
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow">
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <label for="duration">Due date <span>required</span></label>
+                                </div>
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <input type="text" id="newTrustDateTwo">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeEntryModalContainer flex">
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow">
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <label for="duration">Client <span>required</span></label>
+                                </div>
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <select class="settingsSelect">
+                                            <option value="">Martin</option>
+                                            <option value="">Kevin</option>
+                                            <option value="">Paul</option>
+                                        </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow">
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <label for="duration">Balance Type</label>
+                                </div>
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <input type="text" placeholder="Client" class="settingsSelect">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeEntryModalContainer flex">
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow">
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <label for="duration">Matter <span>required</span></label>
+                                </div>
+                                <div class="billsSelects flex">
+                                    <select name="" id="" class="settingsSelect">
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow">
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <label for="duration">Amount <span>required</span></label>
+                                </div>
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <input type="text" placeholder="00.00">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeEntryModalContainerSub sendInInvitationTimes flex billsTransactionsAmountContainer">
+
+                    <button class="selectsForTasksInner4 sharingCalendarAddButton" id="billsAddTextarea">
+                                <span>+</span> Add note
+                        </button>
+
+                </div>
+                <div class="billsTransactionsCheckboxContainer flex">
+                    <input type="checkbox" class=""><span>Skip the trust request approval process</span>
+                </div>
+                <div class="signOutModalBottom flex">
+                    <div>
+                        <button class="newmatter newmatter-focus" data-toggle="#" data-target="#">Create trust Request</button>
+                        <a href="javascript:void(0)">Cancel</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade sendInInvitation newTrustRequestModal billsRecordPaymentModal" id="recordPaymentModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog newModalStyle" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">New Record Payment</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="timeEntryModalContainer flex">
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow">
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <label for="duration">Client<span>required</span></label>
+                                </div>
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <select class="billsSelects">
+                                        <option value="">Martin</option>
+                                        <option value="">Kevin</option>
+                                        <option value="">Paul</option>
+                                    </select>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow">
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <label for="duration">Source <span>required</span></label>
+                                </div>
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <input type="text" placeholder="Select payment source">
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="timeEntryModalContainer flex">
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow">
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <label for="duration">Payment date<span>required</span></label>
+                                </div>
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <input type="text" placeholder="Select permission" id="recordPaymentModalCal">
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow">
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <label for="duration">Destination<span>required</span></label>
+                                </div>
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <input type="text" placeholder="Select destination account">
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="timeEntryModalContainer flex">
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow">
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <label for="duration">Reference</label>
+                                </div>
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <input type="text" placeholder="Enter a checking or reference #here">
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-body record-modal-body-list">
+                    <div class="tabContainer record-modal-body-heading">
+                        <div class="recordModalBodyItemsHeader flex">
+                            <div class="recordModalBodyItemsHeaderSub flex">
+                                <p>Trust request #
+                                    <a href="javascript:void(0)">
+                                        <a href="javascript:void(0)">412</a>
+                                    </a>from <a href="javascript:void(0)">Adam Sandler</a>
+                                </p>
+                            </div>
+                            <div class="recordModalBodyItemsHeaderSub flex">
+                                <div class="recordModalBodyItemsHeaderSubSub flex">
+                                    <span>Total payment</span>
+                                    <span>$ 1194.44</span>
+                                </div>
+
+                                <div class="recordModalBodyItemsHeaderSubSub flex">
+                                    <label for="paymentAmountRecord">
+                                            <span>Payment Amount</span>
+                                            <input type="text" id="paymentAmountRecord">
+                                        </label>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="recordModalBodyItemsHeaderSecond flex">
+                            <div class="recordModalBodyItemsHeaderSecondItem flex">Matter</div>
+                            <div class="recordModalBodyItemsHeaderSecondItem flex">Issue Date</div>
+                            <div class="recordModalBodyItemsHeaderSecondItem flex">Due Date</div>
+                            <div class="recordModalBodyItemsHeaderSecondItem flex">Open Balance</div>
+                            <div class="recordModalBodyItemsHeaderSecondItem flex">Payment</div>
+                        </div>
+                        <div class="recordModalBodyItem flex">
+                            <div class="recordModalBodyItemSub flex">
+                                <a href="javascript:void(0)">
+                                    #21346
+                                </a>
+                            </div>
+                            <div class="recordModalBodyItemSub flex">22.02.2012</div>
+                            <div class="recordModalBodyItemSub flex">22.02.2020</div>
+                            <div class="recordModalBodyItemSub flex">$1.500</div>
+                            <div class="recordModalBodyItemSub flex">
+                                <label for="paymentAmountRecord">
+                                    <input type="text" id="paymentAmountRecord">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="recordModalBodyItem flex">
+                            <div class="recordModalBodyItemSub flex">
+                                <a href="javascript:void(0)">
+                                    #21346
+                                </a>
+                            </div>
+                            <div class="recordModalBodyItemSub flex">22.02.2012</div>
+                            <div class="recordModalBodyItemSub flex">22.02.2020</div>
+                            <div class="recordModalBodyItemSub flex">$1.500</div>
+                            <div class="recordModalBodyItemSub flex">
+                                <label for="paymentAmountRecord">
+                                    <input type="text" id="paymentAmountRecord">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="recordModalBodyItem flex">
+                            <div class="recordModalBodyItemSub flex">
+                                <a href="javascript:void(0)">
+                                    #21346
+                                </a>
+                            </div>
+                            <div class="recordModalBodyItemSub flex">22.02.2012</div>
+                            <div class="recordModalBodyItemSub flex">22.02.2020</div>
+                            <div class="recordModalBodyItemSub flex">$1.500</div>
+                            <div class="recordModalBodyItemSub flex">
+                                <label for="paymentAmountRecord">
+                                    <input type="text" id="paymentAmountRecord">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="recordModalBodyItem flex">
+                            <div class="recordModalBodyItemSub flex">
+                                <a href="javascript:void(0)">
+                                    #21346
+                                </a>
+                            </div>
+                            <div class="recordModalBodyItemSub flex">22.02.2012</div>
+                            <div class="recordModalBodyItemSub flex">22.02.2020</div>
+                            <div class="recordModalBodyItemSub flex">$1.500</div>
+                            <div class="recordModalBodyItemSub flex">
+                                <label for="paymentAmountRecord">
+                                    <input type="text" id="paymentAmountRecord">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="recordModalBodyItem flex">
+                            <div class="recordModalBodyItemSub flex">
+                                <a href="javascript:void(0)">
+                                    #21346
+                                </a>
+                            </div>
+                            <div class="recordModalBodyItemSub flex">22.02.2012</div>
+                            <div class="recordModalBodyItemSub flex">22.02.2020</div>
+                            <div class="recordModalBodyItemSub flex">$1.500</div>
+                            <div class="recordModalBodyItemSub flex">
+                                <label for="paymentAmountRecord">
+                                    <input type="text" id="paymentAmountRecord">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="recordModalBodyItem flex">
+                            <div class="recordModalBodyItemSub flex">
+                                <a href="javascript:void(0)">
+                                    #21346
+                                </a>
+                            </div>
+                            <div class="recordModalBodyItemSub flex">22.02.2012</div>
+                            <div class="recordModalBodyItemSub flex">22.02.2020</div>
+                            <div class="recordModalBodyItemSub flex">$1.500</div>
+                            <div class="recordModalBodyItemSub flex">
+                                <label for="paymentAmountRecord">
+                                    <input type="text" id="paymentAmountRecord">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="recordModalBodyItem flex">
+                            <div class="recordModalBodyItemSub flex">
+                                <a href="javascript:void(0)">
+                                    #21346
+                                </a>
+                            </div>
+                            <div class="recordModalBodyItemSub flex">22.02.2012</div>
+                            <div class="recordModalBodyItemSub flex">22.02.2020</div>
+                            <div class="recordModalBodyItemSub flex">$1.500</div>
+                            <div class="recordModalBodyItemSub flex">
+                                <label for="paymentAmountRecord">
+                                    <input type="text" id="paymentAmountRecord">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="recordModalBodyItem flex">
+                            <div class="recordModalBodyItemSub flex">
+                                <a href="javascript:void(0)">
+                                    #21346
+                                </a>
+                            </div>
+                            <div class="recordModalBodyItemSub flex">22.02.2012</div>
+                            <div class="recordModalBodyItemSub flex">22.02.2020</div>
+                            <div class="recordModalBodyItemSub flex">$1.500</div>
+                            <div class="recordModalBodyItemSub flex">
+                                <label for="paymentAmountRecord">
+                                    <input type="text" id="paymentAmountRecord">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="recordModalBodyItem flex">
+                            <div class="recordModalBodyItemSub flex">
+                                <a href="javascript:void(0)">
+                                    #21346
+                                </a>
+                            </div>
+                            <div class="recordModalBodyItemSub flex">22.02.2012</div>
+                            <div class="recordModalBodyItemSub flex">22.02.2020</div>
+                            <div class="recordModalBodyItemSub flex">$1.500</div>
+                            <div class="recordModalBodyItemSub flex">
+                                <label for="paymentAmountRecord">
+                                    <input type="text" id="paymentAmountRecord">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="recordModalBodyItem flex">
+                            <div class="recordModalBodyItemSub flex">
+                                <a href="javascript:void(0)">
+                                    #21346
+                                </a>
+                            </div>
+                            <div class="recordModalBodyItemSub flex">22.02.2012</div>
+                            <div class="recordModalBodyItemSub flex">22.02.2020</div>
+                            <div class="recordModalBodyItemSub flex">$1.500</div>
+                            <div class="recordModalBodyItemSub flex">
+                                <label for="paymentAmountRecord">
+                                    <input type="text" id="paymentAmountRecord">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="billsRecordPaymentSub">
+                            <div>
+                                <strong>Description</strong>
+                                <textarea name="" id=""></textarea>
+                            </div>
+                            <div>
+                                <strong>Write offs</strong>
+                                <p>-</p>
+                            </div>
+                        </div>
+                        <div class="billsRecordPaymentSub tabContainer billsRecordPaymentSubNext">
+                            <strong>Summery</strong>
+                            <div>
+                                <div>
+                                    <strong>Payments:</strong>
+                                    <p>—</p>
+                                </div>
+                                <div>
+                                    <strong>Write offs:</strong>
+                                    <p>—</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="signOutModalBottom flex">
+                    <div>
+                        <button class="newmatter newmatter-focus" data-toggle="#" data-target="#">Save Matter</button>
+                        <a href="javascript:void(0)">Cancel</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="timeEntryModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog newModalStyle" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Time entry</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="timeEntryModalContainer flex">
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow">
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <label for="duration">Duration</label>
+                                </div>
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <input type="text" name="duration" placeholder="1h 12m, 1:12...">
+                                    <button class="timeKeeperButton flex" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#timeEntryModal">
+                                            <i class="fas fa-play"></i>
+                                            <p>
+                                                <span>00</span>
+                                                <span>:</span>
+                                                <span>00</span>
+                                                <span>:</span>
+                                                <span>00</span>
+                                            </p>
+                                        </button>
+                                </div>
+                            </div>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="category">Activity category</label>
+                                <select type="text" name="category" placeholder="Find a category" class="modalSelect2">
+                                        <option value="">category 1</option>
+                                        <option value="">category 2</option>
+                                        <option value="">category 3</option>
+                                    </select>
+                            </div>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="description">Description</label>
+                                <textarea name="description" placeholder="Descript the entry"></textarea>
+                            </div>
+                        </div>
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="Matter">Matter</label>
+                                <select type="text" name="Matter" placeholder="Find a matter" class="modalSelect2">
+                                        <option value="">Matter 1</option>
+                                        <option value="">Matter 2</option>
+                                        <option value="">Matter 3</option>
+                                    </select>
+                            </div>
+                            <article class="timeEntryModalContainerSubRow flex">
+                                <label for="Date">Date</label>
+                                <input type="text" name="Date" list="Date" placeholder="Find a Date" class="inputCalendar">
+                            </article>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="firmUser">Firm user</label>
+                                <select type="text" name="firmUser" placeholder="Find a firm user" class="modalSelect2">
+                                        <option value="">Firm User 1</option>
+                                        <option value="">Firm User 2</option>
+                                        <option value="">Firm User 3</option>
+                                    </select>
+                            </div>
+                            <div class="timeEntryModalContainerSubRowSub flex">
+                                <input type="text" name="duration" placeholder="" value="0.00" pattern="/^(?!0.*$)([0-9]{1,3}(,[0-9]{3})?(,[0-9]{3})?(\.[0-9]{2})?)$/">
+                                <span>Defaulte rate</span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer newModalFooter flex">
+                    <button type="submit" class="btn btn-default" data-dismiss="modal">save entry</button>
+                    <button type="submit" class="btn btn-primary">Save and create new</button>
+                    <button type="submit" class="btn btn-primary">Save and duplicate</button>
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="expenseEntryModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog newModalStyle" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Expence entry</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="timeEntryModalContainer flex">
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow">
+                                <label for="duration">Amount</label>
+                                <div class="currency flex">
+                                    <span>$</span>
+                                    <input type="text" name="duration" placeholder="00.0">
+                                </div>
+                            </div>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="description">Description</label>
+                                <textarea name="description" placeholder="Descript the entry"></textarea>
+                            </div>
+                        </div>
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="Matter">Matter</label>
+                                <input type="text" name="Matter" placeholder="Find a matter" class="modalSelect2">
+                            </div>
+                            <article class="timeEntryModalContainerSubRow flex">
+                                <label for="Date">Date</label>
+                                <input type="text" name="Date" list="Date" placeholder="Find a Date" class="inputCalendar">
+                            </article>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="firmUser">Firm user</label>
+                                <input type="text" name="firmUser" placeholder="Find a firm user" class="modalSelect2">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer newModalFooter flex">
+                    <button type="submit" class="btn btn-default" data-dismiss="modal">save entry</button>
+                    <button type="submit" class="btn btn-primary">Save and create new</button>
+                    <button type="submit" class="btn btn-primary">Save and duplicate</button>
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="taskModal" tabindex="-1" role="dialog" aria-labelledby="taskModal">
+        <div class="modal-dialog newModalStyle" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Create task</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="timeEntryModalContainer flex">
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="taskname">Task name</label>
+                                <input type="text" name="taskname" placeholder="">
+                            </div>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="description">Description</label>
+                                <textarea name="description" placeholder="Descript the entry"></textarea>
+                            </div>
+                        </div>
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="assignee">Assignee</label>
+                                <input type="text" name="assignee" placeholder="">
+                            </div>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="Matter">Matter</label>
+                                <input type="text" name="Matter" placeholder="Find a matter">
+                            </div>
+                            <article class="timeEntryModalContainerSubRow flex">
+                                <label for="Date">Date</label>
+                                <input type="text" name="Date" list="Date" placeholder="Find a Date" class="inputCalendar">
+                            </article>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="time">Time</label>
+                                <input type="text" name="time" placeholder="Time">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer newModalFooter flex">
+                    <button type="submit" class="btn btn-default" data-dismiss="modal">save entry</button>
+                    <button type="submit" class="btn btn-primary">Save and create new</button>
+                    <button type="submit" class="btn btn-primary">Save and duplicate</button>
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="calendarEventModal" tabindex="-1" role="dialog" aria-labelledby="taskModal">
+        <div class="modal-dialog newModalStyle" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Create calendar event</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="timeEntryModalContainer flex">
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="taskname">Event name</label>
+                                <input type="text" name="taskname" placeholder="">
+                            </div>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="description">Description</label>
+                                <textarea name="description" placeholder="Descript the entry"></textarea>
+                            </div>
+                        </div>
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="assignee">Assignee</label>
+                                <input type="text" name="assignee" placeholder="">
+                            </div>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="Matter">Matter</label>
+                                <input type="text" name="Matter" placeholder="Find a matter" class="modalSelect2">
+                            </div>
+                            <article class="timeEntryModalContainerSubRow flex">
+                                <label for="Date">Date</label>
+                                <input type="text" name="Date" placeholder="Find a Date" class="inputCalendar">
+                            </article>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="time">Time</label>
+                                <input type="text" name="time" placeholder="Time">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer newModalFooter flex">
+                    <button type="submit" class="btn btn-default" data-dismiss="modal">save entry</button>
+                    <button type="submit" class="btn btn-primary">Save and create new</button>
+                    <button type="submit" class="btn btn-primary">Save and duplicate</button>
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="addTemplate" tabindex="-1" role="dialog" aria-labelledby="taskModal">
+        <div class="modal-dialog addModalStyle" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Add Document Template</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="addForm flex">
+                        <div class="addModalStyleRow flex">
+                            <div class="addModalStyleRowSub flex">
+                                <label for="taskname">File</label>
+                                <a href="javascript:void(0)">View Merge Files</a>
+                            </div>
+                            <div class="addModalStyleRowSub flex">
+                                <label for="loadfile" class="loadFileFake">
+                                    <input type="file" name="loadfile" placeholder="">
+                                    </label>
+                            </div>
+                            <div class="addModalStyleRowSub flex">
+                                <p>Clio supports PowerPoint (.ppt / .pptx), Word (.doc / .docx) and Excel (.xml / .xlsx) files.</p>
+                            </div>
+                        </div>
+                        <div class="addModalStyleRow flex">
+                            <div class="addModalStyleRowSub flex">
+                                <label for="taskname">Document Category</label>
+                                <a href="javascript:void(0)">View Merge Files</a>
+                            </div>
+                            <div class="addModalStyleRowSub flex">
+                                <input type="text" id="addTemplate">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer newModalFooter flex">
+                    <button type="submit" class="btn btn-default" data-dismiss="modal">Save</button>
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="addCategories" tabindex="-1" role="dialog" aria-labelledby="taskModal">
+        <div class="modal-dialog addModalStyle" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Add Document Category</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="addForm flex">
+                        <div class="addModalStyleRow flex">
+                            <div class="addModalStyleRowSub flex">
+                                <label for="taskname">Name</label>
+                            </div>
+                            <div class="addModalStyleRowSub flex">
+                                <input type="text">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer newModalFooter flex">
+                    <button type="submit" class="btn btn-default" data-dismiss="modal">Save</button>
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="newMatter" tabindex="-1" role="dialog" aria-labelledby="taskModal">
+        <div class="modal-dialog newMatterModal" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">New Matter</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="newMatterForm flex">
+                        <div class="panel-group" id="accordion">
+                            <div class="panel panel-default">
+                                <div class="panelHeading">
+                                    <h4 class="panelTitle">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                            Matter Information
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <div class="modalPanelContainer flex">
+                                            <div class="modalPanelContainerSub flex">
+                                                <label class="timeEntryModalContainerSubRow">
+                                                    <span>Client</span>
+                                                    <select type="text" class="billsSelects">
+                                                        <optgroup>
+                                                            1
+                                                            <option value="" selected disabled>Whats the contacts name?</option>
+                                                            <option value="">2</option>
+                                                            <option value="">3</option>
+                                                            <option value="">4</option>
+                                                            <option value="">5</option>
+                                                            <option value="">6</option>
+                                                        </optgroup>
+                                                    </select>
+                                                </label>
+                                                <label class="timeEntryModalContainerSubRow flex" for="matterDescription">
+                                                    <span>Matter Description</span>
+                                                    <textarea type="text" id="matterDescription"></textarea>
+                                                </label>
+                                                <label class="timeEntryModalContainerSubRow flex" for="responsibleSolicitorNew">
+                                                    <span>Responsible solicitor</span>
+                                                    <select type="text" id="responsibleSolicitorNew"></select>
+                                                </label>
+                                                <label class="timeEntryModalContainerSubRow flex" for="originatingSolicitorNew">
+                                                    <span>Originating solicitor</span>
+                                                    <select type="text" id="originatingSolicitorNew"></select>
+                                                </label>
+                                                <label class="timeEntryModalContainerSubRow flex" for="clientReferenceNumber">
+                                                    <span>Client reference number</span>
+                                                    <input type="text" id="clientReferenceNumber">
+                                                </label>
+                                                <label class="timeEntryModalContainerSubRow flex" for="location">
+                                                    <span>Location</span>
+                                                    <input type="text" id="location">
+                                                </label>
+                                            </div>
+                                            <div class="modalPanelContainerSub flex">
+                                                <label for="permissions" class="timeEntryModalContainerSubRow flex">
+                                                    <span>Permissions</span>
+                                                    <select name="" id="permissions">
+                                                        <option value="" selected disabled>Select permission</option>
+                                                    </select>
+                                                </label>
+                                                <label for="practiceAreaNewMatter" class="timeEntryModalContainerSubRow flex">
+                                                    <span>Practice area</span>
+                                                    <select name="" id="practiceAreaNewMatter">
+                                                        <option value="" selected disabled>Find a practice area</option>
+                                                    </select>
+                                                </label>
+                                                <label for="statusNewMatter" class="timeEntryModalContainerSubRow flex">
+                                                    <span>Status</span>
+                                                    <select name="" id="statusNewMatter">
+                                                        <option value="" selected>Oped</option>
+                                                        <option value="">Closed</option>
+                                                    </select>
+                                                </label>
+                                                <div class="timeEntryModalContainerSubRowNew timeEntryModalContainerSubRow flex">
+                                                    <label for=""><span>Open date</span><input class="inputCalendar" placeholder="dd/mm/yyyy" type="text" id="dateRangeBillsFive"></label>
+                                                    <label for=""><span>Close date</span><input class="inputCalendar" placeholder="dd/mm/yyyy" type="text" id="dateRangeBillsSix"></label>
+                                                    <label for=""><span>Pending date</span><input class="inputCalendar" placeholder="dd/mm/yyyy" type="text" id="dateRangeBillsSeven"></label>
+                                                </div>
+                                                <h3>Statute of limitations</h3>
+                                                <div class="timeEntryModalContainerSubRowNew flex">
+                                                    <label for="limitationDate" class="timeEntryModalContainerSubRow">
+                                                            <span>Limitation date</span>
+                                                            <input class="inputCalendar" placeholder="dd/mm/yyyy" type="text" id="limitationDate dateRangeBillsEight">
+                                                        </label>
+                                                    <label for="limitationDateCheckbox" class="timeEntryModalContainerSubRowCheckbox flex">
+                                                            <input type="checkbox" name="" id="limitationDateCheckbox">
+                                                            <span>Limitations date satisfied</span>
+                                                        </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panelHeading">
+                                    <h4 class="panelTitle">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                            Related contacts
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="modalPanelContainer flex">
+                                            <div class="modalPanelContainerNew flex">
+                                                <p>Associating a contact will allow you to easily locate their information from the matter dashboard. These contacts will also appear in future conflict checks.</p>
+                                                <div class="modalPanelContainerRow flex">
+                                                    <label for="" class="timeEntryModalContainerSubRow flex">
+                                                        <span>Relationship</span>
+                                                        <input type="text"></label>
+                                                    <label for="" class="timeEntryModalContainerSubRow flex">
+                                                        <span>Contact</span>
+                                                        <select type="text">
+                                                            <optgroup  value="77">
+                                                                <option value="">1</option>
+                                                                <option value="">2</option>
+                                                                <option value="">3</option>
+                                                                <option value="">4</option>
+                                                            </optgroup>
+                                                        </select>
+                                                    </label>
+                                                    <a href="javacript:void(0)">Remove</a>
+                                                </div>
+                                                <div class="modalPanelContainerRow flex">
+                                                    <a href="javascript:void(0)"><i class="fas fa-plus-circle"></i> Add Related Contact</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panelHeading">
+                                    <h4 class="panelTitle">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                            Billing preferences
+                                            </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="modalPanelContainer flex">
+                                            <div class="modalPanelContainerNew flex">
+                                                <div class="modalPanelContainerNewSub flex">
+                                                    <p>One or more billable matters can be used to create an invoice for a client.</p>
+                                                    <label class="timeEntryModalContainerSubRowCheckbox flex" for="matterIsBillable">
+                                            <input type="checkbox" name="" id="matterIsBillable">
+                                            <span>Matter is billable</span>
+                                            </label>
+                                                    <label class="timeEntryModalContainerSubRow flex" for="rateMatter">
+                                                <select name="" id="rateMatter">
+                                                    <optgroup>
+                                                        <option value="">Hourly</option>
+                                                        <option value="">2</option>
+                                                        <option value="">3</option>
+                                                        <option value="">4</option>
+                                                    </optgroup>
+                                                </select>
+                                            </label>
+                                                    <span class="formHeading">Matter budget</span>
+                                                    <label for="matterHasBudget" class="timeEntryModalContainerSubRowCheckbox flex">
+                                                    <input type="checkbox" id="matterHasBudget
+                                                    ">
+                                                    <span>Matter has budget</span>
+                                                </label>
+                                                    <span class="formHeading">Trust Balance Notification</span>
+                                                    <div class="modalPanelContainerNewSubDoubleRow flex">
+                                                        <label for="notifyUsers" class="timeEntryModalContainerSubRowCheckbox flex">
+                                                            <input type="checkbox" name="" id="notifyUsers" checked>
+                                                            <span>Notify firm users when matter trust funds are below</span>
+                                                        </label>
+                                                        <label for="" class="timeEntryModalContainerSubRow currency flex">
+                                                            <span>$</span><input type="text" name="" id="" value>
+                                                        </label>
+                                                    </div>
+                                                    <span class="formHeading">Notification recipients</span>
+
+                                                    <label for="notificationRecipients" class="timeEntryModalContainerSubRow flex">
+                                                            <select name="" id="notificationRecipients" multiple="multiple">
+                                                                <option value="1">John M. Patton</option>
+                                                                <option value="3">Kate Lynell</option>
+                                                                <option value="5">Paul Saun Slambark </option>
+                                                                <option value="7">Sam Popper Jr.</option>
+                                                                <option value="1">Laura Palmer</option>
+                                                                <option value="2">John Kennedy</option>
+                                                                <option value="0">Sergey Zavorotko</option>
+                                                                <option value="0">John Dou</option>
+                                                                <option value="0">Jon Snow</option>
+                                                                <option value="0">Rob Stark</option>
+                                                                <option value="0">The Tanos</option>
+                                                                <option value="0">The Superman</option>
+                                                                <option value="0">Matt Murdock</option>
+                                                                <option value="0">John Lennon</option>
+                                                                <option value="0">Frank Castle</option>
+                                                                <option value="0">Poor Poo</option>
+                                                                <option value="0">Little bear</option>
+                                                                <option value="0">Papa Jo</option>
+                                                                <option value="0">Walter White</option>
+                                                            </select>
+                                                        </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panelHeading">
+                                    <h4 class="panelTitle">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                                            Task automation
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFour" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="modalPanelContainer flex">
+                                            <div class="modalPanelContainerNew flex">
+                                                <p><a href="javascript:void(0)">Create task lists</a> to automatically generate groups of commonly created tasks and assign them to a firm user.</p>
+                                                <div class="modalPanelContainerRow flex">
+                                                    <label for="taskList" class="timeEntryModalContainerSubRow flex">
+                                                                <span>Task List</span>
+                                                                <select type="text" id="taskList" multiple="multiple">
+                                                                    <optgroup  value="77">
+                                                                        <option value="">1</option>
+                                                                        <option value="">2</option>
+                                                                        <option value="">3</option>
+                                                                        <option value="">4</option>
+                                                                    </optgroup>
+                                                                </select>
+                                                            </label>
+                                                    <a href="javacript:void(0)">Remove</a>
+                                                </div>
+                                                <div class="modalPanelContainerRow flex">
+                                                    <a href="javascript:void(0)"><i class="fas fa-plus-circle"></i> Add Related Contact</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer newModalFooter flex">
+                    <button type="submit" class="btn btn-default" data-dismiss="modal">Save Matter</button>
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade sendInInvitation newTrustRequestModal" id="newTrustRequest" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog newModalStyle" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">New Trust Request</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="timeEntryModalContainer flex">
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow">
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <label for="duration">Issue Date <span>required</span></label>
+                                </div>
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <input type="text" id="newTrustDateOne">
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow">
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <label for="duration">Due date <span>required</span></label>
+                                </div>
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <input type="text" id="newTrustDateTwo">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeEntryModalContainer flex">
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow">
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <label for="duration">Client <span>required</span></label>
+                                </div>
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <select class="settingsSelect">
+                                                <option value="">Martin</option>
+                                                <option value="">Kevin</option>
+                                                <option value="">Paul</option>
+                                            </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow">
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <label for="duration">Balance Type</label>
+                                </div>
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <input type="text" placeholder="Client" class="settingsSelect">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeEntryModalContainer flex">
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow">
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <label for="duration">Matter <span>required</span></label>
+                                </div>
+                                <div class="billsSelects flex">
+                                    <select name="" id="" class="settingsSelect">
+                                            <option value="">1</option>
+                                            <option value="">2</option>
+                                            <option value="">3</option>
+                                        </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow">
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <label for="duration">Amount <span>required</span></label>
+                                </div>
+                                <div class="timeEntryModalContainerSubRowSub flex">
+                                    <input type="text" placeholder="00.00">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeEntryModalContainerSub sendInInvitationTimes flex billsTransactionsAmountContainer">
+
+                    <button class="selectsForTasksInner4 sharingCalendarAddButton" id="billsAddTextarea">
+                                    <span>+</span> Add note
+                            </button>
+
+                </div>
+                <div class="billsTransactionsCheckboxContainer flex">
+                    <input type="checkbox" class=""><span>Skip the trust request approval process</span>
+                </div>
+                <div class="signOutModalBottom flex">
+                    <div>
+                        <button class="newmatter newmatter-focus" data-toggle="#" data-target="#">Create trust Request</button>
+                        <a href="javascript:void(0)">Cancel</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="taskModal" tabindex="-1" role="dialog" aria-labelledby="taskModal">
+        <div class="modal-dialog newModalStyle" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Create task</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="timeEntryModalContainer flex">
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="taskname">Task name</label>
+                                <input type="text" name="taskname" placeholder="">
+                            </div>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="description">Description</label>
+                                <textarea name="description" placeholder="Descript the entry"></textarea>
+                            </div>
+                        </div>
+                        <div class="timeEntryModalContainerSub flex">
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="assignee">Assignee</label>
+                                <input type="text" name="assignee" placeholder="">
+                            </div>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="Matter">Matter</label>
+                                <input type="text" name="Matter" placeholder="Find a matter">
+                            </div>
+                            <article class="timeEntryModalContainerSubRow flex">
+                                <label for="Date">Date</label>
+                                <input type="text" name="Date" list="Date" placeholder="Find a Date" class="inputCalendar">
+                            </article>
+                            <div class="timeEntryModalContainerSubRow flex">
+                                <label for="time">Time</label>
+                                <input type="text" name="time" placeholder="Time">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer newModalFooter flex">
+                    <button type="submit" class="btn btn-default" data-dismiss="modal">save entry</button>
+                    <button type="submit" class="btn btn-primary">Save and create new</button>
+                    <button type="submit" class="btn btn-primary">Save and duplicate</button>
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="generateInvoice" tabindex="-1" role="dialog" aria-labelledby="taskModal">
+        <div class="modal-dialog newModalStyle" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Geterate invoice</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="timeEntryModalContainerInvoice flex">
+                        <div class="generateInvoiceModalCont flex">
+                            <label for="" class="flex">
+                                Issue date
+                                <input type="text" id="generateInvoiceOne">
+                            </label>
+                            <label for="" class="flex">
+                                Due date
+                                <input type="text" id="generateInvoiceTwo">
+                                <span class="checkBoxContainer flex">
+                                    <input type="checkbox" name="" id="graceCheckbox" checked>
+                                    <label for="graceCheckbox">Use contact`s grace period to calculate the due date</label>
+                            </span>
+                            </label>
+                        </div>
+                        <div class="generateInvoiceModalContTwo flex">
+                            <div class="generateInvoiceModalContTwoSub flex">
+                                <div class="generateInvoiceModalContTwoSubCol flex">
+                                    Detail level
+                                    <label for="allDetails">
+                                        <input type="radio" name="detailRadio" id="allDetails">
+                                        All details
+                                    </label>
+                                    <label for="activitySummary">
+                                        <input type="radio" name="detailRadio" id="activitySummary">
+                                        Activity summary
+                                    </label>
+                                    <label for="aggregate">
+                                        <input type="radio" name="detailRadio" id="aggregate">
+                                        Aggregate
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="generateInvoiceModalContTwoSub flex">
+                                <div class="generateInvoiceModalContTwoSubCol flex">
+                                    Other options
+                                    <label for="combineMultiple">
+                                                <input type="checkbox" name="detailRadio" id="combineMultiple">
+                                                Combine multiple matter for one client into a single bill 
+                                            </label>
+                                    <label for="includeUnbilled">
+                                                <input type="checkbox" name="detailRadio" id="includeUnbilled">
+                                                Include unbilled matters with $0 balance
+                                            </label>
+                                    <label for="applyTax">
+                                                <input type="checkbox" name="detailRadio" id="applyTax">
+                                                Apply tax
+                                            </label>
+                                    <label for="skipBill">
+                                                <input type="checkbox" name="detailRadio" id=" skipBill">
+                                                Skip the bill approval process
+                                            </label>
+                                </div>
+                                <div class="generateInvoiceModalContTwoSubCol generateInvoiceModalContTwoSubColWide flex">
+                                    Notify members of your firm
+                                    <label for="notifyThatUsers">
+                                        <select name="" class="billsSelects" id="notifyThatUsers" multiple>
+                                            <option value="">Jogn Wayne</option>
+                                            <option value="">Clara Coralla</option>
+                                            <option value="">Samuel L. Motherfucker</option>
+                                            <option value="">Edward Snowden</option>
+                                        </select>
+                                    </label> Notify via
+                                    <label for="emailNotify">
+                                            <input type="checkbox" name="detailRadio" id="emailNotify">
+                                            Email
+                                        </label>
+                                    <label for="secureMess">
+                                                <input type="checkbox" name="detailRadio" id="secureMess">
+                                                Secure message
+                                            </label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer newModalFooter flex">
+                    <button type="submit" class="btn btn-default" data-dismiss="modal">Generate bills</button>
+                    <button class="btn btn-primary" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../libs/jquery3.2.1.js"></script>
+    <script src="../libs/bootstrap.min.js"></script>
+    <script src="../js/pickmeup.min.js"></script>
+    <script src="../js/calendar.js"></script>
+    <script async src="../js/select2.full.min.js"></script>
+    <script async src="../js/dashboard.js"></script>
+    <script async src="../js/all.min.js"></script>
+    <script>
+        $('#billsAddTextarea').one('click', function() {
+            $('.billsTransactionsAmountContainer').append('<textarea class="addendingTextarea"></textarea>');
+            $(this).hide();
+        });
+    </script>
+</body>
+
+</html>

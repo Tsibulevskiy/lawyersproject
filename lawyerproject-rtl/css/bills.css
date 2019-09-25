@@ -1,0 +1,885 @@
+.billsTopButton {
+    text-transform: none;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.billsHeadingRightButtons {
+    background: #FFFFFF;
+    border: 1px solid #E1E6E9!important;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 8px rgba(173, 202, 218, 0.25);
+}
+
+.tabContainerBills {
+    background: none;
+    box-shadow: none;
+    border: none;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+}
+
+.tabContainerBills svg {
+    margin-right: 5px;
+}
+
+.tabContainerBills .tabContainerBills span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #323A4D;
+}
+
+.billsClientsFormCOntainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.billsClientsFormInner {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    width: 23.5%;
+    margin: 15px 0px;
+    margin-left: 1.5%;
+    position: relative;
+}
+
+.billsClientsFormInner strong {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #323A4D;
+    padding-bottom: 8.5px;
+}
+
+.billsClientsFormInner input::placeholder {
+    clip: #C7D0D9;
+}
+
+.billsClientsFormInner input {
+    padding: 7px 12px;
+    background-color: #fff;
+    border: none;
+    box-shadow: inset 0px 0px 8px rgba(173, 202, 218, 0.25);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: inherit;
+}
+
+.billsClientsFormInner p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #323A4D;
+}
+
+.bilssClientsFormAds {
+    flex-flow: column nowrap;
+    width: auto;
+    margin: 0px;
+}
+
+.billsClientsResults {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.billsClientsResults strong {
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #323A4D;
+}
+
+.billsClientsResultsContainer {
+    width: 100%;
+}
+
+.billsClientsResults>div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 30%;
+}
+
+.billsClientsResults span {
+    display: block;
+    margin: 0px 9px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #323A4D;
+}
+
+.billsClientsResults>strong {
+    width: 70%;
+}
+
+.billsClientsResults>div>strong {
+    width: 33%;
+    text-align: center;
+}
+
+.billsClientsResults>span {
+    width: 70%;
+}
+
+.billsClientsResults>div>span {
+    width: 33%;
+}
+
+.billsClientsResults {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #323A4D;
+    background: #FEFEFF;
+    box-shadow: 0px 4px 8px rgba(173, 202, 218, 0.25);
+    padding: 15px 19px;
+}
+
+.billsClientsResultsHeading {
+    background: #EDF3F8;
+    box-shadow: 0px 4px 8px rgba(173, 202, 218, 0.25);
+    padding: 4px 25px;
+}
+
+.billsStatementsContainer,
+.billsStatementsContainer .billsClientsFormInner,
+.billsStatementsContainer .billsSelectsLabels {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+}
+
+.billsCheckboxLabels {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #323A4D;
+    border-bottom: none!important;
+    padding-top: 5px!important;
+}
+
+.billsClientsFormInner>strong {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #323A4D;
+}
+
+.billsRadioButtonsContainers {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5B6782;
+    border-top: 1px solid #C7D0D9;
+    border-bottom: 1px solid #C7D0D9;
+}
+
+.billsClientsFormInner>label {
+    border-bottom: 1px solid #C7D0D9;
+    padding: 16px 0px;
+    margin-bottom: 0px;
+}
+
+.billsClientsFormInner {
+    margin-bottom: 25px;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.billsClientsFormInnerSub {
+    width: 100%;
+    justify-content: stretch;
+    align-items: stretch;
+    align-content: stretch
+}
+
+.billsClientsFormInnerSub>span {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+.billsClientsFormInner>label>strong {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #323A4D;
+}
+
+.billsClientsFormInner>label>span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #323A4D;
+}
+
+label.billsRadioButtonsContainers>span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5B6782;
+}
+
+.billsClientsFormInner>label>input {
+    margin-left: 8.5px;
+}
+
+.newTrustRequestModal .billsClientsFormInner {
+    width: 50%;
+    max-width: 500px;
+    min-width: 315px;
+}
+
+.billsTransactionsSubHeading {
+    margin-top: 15px;
+}
+
+.billsTransactionsContainer p {
+    padding: 5px 1px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5B6782;
+}
+
+.billsBottomSearchButton {
+    min-width: 175px;
+    height: 100%;
+    margin-right: 15px;
+    width: 15%;
+    background: rgb(255, 39, 71);
+}
+
+.billsBottomGenerateButton {
+    min-width: 200px;
+    margin: 0;
+}
+
+.bilssClientsFormAds>.billsClientsFormInner {
+    width: 100%;
+}
+
+.bilssClientsFormAds>.billsClientsFormInner input {
+    width: 100%;
+    box-shadow: none;
+}
+
+.newTrustRequestModal .billsTransactionsAmountContainer {
+    width: 100%;
+    padding-bottom: 0px;
+    text-align: right;
+}
+
+.newTrustRequestModal .billsTransactionsCheckboxContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 1px 25px;
+    margin: 4px 0px;
+    margin-bottom: 19px;
+}
+
+.newTrustRequestModal .billsTransactionsCheckboxContainer input {
+    margin-left: 9px;
+}
+
+.newTrustRequestModal .billsTransactionsCheckboxContainer span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #323A4D;
+}
+
+.newTrustRequestModal .selectsForTasksInner4 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: normal;
+    color: #148CFC;
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding-right: 0px;
+    margin: 5px 0px;
+}
+
+.newTrustRequestModal .sharingCalendarAddButton span {
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 50%;
+    background-color: #148CFC;
+    color: white;
+    width: 19px;
+    height: 19px;
+    margin-left: 9px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.newTrustRequestModal .signOutModalBottom {
+    padding: 25px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background: #EDF3F8;
+    box-shadow: 0px 2px 15px rgba(145, 168, 195, 0.5);
+}
+
+.newTrustRequestModal .signOutModalBottom>div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.newTrustRequestModal .newmatter {
+    box-shadow: rgba(198, 215, 225, 0.15) 0px 4px 8px, rgba(91, 103, 130, 0.25) 0px 5px 8px;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 0.7em;
+    text-transform: none;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+    bottom: 35px;
+    left: 35px;
+    padding: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    border-image: initial;
+    background: rgb(50, 58, 77);
+    transition: all 0.7s ease 0s;
+}
+
+.newTrustRequestModal .newmatter-focus {
+    background: linear-gradient(-180deg, #FF2747 -18.06%, #D91835 134.72%);
+    box-shadow: 0px 4px 25px rgba(173, 202, 218, 0.25), 0px 4px 8px rgba(173, 202, 218, 0.25), 0px 5px 8px rgba(255, 39, 71, 0.15);
+}
+
+.newTrustRequestModal .signOutModalBottom>div>a {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(198, 215, 225, 0.15), 0px 4px 8px rgba(173, 202, 218, 0.25);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #323A4D;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 15px;
+    margin-right: 9px;
+    text-decoration: none;
+}
+
+.billsRecordPaymentModal>.modal-dialog {
+    width: 95%;
+    top: 0px!important;
+    right: 1.5%;
+    margin: 19px 0px;
+}
+
+.billsRecordPaymentModal .newModalStyle>.modal-content>.modal-header>.modal-title {
+    padding: 0px 15%;
+}
+
+.billsRecordPaymentModal .newModalStyle>.modal-content>.modal-body {
+    padding: 0px 10%;
+}
+
+.billsRecordPaymentModal .timeEntryModalContainerSub {
+    padding: 0px;
+    padding-left: 5%;
+}
+
+.billsRecordPaymentModal .billsTransactionsAmountContainer {
+    padding-right: 15%;
+    padding-left: 15%;
+    width: 60%;
+    min-width: 315px;
+}
+
+.billsRecordPaymentModal .modal-header {
+    padding-right: 0px;
+}
+
+.record-modal-body {
+    background: #EDF3F8!important;
+    border: 1px solid #E1E6E9;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: 45px;
+}
+
+.record-modal-body>div {
+    background: #fff;
+}
+
+.record-modal-body>.tabContainer {
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #323A4D;
+    padding: 12.5px 17px;
+}
+
+
+
+.billsRecordPaymentSub {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 50%;
+    font-size: .8em;
+    float: right;
+    background: none!important;
+}
+
+.billsRecordPaymentSub>div {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    width: 41%;
+}
+
+.record-modal-body>.tabContainer.billsRecordPaymentSubNext {
+    margin: 0px;
+    background: white!important;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    margin-bottom: 45px;
+}
+
+.record-modal-body>.tabContainer.billsRecordPaymentSubNext>div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+}
+
+.record-modal-body>.tabContainer.billsRecordPaymentSubNext>strong {
+    text-align: right;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #323A4D;
+    padding-bottom: 9px;
+}
+
+.billsRecordPaymentSub>div>strong {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #323A4D;
+    padding-bottom: 9px;
+    padding-top: 15px;
+}
+
+.billsRecordPaymentSub>div>textarea {
+    border: 1px solid #C7D0D9;
+    box-sizing: border-box;
+    background: none;
+    width: 120%;
+    min-height: 100px;
+    resize: none;
+    padding: 5px;
+    font-size: .7em;
+    margin-bottom: 5px;
+    height: 67px;
+    background-color: #fff;
+}
+
+.record-modal-body>.tabContainer> {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #323A4D;
+}
+
+.record-modal-body>.tabContainer>div>div>strong {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #323A4D;
+}
+
+.record-modal-body>.tabContainer>div>div {
+    width: 50%;
+    text-align: right;
+    margin-bottom: 1px;
+}
+
+.billsRecordPaymentModal .signOutModalBottom {
+    padding-right: 15%;
+    padding-left: 15%;
+    text-align: right;
+}
+
+.record-modal-body-heading {
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.recordModalBodyItem {
+    padding: 5px 15px;
+    width: 100%;
+    /* margin: 5px 10px; */
+    font-size: .7em;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid #c9c9c9;
+}
+
+.recordModalBodyItemSub a {
+    color: #148CFC;
+    text-decoration: none;
+}
+
+.recordModalBodyItem:last-child {
+    border-bottom: none;
+}
+
+.recordModalBodyItemSub>label>input {
+    width: 90%;
+    border: none;
+    padding: 6px 12px;
+    box-shadow: 0px 4px 25px rgba(173, 202, 218, 0.25), 0px 4px 8px rgba(173, 202, 218, 0.25), inset 0px 0px 4px rgba(173, 202, 218, 0.5);
+    height: 30px;
+}
+
+.recordModalBodyItemsHeader {
+    width: 100%;
+    padding: 25px;
+    background-color: #EDF3F8;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recordModalBodyItemSub {
+    width: 20%;
+    text-indent: 5px;
+}
+
+.recordModalBodyItemsHeaderSecond {
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: #c1ced8;
+}
+
+.recordModalBodyItemsHeaderSecondItem {
+    width: 20%;
+    flex-flow: row nowrap;
+    padding: 5px 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: .7em;
+    border-left: 1px solid rgb(160, 160, 160);
+}
+
+.recordModalBodyItemsHeaderSecondItem:last-child {
+    border-left: none;
+}
+
+.recordModalBodyItemsHeaderSub {
+    width: 45%;
+    flex-flow: row nowrap;
+}
+
+.recordModalBodyItemsHeaderSubSub {
+    flex-flow: column nowrap;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.recordModalBodyItemsHeaderSubSub>span:first-child {
+    font-size: .7em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.recordModalBodyItemsHeaderSubSub>span:last-child {
+    font-size: .9em;
+    font-weight: 900;
+}
+
+.recordModalBodyItemsHeaderSubSub label {
+    width: 100%;
+    font-size: .7em;
+}
+
+.recordModalBodyItemsHeaderSubSub label span {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.recordModalBodyItemsHeaderSubSub label input {
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+    padding: 6px 12px;
+    box-shadow: 0px 4px 25px rgba(173, 202, 218, 0.25), 0px 4px 8px rgba(173, 202, 218, 0.25), inset 0px 0px 4px rgba(173, 202, 218, 0.5);
+    height: 40px;
+    position: relative;
+}
+
+.recordModalBodyItemsHeaderSubSub label input:before {
+    position: absolute;
+    content: '$';
+    font-size: .7em;
+}
+
+.recordModalBodyItemsHeaderSub:last-child {
+    justify-content: flex-end;
+}
+
+.recordModalBodyItemsHeaderSub p {
+    font-size: .9em;
+    font-weight: bold;
+}
+
+.recordModalBodyItemsHeaderSub p a {
+    color: #148CFC;
+    text-decoration: none;
+}
+
+.billsCalendarIcons {
+    position: absolute;
+    left: 15px;
+    bottom: 4px;
+}
+
+.billsLinkCreating {
+    color: #148CFC;
+}
+
+.billsMoreInputsContainerInner {
+    position: relative;
+    padding-left: 9px;
+    padding-right: 8px;
+}
+
+.billsTransactionsButtonContainer a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: normal;
+    text-decoration: none;
+    color: #91A8C3;
+    padding-right: 9px;
+}
+
+.billsTransactionsButtonContainer .newmatter {
+    box-shadow: rgba(198, 215, 225, 0.15) 0px 4px 8px, rgba(91, 103, 130, 0.25) 0px 5px 8px;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 0.7em;
+    text-transform: none;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+    bottom: 35px;
+    left: 35px;
+    padding: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    border-image: initial;
+    background: rgb(50, 58, 77);
+    transition: all 0.7s ease 0s;
+}
+
+.billsTransactionsButtonContainer .newmatter-focus {
+    box-shadow: rgba(173, 202, 218, 0.25) 0px 4px 25px, rgba(173, 202, 218, 0.25) 0px 4px 8px, rgba(255, 39, 71, 0.15) 0px 5px 8px;
+    background: linear-gradient(rgb(255, 39, 71) -18.06%, rgb(217, 24, 53) 134.72%);
+}
+
+.billsMoreInputsContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.billsMoreInputsContainer span {
+    padding-left: 9px;
+}
+
+.billsStatementsContainer .billsClientsFormInner {
+    width: 415px;
+}
+
+.billsStatementsContainer .billsClientsFormInner input {
+    margin-top: 0px;
+}
+
+.newTrustRequestModal .billsCalendarIcons {
+    bottom: 8px;
+}
+
+.addendingTextarea {
+    width: 100%;
+    background-color: #fff;
+    resize: vertical;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: .7em;
+    min-height: 100px;
+    box-shadow: rgba(173, 202, 218, 0.25) 0px 4px 25px, rgba(173, 202, 218, 0.25) 0px 4px 8px, rgba(173, 202, 218, 0.5) 0px 0px 4px inset;
+    border: none;
+}
+
+.timeEntryModalContainerSubRowSub span {
+    /* font-size: .8em; */
+    color: #91A8C3;
+    padding-right: 0px;
+}
+
+.timeEntryModalContainerSubRowSub>label>span {
+    padding-right: 15px;
+}
+
+.generateInvoiceModalCont {
+    padding: 20px;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    border: 1px solid #edf3f8;
+    /* margin: 15px; */
+    background: #edf3f8;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.generateInvoiceModalCont>label {
+    flex-flow: column nowrap;
+    font-size: .7em;
+    width: 45%;
+}
+
+.generateInvoiceModalCont>label>input {
+    margin: 15px 0;
+    padding: 7px 12px;
+    background-color: #fff;
+    border: none;
+    box-shadow: inset 0px 0px 8px rgba(173, 202, 218, 0.25);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.checkBoxContainer label {
+    padding-right: 10px;
+}
+
+.generateInvoiceModalContTwo {
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    align-content: stretch
+}
+
+.generateInvoiceModalContTwoSub {
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    width: 50%;
+    font-size: .9em;
+}
+
+.generateInvoiceModalContTwoSubCol>label:first-child {
+    margin-top: 15px;
+}
+
+.generateInvoiceModalContTwoSubCol>label {
+    font-size: .8em;
+    width: 100%;
+}
+
+.timeEntryModalContainerInvoice {
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+}
+
+.generateInvoiceModalContTwoSubColWide {
+    font-size: 2em;
+    width: 100%;
+}
+
+.generateInvoiceModalContTwoSubColWide>* {
+    min-width: 100% !important;
+}
+
+.generateInvoiceModalContTwoSubCol {
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: .8em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+/* .newTrustRequestModal .billsCalendarCarret {
+    bottom: 11px;
+} */
+

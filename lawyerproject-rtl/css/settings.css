@@ -1,0 +1,1131 @@
+.hedingContainersSettings h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: normal;
+    color: #5B6782;
+}
+
+.hedingContainersSettings h3 strong {
+    font-weight: bold;
+    color: #323A4D;
+    text-align: right;
+}
+
+.hedingContainersSettings span {
+    color: #FF2747;
+    text-shadow: 0px -4px 8px rgba(255, 39, 71, 0.25);
+    font-size: 29px;
+    display: inline-block;
+    margin: 0px 19px;
+}
+
+.hedingContainersSettings {
+    justify-content: flex-start;
+}
+
+.settingsContainerHeading {
+    justify-content: space-between;
+}
+
+.settingsContainerHeading h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: normal;
+    color: #323A4D;
+}
+
+.newmatter-focus {
+    background: linear-gradient(-180deg, #FF2747 -18.06%, #D91835 134.72%);
+    box-shadow: 0px 4px 25px rgba(173, 202, 218, 0.25), 0px 4px 8px rgba(173, 202, 218, 0.25), 0px 5px 8px rgba(255, 39, 71, 0.15);
+}
+
+.settingsDeliveryType {
+    width: 25%;
+}
+
+.settingsDeliveryContact {
+    width: 65%;
+}
+
+.settingsDeliveryVerification {
+    width: 10%;
+}
+
+.settingsDeliveryMethodsRows {
+    justify-content: space-between;
+    margin: 15px 0px;
+}
+
+.settingsMainContainer {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: normal;
+}
+
+.settingsDeliveryMethodsHeading {
+    background: #EDF3F8;
+    box-shadow: 0px 4px 8px rgba(173, 202, 218, 0.25);
+}
+
+.settingsContainer h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: normal;
+    color: #323A4D;
+    margin: 16px 0px;
+    margin-bottom: 0px;
+}
+
+.settingReminaderAndNotificateSubContainer {
+    padding: 15px 0px;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-bottom: 1px solid #C7D0D9;
+}
+
+.settingReminaderAndNotificateSubContainer input {
+    display: block;
+    margin: 15px 0px;
+    background: #148CFC!important;
+    color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 3px;
+    margin-left: 8px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: none;
+}
+
+.SubContainerItem {
+    flex-flow: row nowrap !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    padding: 5px 15px !important;
+}
+
+.SubContainerItem>label {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.SubContainerItem>label span {
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.settingReminaderAndNotificateSubContainer>div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 9px 10px;
+}
+
+.settingReminaderAndNotificateSubContainer label {
+    margin: 0px;
+}
+
+.settingsRaNButtons {
+    padding: 19px 0px;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
+.settingsRaNButtons button {
+    margin-left: 15px;
+}
+
+.settingsRaNButtons a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: normal;
+    text-decoration: none;
+    color: #91A8C3;
+}
+
+.settingsContainerHeadingButtons {
+    align-items: stretch;
+}
+
+.settingsContainerHeadingButtons .dropdown button {
+    height: 100%;
+}
+
+.settingsContainerHeadingButtons .dropdown {
+    margin: 0px 9px;
+}
+
+.settingManageUsersMainContainer .hedingContainersSettings div.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settingManageUsersMainContainer .hedingContainersSettings {
+    justify-content: space-between;
+}
+
+.settingsContainerHeadingButtons .open>.dropdown-menu {
+    right: unset;
+    left: 0px;
+    top: 34px;
+    padding: 9px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+}
+
+.settingsContainerHeadingButtons .open>.dropdown-menu a {
+    padding: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: normal;
+    color: #323A4D;
+    text-decoration: none;
+}
+
+.settingManageUsersMainContainer .settingsContainerHeadingButtons .open>.dropdown-menu a:hover {
+    text-align: right;
+    background: #EDF3F8;
+    border-radius: 5px;
+}
+
+.settingManageUsersMainContainer .settingsContainerHeading {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: normal;
+    color: #323A4D;
+    align-items: center;
+}
+
+.settingManageUsersMainContainer .settingsContainerHeading button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: none;
+    border: none;
+    box-shadow: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: normal;
+    color: #323A4D;
+}
+
+.settingManageUsersMainContainer .settingsContainerHeading button svg {
+    margin-right: 5px;
+}
+
+.settingManageUsersMainContainer .settingsContainerHeading h3 {
+    margin: 0px;
+}
+
+.settingManageUsersName {
+    width: 21%;
+}
+
+.settingManageUsersLogin {
+    width: 29%;
+}
+
+.settingManageUsersPermissions {
+    width: 18%;
+}
+
+.settingManageUsersBillingRate {
+    width: 15%;
+}
+
+.settingManageUsersSubscription {
+    width: 17%;
+}
+
+.settingManageUsersLogo div {
+    width: 40px;
+    height: 40px;
+    background: #C7D0D9;
+    box-shadow: 0px 4px 4px rgba(198, 215, 225, 0.15);
+    border-radius: 50%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: normal;
+    color: #323A4D;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.settingManageUsersName {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.settingManageUserDetails>div {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: normal;
+    text-decoration-line: underline;
+    color: #323A4D;
+    margin: 9px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 100%;
+}
+
+.settingManageUsersLogo {
+    margin-left: 15px;
+}
+
+.settingManageUserDetails>div>a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: normal;
+    text-decoration-line: underline;
+    color: #148CFC;
+    margin-left: 15px;
+}
+
+.settingManageUsersDropdownButton {
+    background: #69E38D;
+    box-shadow: 0px 4px 8px rgba(198, 215, 225, 0.15), 0px 4px 8px rgba(173, 202, 218, 0.25);
+}
+
+.carretDownForButtons {
+    padding-right: 5px;
+    color: white;
+    padding-bottom: 15px;
+    font-size: 5px;
+    position: relative;
+    top: -3.5px;
+}
+
+.settingManageUsersDropdownButton:hover .carretDownForButtons {
+    color: #323a4d;
+}
+
+.signOutModal .newModalStyle>.modal-content>.modal-header {
+    background: #FF3030;
+    box-shadow: 0px 2px 15px rgba(145, 168, 195, 0.5);
+    font-size: 18px;
+    line-height: normal;
+    color: #FFFFFF;
+}
+
+.signOutModal .modal-header h4 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: normal;
+    color: #FFFFFF;
+}
+
+.signOutModal .modal-header .close {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: normal;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.signOutModal .signOutModalText {
+    margin: 24px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: normal;
+    color: #323A4D;
+    margin-bottom: 10px;
+}
+
+.signOutModal .modal-body>p {
+    padding-right: 45px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: normal;
+    color: #323A4D;
+}
+
+.signOutModal .modal-body>p>span {
+    padding-left: 4px;
+    color: red;
+    text-align: center;
+}
+
+.signOutModal .signOutModalBottom {
+    background: #FFFFFF;
+    border: 1px solid #E1E6E9;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: normal;
+    color: #323A4D;
+    width: 90%;
+    margin: 15px auto;
+}
+
+.signOutModal .signOutModalBottom button {
+    margin-top: 19px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: normal;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.signOutModal .signOutModalBottom button {
+    margin-top: 19px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: normal;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.sendInInvitation .newModalStyle>.modal-content>.modal-header {
+    background: #2B3345;
+    box-shadow: 0px 2px 15px rgba(145, 168, 195, 0.5);
+}
+
+.sendInInvitation .modal-title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: normal;
+    color: #FFFFFF;
+}
+
+.sendInInvitation {
+    text-align: right;
+}
+
+.sendInInvitation .modal-header .close {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: normal;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.sendInInvitationTimes {
+    padding: 5px 25px;
+    margin: 0px;
+}
+
+.sendInInvitationTimes>.timeEntryModalContainerSubRow>.timeEntryModalContainerSubRowSub>a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: normal;
+    color: #148CFC;
+    padding: 15px 0px;
+    text-decoration: none;
+}
+
+.timeEntryModalContainerSubRow input.sendInInvitationTimesCheckbox {
+    box-shadow: none;
+    background: #148CFC;
+    border-radius: 2px;
+    height: 15px;
+    text-align: center;
+    border: none;
+    width: 15px;
+    margin-left: 9px;
+}
+
+.sendInInvitationTimesCheckboxContainer {
+    align-items: flex-start;
+    font-style: normal;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.sendInInvitationTimesCheckboxContainer>div>span {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: normal;
+    color: #323A4D;
+    width: 85%;
+}
+
+.sendInInvitationTimesCheckboxContainer>span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: normal;
+    text-align: left;
+    color: #69E38D;
+}
+
+.sendInInvitation .signOutModalBottom {
+    padding: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sendInInvitation .signOutModalBottom>a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: normal;
+    color: #148CFC;
+    text-decoration: none;
+}
+
+.sendInInvitation .signOutModalBottom>div>a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: normal;
+    color: #91A8C3;
+    text-decoration: none;
+    padding-right: 8px;
+}
+
+.sendInInvitation .timeEntryModalContainerSubRowSub label span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: normal;
+    text-align: left;
+    color: #69E38D;
+}
+
+.sendInInvitation .timeEntryModalContainerSubRowSub label {
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+    width: 100%;
+}
+
+.settingsImageCOntainer {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    border-bottom: 1px solid #C7D0D9;
+}
+
+.settingsProfileContainerRow {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 19px;
+}
+
+.flex-row {
+    flex-flow: row nowrap!important;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.settingsProfileContainerRowSubs {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 45%;
+}
+
+.settingsProfileContainerRow input,
+.settingsProfileContainerRow select,
+.settingsProfileContainerRow label {
+    width: 100%;
+}
+
+.settingsProfileMainContainer {
+    max-width: 400px;
+}
+
+.settingsProfileContainerRow input,
+.settingsProfileContainerRow select {
+    background: #FFFFFF;
+    border: 1px solid #E1E6E9;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 8px rgba(173, 202, 218, 0.25);
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+}
+
+.settingsProfileContainerRow label {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: normal;
+    color: #323A4D;
+    margin-bottom: 15px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: spa;
+    align-items: center;
+}
+
+.settingsProfileContainerRow label>input {
+    width: auto;
+    margin-left: 10px;
+}
+
+.settingsImageCOntainer a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: normal;
+    color: #148CFC;
+    text-decoration: none;
+    margin-top: 8px;
+}
+
+.settingsProfileContainerRow label span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: normal;
+    text-align: left;
+    color: #69E38D;
+}
+
+.settingsNameContainer label {
+    justify-content: space-between;
+}
+
+.settingsProfileContainerRow>a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: normal;
+    color: #148CFC;
+    margin-top: 9px;
+    text-decoration: none;
+}
+
+.settingsPermittionContainer p {
+    margin-bottom: 15px;
+}
+
+.settingButtonContainer {
+    flex-flow: row nowrap;
+}
+
+.settingButtonContainer button {
+    margin-left: 9px;
+}
+
+.settingsBillingLogoContainer>div {
+    flex-flow: row nowrap;
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 19px;
+}
+
+.settingsBillingLogoContainer>div>button {
+    margin-right: 15px;
+}
+
+.settingsBillingLogoContainer>div>div>button {
+    background: #EAF1F6;
+    box-shadow: inset 0px 0px 8px rgba(173, 202, 218, 0.25);
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: normal;
+    text-transform: capitalize;
+    color: #323A4D;
+    width: 145px;
+}
+
+.settingsBillingTexts {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: normal;
+    color: #5B6782;
+}
+
+.settingsBillingBorderBottomStyle {
+    border-bottom: 1px solid #C7D0D9;
+}
+
+.settingsBillingTaxPercents:after {
+    content: '%';
+    display: block;
+    height: 100%;
+    width: auto;
+    padding: 6.7px 15px;
+    float: right;
+    background: #EAF1F6;
+    box-shadow: inset 0px 0px 8px rgba(173, 202, 218, 0.25);
+    position: relative;
+    top: 1px;
+    right: -1px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: normal;
+    color: #323A4D;
+}
+
+.settingsBillingTaxPercents {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.settingsProfileContainerRow>div>input {
+    margin-left: 9px;
+    width: auto;
+    margin-top: 0px;
+}
+
+.settingsBillingLableContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: normal;
+    color: #323A4D;
+    margin: 15px 0px;
+}
+
+.settingsBillingLableContainer input {
+    margin-left: 9px;
+    width: auto;
+    margin-top: 0px;
+}
+
+.settingsBillingInnerCheckboxContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: normal;
+    color: #323A4D;
+    margin: 15px 0px;
+}
+
+.align-flex-start {
+    align-items: flex-start;
+}
+
+span.settingsBillingTexts {
+    padding-bottom: 10px;
+}
+
+.settingPermissionsTabsControl {
+    justify-content: space-between;
+}
+
+.settingsGPJTTableTittle {
+    width: 24%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.settingsGPJTTableInitials {
+    width: 27%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.settingsGPJTTableUsers {
+    width: 49%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.settingsGPJTTableHeading svg {
+    margin-right: 5px;
+}
+
+.settingsPermissonRolesContainer {
+    max-width: 535px;
+}
+
+.settingsGPJTPermissonsRoles {
+    width: 40%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: normal;
+    color: #323A4D;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.settingsDeliveryMethodsHeading .settingsGPJTPermissonsGroups {
+    border-right: 1px solid black;
+    padding-right: 9px;
+    margin: 0px;
+}
+
+.settingsGPJTPermissonsGroups>div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: normal;
+    color: #323A4D;
+    margin: 9px 0%;
+}
+
+.settingsGPJTPermissonsStatus {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: normal;
+    color: #C7D0D9;
+    height: 100%;
+    padding-right: 15px;
+    padding-top: 9px;
+}
+
+.settingsPermissonRolesContainer .settingsDeliveryMethodsRows {
+    align-items: stretch;
+}
+
+.settingsAccountInfoText {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: normal;
+    color: #5B6782;
+    margin: 19px 0%;
+}
+
+.settingAccountInfoHeader3 {
+    margin: 25px 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: normal;
+    text-transform: capitalize;
+    color: #323A4D;
+}
+
+.settingsProfileContainerRow {
+    padding-right: 0px;
+}
+
+.settingsPracticeMainTabContainer .settingsDeliveryMethodsRows {
+    padding-right: 25px;
+}
+
+.settingsPracticeMainTabContainer .settingsDeliveryMethodsRows .settingManageUserDetails>div {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: normal;
+    color: #323A4D;
+    text-decoration: none;
+}
+
+.settingsFirmFeedRadioContainer>div>label {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+.settingsFirmFeedRadioContainer>div input {
+    width: auto;
+    margin-left: 9px;
+    margin-top: 0px;
+}
+
+.settingsFirmFeedRadioContainer>div p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: normal;
+    color: #5B6782;
+}
+
+.settingsFirmFeedRadioContainer {
+    padding: 15px 0px;
+}
+
+.settingsProfileMainContainer .settingButtonContainer {
+    padding-top: 5px;
+}
+
+.settingsProfileMainContainer .settingsProfileContainerRow>a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: normal;
+    color: #91A8C3;
+}
+
+.settingsRemindersRowWithCarret {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.settingsRemindersRowWithCarret svg {
+    margin-right: 5px;
+}
+
+.settingManageUsersMainContainer .settingsDeliveryMethodsRows:hover {
+    /* border-left: 3px solid #FF2747; */
+    transition: 0.7s;
+}
+
+.settingManageUsersMainContainer .settingsDeliveryMethodsRows {
+    border-right: 3px solid transparent;
+}
+
+.signOutModal .signOutModalBottom button:hover {
+    color: #FF3030;
+}
+
+.bootstrap-select .dropdown-menu>.active>a {
+    background: #EDF3F8;
+    border-radius: 5px;
+    color: black;
+    width: 94%;
+    margin-right: 3%;
+}
+
+.bootstrap-select>.dropdown-toggle.bs-placeholder,
+.bootstrap-select>.dropdown-toggle.bs-placeholder:active,
+.bootstrap-select>.dropdown-toggle.bs-placeholder:focus,
+.bootstrap-select>.dropdown-toggle.bs-placeholder:hover {
+    background: #FFFFFF;
+    border: none;
+    width: 100%;
+    font-size: .7em;
+    padding: 6px 12px;
+    box-shadow: 0px 4px 25px rgba(173, 202, 218, 0.25), 0px 4px 8px rgba(173, 202, 218, 0.25), inset 0px 0px 4px rgba(173, 202, 218, 0.5);
+    height: 40px;
+    border-radius: 0px;
+}
+
+.nav-tabs>li>a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: normal;
+    color: #323A4D;
+}
+
+.settingPermissionInfoWelcome {
+    background: #91A8C3;
+    border-radius: 3px;
+    width: 359px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: normal;
+    color: #FFFFFF;
+    position: fixed;
+    bottom: 89px;
+}
+
+.settingPermissionInfoWelcome>div {
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+    padding: 15px;
+}
+
+.settingPermissionInfoWelcome>div>p>span {
+    color: rgba(61, 61, 194, 0.76);
+}
+
+.settingPermissionInfoWelcome span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: normal;
+    color: #FFFFFF;
+}
+
+.settingPermissionInfoWelcome>div:nth-child(1) {
+    padding-bottom: 0px;
+}
+
+.settingPermissionInfoWelcome:after {
+    width: 20px;
+    height: 20px;
+    content: " ";
+    display: block;
+    position: absolute;
+    bottom: 15px;
+    left: -9px;
+    background: #91A8C3;
+    transform: rotate(-45deg);
+}
+
+.settingsPermissionsHeadingRequired {
+    justify-content: space-between;
+}
+
+.settingsManageAccountTabContainer {
+    max-width: 501px;
+}
+
+.settingsManageAccountTabContainer .settingButtonContainer {
+    margin-top: 25px;
+}
+
+.settingsManageAccountTabContainer .tabContainer {
+    margin-bottom: 0px;
+}
+
+.settingsAccountBillingRateSelect:after {
+    content: " / hr ";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: normal;
+    color: #323A4D;
+    background: #EAF1F6;
+    box-shadow: inset 0px 0px 8px rgba(173, 202, 218, 0.25);
+    width: 44px;
+    padding: 0px 5px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.settingsAccountBillingRateSelect {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.settingsAccountBillingRateSelect main {
+    display: flex;
+}
+
+.settingsProfileBillingRateVisibilityText {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: normal;
+    color: #5B6782;
+    margin-top: 5px;
+}
+
+.settingsProfileMainContainerTab .settingsProfileContainerRow>a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: normal;
+    color: #148CFC;
+    margin-top: 9px;
+    text-decoration: none;
+}
+
+.settingsProfileMainContainerTab .settingButtonContainer a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: normal;
+    color: #91A8C3;
+}
+
+.uploadPhotoProfileContainer {
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+}
+
+#uploadPhotoProfileSpan {
+    border: 1px solid #E1E6E9;
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    position: relative;
+}
+
+#uploadPhotoProfileSpan:after {
+    content: 'browse';
+    position: absolute;
+    top: 0px;
+    font-size: .7em;
+    left: 0;
+    padding: 10px;
+    width: 70px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #e1e6e9;
+    background: #323a4d;
+    color: #fff;
+    font-weight: bold;
+}
+
+#uploadPhotoProfile {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.profileLogoExist {
+    flex-flow: column nowrap !important;
+    align-items: flex-start !important;
+    justify-content: center !important;
+}
+
+.profileLogoExist img {
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+    border: 1px solid #2B3345
+}
+
+.profileLogoExist a {
+    margin-top: 15px;
+    color: #148CFC;
+    font-size: 1em;
+    text-decoration: underline;
+}

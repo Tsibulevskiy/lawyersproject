@@ -1,0 +1,648 @@
+.mainCalendarDashboardContainer .mainCalendarDashboardContainerSub:nth-child(2) {
+    width: 21%;
+    min-width: 225px;
+    float: right;
+}
+
+.mainCalendarDashboardContainer .mainCalendarDashboardContainerSub:nth-child(1) {
+    width: 79%;
+    float: right;
+}
+
+
+/*-----  Styles for fullcalendar  -----*/
+
+.fc-toolbar.fc-header-toolbar {
+    width: 100%;
+    padding: 15px 25px;
+    margin: 24px 0;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(173, 202, 218, 0.25);
+    font-size: 0.9em;
+    color: rgb(91, 103, 130);
+    text-decoration: none;
+    margin-top: 0px;
+}
+
+.fc-toolbar h2 {
+    font-size: 0.9em;
+    color: rgb(91, 103, 130);
+    text-decoration: none;
+}
+
+.fc-toolbar.fc-header-toolbar .fc-right>div {
+    display: flex;
+    align-items: center;
+    flex-flow: row-reverse nowrap;
+}
+
+.fc-button-primary {
+    color: rgb(50, 58, 77);
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    border-image: initial;
+    background: none;
+    border-color: transparent;
+    position: relative;
+    box-shadow: none!important;
+}
+
+.fc-button-active {
+    font-weight: bold;
+    border-color: transparent!important;
+    box-shadow: none;
+}
+
+.fc-button-primary:not(:disabled).fc-button-active,
+.fc-button-primary:not(:disabled).fc-button-active:focus,
+.fc-button-primary:not(:disabled):active:focus {
+    border: 1px solid transparent;
+    color: #323A4D;
+    font-weight: bold;
+    background: none;
+    box-shadow: none;
+}
+
+.fc-button-active:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    border-radius: 10px;
+    z-index: 2;
+    background-color: #FF2747;
+    box-shadow: 0px -4px 8px rgba(255, 39, 71, 0.25);
+    bottom: -17px;
+    right: 0px;
+}
+
+.fc-button-primary:hover {
+    background: none!important;
+    box-shadow: none;
+    color: rgb(50, 58, 77);
+    border-color: transparent;
+}
+
+.fc-icon-chevron-right:before {
+    content: "▶";
+}
+
+.fc-icon-chevron-left:before {
+    content: "◀";
+}
+
+.fc-button .fc-icon {
+    font-size: 1em!important;
+    display: block;
+}
+
+.fc-toolbar.fc-header-toolbar .fc-right>div>h2 {
+    margin: 0px 25px;
+    font-family: 'Lato';
+    font-weight: 500;
+}
+
+.fc-button-primary:disabled {
+    background: none;
+    border: none;
+    box-shadow: none;
+    color: #d3d3d3;
+}
+
+.fc th.fc-resource-cell {
+    vertical-align: middle;
+    font-size: 0.7em;
+    padding: 9px;
+    font-weight: normal;
+}
+
+.fc-resourceTimeGridDay-view .fc-day-grid,
+.fc-timeGridWeek-view .fc-day-grid {
+    display: none;
+}
+
+.fc-view>table thead tr {
+    background: none;
+}
+
+.fc-time-grid,
+.fc-head-container.fc-widget-header {
+    background: #FFFFFF;
+}
+
+.fc-unthemed .fc-divider {
+    display: none;
+}
+
+.fc-day.fc-widget-content.fc-wed.fc-today {
+    border: 1px solid lightgray;
+}
+
+.fc-today {
+    background: transparent !important;
+}
+
+th[data-resource-id="d"] {
+    border: none!important;
+}
+
+.fc-row.fc-widget-header>table>thead,
+.fc-row.fc-widget-header {
+    border-color: transparent!important;
+}
+
+.fc-time-grid .fc-slats td {
+    font-size: 0.7em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.fc-axis.fc-time.fc-widget-content {
+    text-align: center;
+    background-color: #EDF3F8;
+}
+
+.fc-unthemed td {
+    border-color: #E1E6E9;
+}
+
+.fc-resourceTimeGridDay-view {
+    box-shadow: 0px 4px 8px rgba(173, 202, 218, 0.25);
+}
+
+
+/*
+.fc-scroller.fc-time-grid-container {
+    height: 650px!important;
+    background-color: #EDF3F8;
+} */
+
+.fc-next-button.fc-button.fc-button-primary,
+.fc-prev-button.fc-button.fc-button-primary {
+    box-shadow: 0px 4px 8px rgba(173, 202, 218, 0.2), 0px 4px 15px rgba(39, 119, 164, 0.25)!important;
+}
+
+.fc-timeGridWeek-view th {
+    vertical-align: middle;
+    font-size: 0.7em;
+    padding: 9px;
+    font-weight: normal;
+}
+
+.fc-timeGridWeek-view {
+    box-shadow: 0px 4px 8px rgba(173, 202, 218, 0.25);
+}
+
+.fc-timeGridWeek-view .fc-time-grid .fc-slats tbody>tr:nth-child(2n+1) {
+    padding-top: 5px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.fc-time-grid-event .fc-content {
+    max-height: 1500px!important;
+}
+
+.fc-dayGridMonth-view .fc-head th {
+    vertical-align: middle;
+    font-size: 0.7em;
+    padding: 9px;
+    font-weight: normal;
+}
+
+.fc-dayGridMonth-view {
+    box-shadow: 0px 4px 8px rgba(173, 202, 218, 0.25);
+}
+
+.fc .fc-row .fc-content-skeleton thead td {
+    background: rgba(237, 243, 248, 0.5);
+}
+
+.fc-other-month {
+    background: rgba(103, 111, 130, 0.1);
+}
+
+.fc-row .fc-bg {
+    background: #ffffff;
+}
+
+.fc-dayGridMonth-view .fc-content {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.7em;
+}
+
+.fc-event {
+    border-radius: 8px;
+    padding: 5px 9px;
+}
+
+.mainCalendarDashboardTaskSelectionsContainer.open .dropdown-menu,
+.selectsForTasks,
+.mainCalendarDashboardTaskSelectionsContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+}
+
+.fc-time-grid .fc-bgevent,
+.fc-time-grid .fc-event {
+    font-size: 11.4px;
+}
+
+.fc-time-grid-event.fc-event.fc-start.fc-end {
+    padding: 0px;
+    overflow: hidden;
+}
+
+.fc-time-grid-event .fc-time {
+    padding: 1.5px;
+    background: rgba(0, 0, 0, 0.4);
+    padding-right: 9px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8px;
+}
+
+
+/*
+.fc-content .fc-time:after {
+    content: "+";
+    display: block;
+    font-size: 14px;
+} */
+
+.fc-time-grid-event .fc-title {
+    padding-right: 9px;
+}
+
+#eventDetailInfoModal {
+    visibility: hidden;
+}
+
+.fc-time-grid-event {
+    cursor: pointer;
+    transition: 0.7s;
+    border: none;
+}
+
+.fc-time-grid-event:hover {
+    box-shadow: 0px 4px 15px rgba(173, 202, 218, 0.75);
+}
+
+.fc-title {
+    position: relative;
+}
+
+.fc-time-grid-event:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 8px;
+    background-color: rgb(0, 0, 0);
+    right: 0px;
+    z-index: 99999;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+
+/* -----  */
+
+
+/* --------------------- Calendar Tab --------------------- */
+
+.mainCalendarDashboardTaskSelectionsContainer.open .dropdown-menu,
+.selectsForTasks,
+.mainCalendarDashboardTaskSelectionsContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+}
+
+.mainCalendarDashboardTaskSelectionsContainer.open .dropdown-menu {
+    position: relative;
+}
+
+.selectsForTasksInner {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    position: relative;
+}
+
+.selectsForTasksInner a {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 5px 0px;
+    transition: 0.7s;
+    border-radius: 3px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    font-size: 0.7em;
+}
+
+.selectsForTasks {
+    background: #EDF3F8;
+    position: relative;
+    margin-left: 0px;
+    margin-bottom: 0.5px;
+    margin-top: 0px;
+    margin-right: 15px;
+}
+
+.selectsForTasksInner a input {
+    display: block;
+    height: 19px;
+    width: 19px;
+    margin: 0px;
+    margin-left: 9.5px;
+    border: none;
+}
+
+.selectsForTasksInner a div {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.selectsForTasksInner1 {
+    background: #A8B1E3;
+}
+
+.selectsForTasksInner2 {
+    background: #69E38D;
+}
+
+.selectsForTasksInner3 {
+    background: #ECBE7A;
+}
+
+.selectsForTasksInner4 {
+    background: #EC7083;
+}
+
+.selectsForTasksInner .card.card-body p {
+    text-align: right;
+    font-size: 0.7em;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin: 3.4px auto;
+    border-radius: 3px;
+}
+
+.selectsForTasksInner div.collapse,
+.selectsForTasksInner div.collapse .card.card-body .selectsForTasksInner .card.card-body p,
+.selectsForTasksInner div.collapsing {
+    width: 90%;
+}
+
+.selectsForTasksInner a:hover,
+.selectsForTasksInner a:focus,
+.selectsForTasksInner a:active {
+    background: none;
+    color: #FF2747;
+    border: 1px solid #FF2747;
+}
+
+.selectsForTasks h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: normal;
+    color: #323A4D;
+    margin: 24px;
+    margin-bottom: 15px;
+}
+
+.calendarTabContainer {
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.calendarTabContainer button.newmatter {
+    margin: 0px 5px;
+    font-weight: normal;
+    text-align: center;
+    text-transform: none;
+}
+
+.newmatter-focus {
+    background: linear-gradient(-180deg, #FF2747 -18.06%, #D91835 134.72%);
+    box-shadow: 0px 4px 25px rgba(173, 202, 218, 0.25), 0px 4px 8px rgba(173, 202, 218, 0.25), 0px 5px 8px rgba(255, 39, 71, 0.15);
+}
+
+
+/* --------------------- Feeds Tab --------------------- */
+
+.calendarFeedsTopTexts {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #323A4D;
+    width: 45%;
+}
+
+.calendarFeedsTopTexts a {
+    color: #148CFC;
+}
+
+.calendarFeedsTopTexts hr {
+    margin: 35px 0px;
+}
+
+.calendarFeedsBlocks {
+    margin: 19px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.calendarFeedsBlocks span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    display: inline-block;
+    color: #148CFC;
+    margin-right: 15px;
+}
+
+
+/* --------------------- Sharing Tab --------------------- */
+
+.calendarSharingDashboardContainerSub h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: normal;
+    color: #323A4D;
+}
+
+.calendarSharingInnerTabContainer p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: normal;
+    color: #323A4D;
+    margin-top: 19px;
+    margin-bottom: 9px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.calendarSharingInnerTabContainer select {
+    background: #FFFFFF;
+    border: 1px solid #E1E6E9;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 8px rgba(173, 202, 218, 0.25);
+    margin-bottom: 19px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+}
+
+.calendarSharingInnerTabContainer input {
+    background: #FFFFFF;
+    border: 1px solid #E1E6E9;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 8px rgba(173, 202, 218, 0.25);
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+}
+
+.calendarSharingDashboardContainerSub>button {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: normal;
+    color: #148CFC;
+}
+
+.calendarSharingDashboardContainerSub {
+    width: 35%;
+    padding: 7px;
+    font-size: 14px;
+}
+
+.sharingCalendarAddButton,
+.sharingCalendarAddButton:hover,
+.sharingCalendarAddButton:focus,
+.sharingCalendarAddButton:active {
+    border: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: normal;
+    color: #148CFC;
+    background: none;
+}
+
+.sharingCalendarAddButton span {
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 50%;
+    background-color: #148CFC;
+    color: white;
+    width: 19px;
+    height: 19px;
+    margin-left: 9px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.calendarSharingDashboardContainerSub .newmatter {
+    margin-top: 15px;
+    margin-left: 14px;
+}
+
+.calendarSharingDashboardContainerSub>div>a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: normal;
+    text-decoration: none;
+    color: #91A8C3;
+}
+
+.calendarSharingInnerTabContainer p a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: normal;
+    color: #148CFC;
+    text-decoration: none;
+}
+
+.sharingCalendarAddButton {
+    display: none;
+}
+
+.sharingCalendarAddButton.collapsed {
+    display: block;
+}
+
+
+/* --------------------- New Calendar Tab --------------------- */
+
+.calendarNewTabContainer input {
+    margin-bottom: 5px;
+}
+
+.calendarNewTabContainer p {
+    margin-top: 5px;
+}
+
+.calendarNewTabContainer p a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: normal;
+    text-align: left;
+    color: #69E38D;
+}
+
+.fc-toolbar.fc-header-toolbar button {
+    text-transform: capitalize;
+}
+
+.bootstrap-select {
+    width: 100%!important;
+}
+
+.bootstrap-select .dropdown-menu>.active>a,
+.dropdown-menu>a:hover {
+    background: #EDF3F8;
+    border-radius: 5px;
+    color: black;
+    width: 94%;
+    margin-right: 3%;
+}
+
+.bootstrap-select .dropdown-menu li a {
+    color: black;
+    width: 94%;
+    margin-right: 3%;
+}
+
+.bootstrap-select>.dropdown-toggle.bs-placeholder {
+    border-radius: 1px;
+}
